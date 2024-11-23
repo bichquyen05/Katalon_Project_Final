@@ -1,0 +1,8 @@
+{"testCaseName":"Test Cases/Customer Register/CR_Leave required fields blank","testCaseId":"Test Cases/Customer Register/CR_Leave required fields blank","iterationVariableName":""}
+{"testCaseName":"Test Cases/Customer Register/CR_Email address is not in correct format","testCaseId":"Test Cases/Customer Register/CR_Email address is not in correct format","iterationVariableName":""}
+{"testCaseName":"Test Cases/Customer Register/CR_Email address already exists","testCaseId":"Test Cases/Customer Register/CR_Email address already exists","iterationVariableName":""}
+{"testCaseName":"Test Cases/Customer Register/CR_Check phone number validity","testCaseId":"Test Cases/Customer Register/CR_Check phone number validity","iterationVariableName":""}
+{"testCaseName":"Test Cases/Customer Register/CR_Check the validity of the zip code","testCaseId":"Test Cases/Customer Register/CR_Check the validity of the zip code","iterationVariableName":""}
+{"testCaseName":"Test Cases/Customer Register/CR_Check strong password","testCaseId":"Test Cases/Customer Register/CR_Check strong password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Customer Register/CR_Check password and retype password to match","testCaseId":"Test Cases/Customer Register/CR_Check password and retype password to match","iterationVariableName":""}
+{"testCaseName":"Test Cases/Customer Register/CR_Account registration successful","testCaseId":"Test Cases/Customer Register/CR_Account registration successful","iterationVariableName":""}

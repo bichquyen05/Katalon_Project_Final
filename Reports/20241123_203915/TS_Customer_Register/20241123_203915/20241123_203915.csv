@@ -1,0 +1,203 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Customer_Register,Chrome 131.0.0.0,,,23-11-2024 20:39:19,23-11-2024 20:47:36,8m - 16.302s,FAILED
+,,,,,,,
+Test Cases/Customer Register/CR_Leave required fields blank,Chrome 131.0.0.0,,,23-11-2024 20:39:20,23-11-2024 20:40:22,1m - 2.742s,PASSED
+openBrowser(url),Chrome 131.0.0.0,,,23-11-2024 20:39:20,23-11-2024 20:39:58,37.254s,PASSED
+"click(findTestObject(""Customer_Register/a_Register""))",Chrome 131.0.0.0,,,23-11-2024 20:39:58,23-11-2024 20:40:05,7.258s,PASSED
+"setText(findTestObject(""Customer_Register/input_Full Name""), fullname)",Chrome 131.0.0.0,,,23-11-2024 20:40:05,23-11-2024 20:40:06,1.057s,PASSED
+"setText(findTestObject(""Customer_Register/input_Company Name""), company_name)",Chrome 131.0.0.0,,,23-11-2024 20:40:06,23-11-2024 20:40:07,0.664s,PASSED
+"setText(findTestObject(""Customer_Register/input_Email Address""), email_address)",Chrome 131.0.0.0,,,23-11-2024 20:40:07,23-11-2024 20:40:07,0.705s,PASSED
+"setText(findTestObject(""Customer_Register/input_Phone Number""), phone_number)",Chrome 131.0.0.0,,,23-11-2024 20:40:07,23-11-2024 20:40:08,0.851s,PASSED
+"setText(findTestObject(""Customer_Register/textarea_Address""), address)",Chrome 131.0.0.0,,,23-11-2024 20:40:08,23-11-2024 20:40:09,0.780s,PASSED
+"setText(findTestObject(""Customer_Register/input_Country""), country)",Chrome 131.0.0.0,,,23-11-2024 20:40:09,23-11-2024 20:40:10,0.784s,PASSED
+"setText(findTestObject(""Customer_Register/input_City""), city)",Chrome 131.0.0.0,,,23-11-2024 20:40:10,23-11-2024 20:40:10,0.764s,PASSED
+"setText(findTestObject(""Customer_Register/input_State""), state)",Chrome 131.0.0.0,,,23-11-2024 20:40:10,23-11-2024 20:40:11,0.720s,PASSED
+"setText(findTestObject(""Customer_Register/input_Zip Code""), zip_code)",Chrome 131.0.0.0,,,23-11-2024 20:40:11,23-11-2024 20:40:12,0.690s,PASSED
+"setText(findTestObject(""Customer_Register/input_Password""), password)",Chrome 131.0.0.0,,,23-11-2024 20:40:12,23-11-2024 20:40:13,0.747s,PASSED
+"setText(findTestObject(""Customer_Register/input_Retype Password""), repassword)",Chrome 131.0.0.0,,,23-11-2024 20:40:13,23-11-2024 20:40:13,0.776s,PASSED
+"fullName = getAttribute(findTestObject(""Customer_Register/input_Full Name""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 20:40:13,23-11-2024 20:40:14,0.321s,PASSED
+"emailAddress = getAttribute(findTestObject(""Customer_Register/input_Email Address""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 20:40:14,23-11-2024 20:40:14,0.281s,PASSED
+"phoneNumber = getAttribute(findTestObject(""Customer_Register/input_Phone Number""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 20:40:14,23-11-2024 20:40:14,0.311s,PASSED
+"address = getText(findTestObject(""Customer_Register/textarea_Address""))",Chrome 131.0.0.0,,,23-11-2024 20:40:14,23-11-2024 20:40:15,0.314s,PASSED
+"country = getAttribute(findTestObject(""Customer_Register/input_Country""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 20:40:15,23-11-2024 20:40:15,0.297s,PASSED
+"city = getAttribute(findTestObject(""Customer_Register/input_City""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 20:40:15,23-11-2024 20:40:15,0.306s,PASSED
+"state = getAttribute(findTestObject(""Customer_Register/input_State""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 20:40:15,23-11-2024 20:40:16,0.296s,PASSED
+"zipCode = getAttribute(findTestObject(""Customer_Register/input_Zip Code""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 20:40:16,23-11-2024 20:40:16,0.294s,PASSED
+"password = getAttribute(findTestObject(""Customer_Register/input_Password""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 20:40:16,23-11-2024 20:40:16,0.301s,PASSED
+"rePassword = getAttribute(findTestObject(""Customer_Register/input_Retype Password""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 20:40:16,23-11-2024 20:40:16,0.309s,PASSED
+"click(findTestObject(""Customer_Register/btn_Register_form1""))",Chrome 131.0.0.0,,,23-11-2024 20:40:16,23-11-2024 20:40:22,5.458s,PASSED
+expectedMessages = [],Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:40:22,0.003s,PASSED
+if (fullName == null || trim().isEmpty()),Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:40:22,0.016s,PASSED
+if (emailAddress == null || trim().isEmpty()),Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:40:22,0.009s,PASSED
+if (phoneNumber == null || trim().isEmpty()),Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:40:22,0.009s,PASSED
+if (address == null || trim().isEmpty()),Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:40:22,0.005s,PASSED
+if (country == null || trim().isEmpty()),Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:40:22,0.007s,PASSED
+if (city == null || trim().isEmpty()),Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:40:22,0.006s,PASSED
+if (state == null || trim().isEmpty()),Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:40:22,0.000s,PASSED
+if (zipCode == null || trim().isEmpty()),Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:40:22,0.015s,PASSED
+if (password == null || trim().isEmpty()),Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:40:22,0.008s,PASSED
+if (rePassword == null || trim().isEmpty()),Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:40:22,0.011s,PASSED
+"actualMessage = getText(findTestObject(""Object Repository/Customer_Register/div_Message Present""))",Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:40:22,0.350s,PASSED
+actualMessages = toList().findAll({ -> ... }),Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:40:22,0.034s,PASSED
+if (actualMessages.size() != expectedMessages.size()),Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:40:22,0.002s,PASSED
+else,Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:40:22,0.061s,PASSED
+"logInfo(""All actual notifications match expectations."")",Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:40:22,0.013s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:40:22,0.026s,PASSED
+,,,,,,,
+Test Cases/Customer Register/CR_Email address is not in correct format,Chrome 131.0.0.0,,,23-11-2024 20:40:22,23-11-2024 20:41:10,47.798s,PASSED
+openBrowser(url),Chrome 131.0.0.0,,,23-11-2024 20:40:23,23-11-2024 20:40:48,24.455s,PASSED
+"click(findTestObject(""Customer_Register/a_Register""))",Chrome 131.0.0.0,,,23-11-2024 20:40:48,23-11-2024 20:40:54,5.735s,PASSED
+"setText(findTestObject(""Customer_Register/input_Full Name""), fullname)",Chrome 131.0.0.0,,,23-11-2024 20:40:54,23-11-2024 20:40:54,0.952s,PASSED
+"setText(findTestObject(""Customer_Register/input_Company Name""), company_name)",Chrome 131.0.0.0,,,23-11-2024 20:40:54,23-11-2024 20:40:55,0.748s,PASSED
+"setText(findTestObject(""Customer_Register/input_Email Address""), email_address)",Chrome 131.0.0.0,,,23-11-2024 20:40:55,23-11-2024 20:40:56,0.708s,PASSED
+"setText(findTestObject(""Customer_Register/input_Phone Number""), phone_number)",Chrome 131.0.0.0,,,23-11-2024 20:40:56,23-11-2024 20:40:57,0.907s,PASSED
+"setText(findTestObject(""Customer_Register/textarea_Address""), address)",Chrome 131.0.0.0,,,23-11-2024 20:40:57,23-11-2024 20:40:58,0.715s,PASSED
+"setText(findTestObject(""Customer_Register/input_Country""), country)",Chrome 131.0.0.0,,,23-11-2024 20:40:58,23-11-2024 20:40:58,0.746s,PASSED
+"setText(findTestObject(""Customer_Register/input_City""), city)",Chrome 131.0.0.0,,,23-11-2024 20:40:58,23-11-2024 20:40:59,0.771s,PASSED
+"setText(findTestObject(""Customer_Register/input_State""), state)",Chrome 131.0.0.0,,,23-11-2024 20:40:59,23-11-2024 20:41:00,0.739s,PASSED
+"setText(findTestObject(""Customer_Register/input_Zip Code""), zip_code)",Chrome 131.0.0.0,,,23-11-2024 20:41:00,23-11-2024 20:41:01,0.923s,PASSED
+"setText(findTestObject(""Customer_Register/input_Password""), password)",Chrome 131.0.0.0,,,23-11-2024 20:41:01,23-11-2024 20:41:02,0.784s,PASSED
+"setText(findTestObject(""Customer_Register/input_Retype Password""), repassword)",Chrome 131.0.0.0,,,23-11-2024 20:41:02,23-11-2024 20:41:02,0.724s,PASSED
+"email = getAttribute(findTestObject(""Customer_Register/input_Email Address""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 20:41:02,23-11-2024 20:41:03,0.289s,PASSED
+"click(findTestObject(""Customer_Register/btn_Register_form1""))",Chrome 131.0.0.0,,,23-11-2024 20:41:03,23-11-2024 20:41:08,5.878s,PASSED
+if (isValidEmail(email)),Chrome 131.0.0.0,,,23-11-2024 20:41:08,23-11-2024 20:41:08,0.003s,PASSED
+"if (!(e.contains(""@"")))",Chrome 131.0.0.0,,,23-11-2024 20:41:08,23-11-2024 20:41:08,0.005s,PASSED
+"parts = e.split(""@"")",Chrome 131.0.0.0,,,23-11-2024 20:41:08,23-11-2024 20:41:08,0.004s,PASSED
+if (length != 2),Chrome 131.0.0.0,,,23-11-2024 20:41:08,23-11-2024 20:41:08,0.003s,PASSED
+user = parts[0],Chrome 131.0.0.0,,,23-11-2024 20:41:08,23-11-2024 20:41:08,0.013s,PASSED
+domain = parts[1],Chrome 131.0.0.0,,,23-11-2024 20:41:08,23-11-2024 20:41:08,0.003s,PASSED
+"if (user.isEmpty() || user.startsWith(""."") || user.endsWith("".""))",Chrome 131.0.0.0,,,23-11-2024 20:41:08,23-11-2024 20:41:08,0.002s,PASSED
+for (char c : user.toCharArray()),Chrome 131.0.0.0,,,23-11-2024 20:41:08,23-11-2024 20:41:08,0.024s,PASSED
+"if (domain.isEmpty() || domain.startsWith(""."") || domain.endsWith("".""))",Chrome 131.0.0.0,,,23-11-2024 20:41:08,23-11-2024 20:41:08,0.007s,PASSED
+else,Chrome 131.0.0.0,,,23-11-2024 20:41:08,23-11-2024 20:41:09,0.788s,PASSED
+delay(1),Chrome 131.0.0.0,,,23-11-2024 20:41:09,23-11-2024 20:41:10,1.026s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,23-11-2024 20:41:10,23-11-2024 20:41:10,0.000s,PASSED
+,,,,,,,
+Test Cases/Customer Register/CR_Email address already exists,Chrome 131.0.0.0,Condition email: khanhhm@gmail.com already exists in the Customer table database.,,23-11-2024 20:41:10,23-11-2024 20:42:02,51.894s,PASSED
+openBrowser(url),Chrome 131.0.0.0,,,23-11-2024 20:41:11,23-11-2024 20:41:35,24.330s,PASSED
+"click(findTestObject(""Customer_Register/a_Register""))",Chrome 131.0.0.0,,,23-11-2024 20:41:35,23-11-2024 20:41:43,7.379s,PASSED
+"setText(findTestObject(""Customer_Register/input_Full Name""), fullname)",Chrome 131.0.0.0,,,23-11-2024 20:41:43,23-11-2024 20:41:43,0.806s,PASSED
+"setText(findTestObject(""Customer_Register/input_Company Name""), company_name)",Chrome 131.0.0.0,,,23-11-2024 20:41:43,23-11-2024 20:41:44,0.678s,PASSED
+"setText(findTestObject(""Customer_Register/input_Email Address""), email_address)",Chrome 131.0.0.0,,,23-11-2024 20:41:44,23-11-2024 20:41:45,0.665s,PASSED
+"setText(findTestObject(""Customer_Register/input_Phone Number""), phone_number)",Chrome 131.0.0.0,,,23-11-2024 20:41:45,23-11-2024 20:41:46,0.911s,PASSED
+"setText(findTestObject(""Customer_Register/textarea_Address""), address)",Chrome 131.0.0.0,,,23-11-2024 20:41:46,23-11-2024 20:41:46,0.667s,PASSED
+"setText(findTestObject(""Customer_Register/input_Country""), country)",Chrome 131.0.0.0,,,23-11-2024 20:41:46,23-11-2024 20:41:47,0.692s,PASSED
+"setText(findTestObject(""Customer_Register/input_City""), city)",Chrome 131.0.0.0,,,23-11-2024 20:41:47,23-11-2024 20:41:48,0.705s,PASSED
+"setText(findTestObject(""Customer_Register/input_State""), state)",Chrome 131.0.0.0,,,23-11-2024 20:41:48,23-11-2024 20:41:48,0.707s,PASSED
+"setText(findTestObject(""Customer_Register/input_Zip Code""), zip_code)",Chrome 131.0.0.0,,,23-11-2024 20:41:48,23-11-2024 20:41:54,5.937s,PASSED
+"setText(findTestObject(""Customer_Register/input_Password""), password)",Chrome 131.0.0.0,,,23-11-2024 20:41:54,23-11-2024 20:41:55,0.928s,PASSED
+"setText(findTestObject(""Customer_Register/input_Retype Password""), repassword)",Chrome 131.0.0.0,,,23-11-2024 20:41:55,23-11-2024 20:41:56,0.918s,PASSED
+"click(findTestObject(""Customer_Register/btn_Register_form1""))",Chrome 131.0.0.0,,,23-11-2024 20:41:56,23-11-2024 20:42:01,5.322s,PASSED
+"errorPresent = waitForElementPresent(findTestObject(""Customer_Register/div_Message Present""), 1, OPTIONAL)",Chrome 131.0.0.0,,,23-11-2024 20:42:01,23-11-2024 20:42:02,0.415s,PASSED
+if (errorPresent),Chrome 131.0.0.0,,,23-11-2024 20:42:02,23-11-2024 20:42:02,0.310s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,23-11-2024 20:42:02,23-11-2024 20:42:02,0.002s,PASSED
+,,,,,,,
+Test Cases/Customer Register/CR_Check phone number validity,Chrome 131.0.0.0,"Check if the Phone Number is valid (contains only numeric characters from 0-9, no spaces and is 10-15 characters long)",,23-11-2024 20:42:02,23-11-2024 20:42:46,44.139s,FAILED
+openBrowser(url),Chrome 131.0.0.0,,,23-11-2024 20:42:03,23-11-2024 20:42:26,23.359s,PASSED
+"click(findTestObject(""Customer_Register/a_Register""))",Chrome 131.0.0.0,,,23-11-2024 20:42:26,23-11-2024 20:42:31,5.457s,PASSED
+"setText(findTestObject(""Customer_Register/input_Full Name""), fullname)",Chrome 131.0.0.0,,,23-11-2024 20:42:31,23-11-2024 20:42:32,0.863s,PASSED
+"setText(findTestObject(""Customer_Register/input_Company Name""), company_name)",Chrome 131.0.0.0,,,23-11-2024 20:42:32,23-11-2024 20:42:33,0.688s,PASSED
+"setText(findTestObject(""Customer_Register/input_Email Address""), email_address)",Chrome 131.0.0.0,,,23-11-2024 20:42:33,23-11-2024 20:42:34,0.704s,PASSED
+"setText(findTestObject(""Customer_Register/input_Phone Number""), phone_number)",Chrome 131.0.0.0,,,23-11-2024 20:42:34,23-11-2024 20:42:34,0.797s,PASSED
+"setText(findTestObject(""Customer_Register/textarea_Address""), address)",Chrome 131.0.0.0,,,23-11-2024 20:42:34,23-11-2024 20:42:35,0.681s,PASSED
+"setText(findTestObject(""Customer_Register/input_Country""), country)",Chrome 131.0.0.0,,,23-11-2024 20:42:35,23-11-2024 20:42:36,0.699s,PASSED
+"setText(findTestObject(""Customer_Register/input_City""), city)",Chrome 131.0.0.0,,,23-11-2024 20:42:36,23-11-2024 20:42:37,0.669s,PASSED
+"setText(findTestObject(""Customer_Register/input_State""), state)",Chrome 131.0.0.0,,,23-11-2024 20:42:37,23-11-2024 20:42:37,0.711s,PASSED
+"setText(findTestObject(""Customer_Register/input_Zip Code""), zip_code)",Chrome 131.0.0.0,,,23-11-2024 20:42:37,23-11-2024 20:42:38,0.722s,PASSED
+"setText(findTestObject(""Customer_Register/input_Password""), password)",Chrome 131.0.0.0,,,23-11-2024 20:42:38,23-11-2024 20:42:39,0.698s,PASSED
+"setText(findTestObject(""Customer_Register/input_Retype Password""), repassword)",Chrome 131.0.0.0,,,23-11-2024 20:42:39,23-11-2024 20:42:39,0.698s,PASSED
+"phoneNumber = getAttribute(findTestObject(""Customer_Register/input_Phone Number""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 20:42:39,23-11-2024 20:42:40,0.288s,PASSED
+"click(findTestObject(""Customer_Register/btn_Register_form1""))",Chrome 131.0.0.0,,,23-11-2024 20:42:40,23-11-2024 20:42:46,5.960s,PASSED
+isLength = phoneNumber.length() >= 10 && phoneNumber.length() <= 15,Chrome 131.0.0.0,,,23-11-2024 20:42:46,23-11-2024 20:42:46,0.002s,PASSED
+isDigit = phoneNumber.isNumber(),Chrome 131.0.0.0,,,23-11-2024 20:42:46,23-11-2024 20:42:46,0.003s,PASSED
+"hasWhiteSpace = phoneNumber.contains("" "")",Chrome 131.0.0.0,,,23-11-2024 20:42:46,23-11-2024 20:42:46,0.003s,PASSED
+"messagePresent = waitForElementPresent(findTestObject(""Customer_Register/div_Message Present""), 1)",Chrome 131.0.0.0,,,23-11-2024 20:42:46,23-11-2024 20:42:46,0.386s,PASSED
+if (messagePresent),Chrome 131.0.0.0,,,23-11-2024 20:42:46,23-11-2024 20:42:46,0.333s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,23-11-2024 20:42:46,23-11-2024 20:42:46,0.001s,PASSED
+,,,,,,,
+Test Cases/Customer Register/CR_Check the validity of the zip code,Chrome 131.0.0.0,"Check for a valid Zip Code (only includes numeric characters from 0-9, no spaces and must be 6 characters long)",,23-11-2024 20:42:46,23-11-2024 20:43:46,59.560s,FAILED
+openBrowser(url),Chrome 131.0.0.0,,,23-11-2024 20:42:47,23-11-2024 20:43:25,38.179s,PASSED
+"click(findTestObject(""Customer_Register/a_Register""))",Chrome 131.0.0.0,,,23-11-2024 20:43:25,23-11-2024 20:43:31,5.896s,PASSED
+"setText(findTestObject(""Customer_Register/input_Full Name""), fullname)",Chrome 131.0.0.0,,,23-11-2024 20:43:31,23-11-2024 20:43:32,0.936s,PASSED
+"setText(findTestObject(""Customer_Register/input_Company Name""), company_name)",Chrome 131.0.0.0,,,23-11-2024 20:43:32,23-11-2024 20:43:33,0.890s,PASSED
+"setText(findTestObject(""Customer_Register/input_Email Address""), email_address)",Chrome 131.0.0.0,,,23-11-2024 20:43:33,23-11-2024 20:43:33,0.850s,PASSED
+"setText(findTestObject(""Customer_Register/input_Phone Number""), phone_number)",Chrome 131.0.0.0,,,23-11-2024 20:43:33,23-11-2024 20:43:34,0.754s,PASSED
+"setText(findTestObject(""Customer_Register/textarea_Address""), address)",Chrome 131.0.0.0,,,23-11-2024 20:43:34,23-11-2024 20:43:35,0.637s,PASSED
+"setText(findTestObject(""Customer_Register/input_Country""), country)",Chrome 131.0.0.0,,,23-11-2024 20:43:35,23-11-2024 20:43:36,0.665s,PASSED
+"setText(findTestObject(""Customer_Register/input_City""), city)",Chrome 131.0.0.0,,,23-11-2024 20:43:36,23-11-2024 20:43:36,0.699s,PASSED
+"setText(findTestObject(""Customer_Register/input_State""), state)",Chrome 131.0.0.0,,,23-11-2024 20:43:36,23-11-2024 20:43:37,0.706s,PASSED
+"setText(findTestObject(""Customer_Register/input_Zip Code""), zip_code)",Chrome 131.0.0.0,,,23-11-2024 20:43:37,23-11-2024 20:43:38,0.697s,PASSED
+"setText(findTestObject(""Customer_Register/input_Password""), password)",Chrome 131.0.0.0,,,23-11-2024 20:43:38,23-11-2024 20:43:39,0.930s,PASSED
+"setText(findTestObject(""Customer_Register/input_Retype Password""), repassword)",Chrome 131.0.0.0,,,23-11-2024 20:43:39,23-11-2024 20:43:39,0.716s,PASSED
+"zipCode = getAttribute(findTestObject(""Customer_Register/input_Zip Code""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 20:43:39,23-11-2024 20:43:40,0.325s,PASSED
+"click(findTestObject(""Customer_Register/btn_Register_form1""))",Chrome 131.0.0.0,,,23-11-2024 20:43:40,23-11-2024 20:43:45,5.533s,PASSED
+isLength = zipCode.length() == 6,Chrome 131.0.0.0,,,23-11-2024 20:43:45,23-11-2024 20:43:45,0.003s,PASSED
+isDigit = zipCode.isNumber(),Chrome 131.0.0.0,,,23-11-2024 20:43:45,23-11-2024 20:43:45,0.002s,PASSED
+"hasWhiteSpace = zipCode.contains("" "")",Chrome 131.0.0.0,,,23-11-2024 20:43:45,23-11-2024 20:43:45,0.001s,PASSED
+"messagePresent = waitForElementPresent(findTestObject(""Customer_Register/div_Message Present""), 1)",Chrome 131.0.0.0,,,23-11-2024 20:43:45,23-11-2024 20:43:46,0.439s,PASSED
+if (messagePresent),Chrome 131.0.0.0,,,23-11-2024 20:43:46,23-11-2024 20:43:46,0.304s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,23-11-2024 20:43:46,23-11-2024 20:43:46,0.001s,PASSED
+,,,,,,,
+Test Cases/Customer Register/CR_Check strong password,Chrome 131.0.0.0,"A strong password must be at least 8 characters long and contain at least 1 uppercase letter, 1 lowercase letter, 1 number, and 1 special character.",,23-11-2024 20:43:46,23-11-2024 20:44:56,1m - 9.630s,FAILED
+openBrowser(url),Chrome 131.0.0.0,,,23-11-2024 20:43:46,23-11-2024 20:44:30,43.190s,PASSED
+"click(findTestObject(""Customer_Register/a_Register""))",Chrome 131.0.0.0,,,23-11-2024 20:44:30,23-11-2024 20:44:36,6.328s,PASSED
+"setText(findTestObject(""Customer_Register/input_Full Name""), fullname)",Chrome 131.0.0.0,,,23-11-2024 20:44:36,23-11-2024 20:44:37,0.843s,PASSED
+"setText(findTestObject(""Customer_Register/input_Company Name""), company_name)",Chrome 131.0.0.0,,,23-11-2024 20:44:37,23-11-2024 20:44:37,0.729s,PASSED
+"setText(findTestObject(""Customer_Register/input_Email Address""), email_address)",Chrome 131.0.0.0,,,23-11-2024 20:44:37,23-11-2024 20:44:40,2.841s,PASSED
+"setText(findTestObject(""Customer_Register/input_Phone Number""), phone_number)",Chrome 131.0.0.0,,,23-11-2024 20:44:40,23-11-2024 20:44:41,0.791s,PASSED
+"setText(findTestObject(""Customer_Register/textarea_Address""), address)",Chrome 131.0.0.0,,,23-11-2024 20:44:41,23-11-2024 20:44:42,0.707s,PASSED
+"setText(findTestObject(""Customer_Register/input_Country""), country)",Chrome 131.0.0.0,,,23-11-2024 20:44:42,23-11-2024 20:44:43,0.762s,PASSED
+"setText(findTestObject(""Customer_Register/input_City""), city)",Chrome 131.0.0.0,,,23-11-2024 20:44:43,23-11-2024 20:44:45,2.599s,PASSED
+"setText(findTestObject(""Customer_Register/input_State""), state)",Chrome 131.0.0.0,,,23-11-2024 20:44:45,23-11-2024 20:44:46,0.804s,PASSED
+"setText(findTestObject(""Customer_Register/input_Zip Code""), zip_code)",Chrome 131.0.0.0,,,23-11-2024 20:44:46,23-11-2024 20:44:47,0.773s,PASSED
+"setText(findTestObject(""Customer_Register/input_Password""), password)",Chrome 131.0.0.0,,,23-11-2024 20:44:47,23-11-2024 20:44:47,0.747s,PASSED
+"setText(findTestObject(""Customer_Register/input_Retype Password""), repassword)",Chrome 131.0.0.0,,,23-11-2024 20:44:47,23-11-2024 20:44:48,0.753s,PASSED
+"password = getAttribute(findTestObject(""Customer_Register/input_Password""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 20:44:48,23-11-2024 20:44:49,0.282s,PASSED
+"click(findTestObject(""Customer_Register/btn_Register_form1""))",Chrome 131.0.0.0,,,23-11-2024 20:44:49,23-11-2024 20:44:55,6.125s,PASSED
+"messagePresent = waitForElementPresent(findTestObject(""Customer_Register/div_Message Present""), 1)",Chrome 131.0.0.0,,,23-11-2024 20:44:55,23-11-2024 20:44:55,0.521s,PASSED
+if (messagePresent),Chrome 131.0.0.0,,,23-11-2024 20:44:55,23-11-2024 20:44:55,0.306s,PASSED
+"if (pw.contains("" ""))",Chrome 131.0.0.0,,,23-11-2024 20:44:55,23-11-2024 20:44:55,0.002s,PASSED
+if (pw.length() < 8),Chrome 131.0.0.0,,,23-11-2024 20:44:55,23-11-2024 20:44:56,0.027s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,23-11-2024 20:44:56,23-11-2024 20:44:56,0.002s,PASSED
+,,,,,,,
+Test Cases/Customer Register/CR_Check password and retype password to match,Chrome 131.0.0.0,,,23-11-2024 20:44:56,23-11-2024 20:46:07,1m - 11.792s,PASSED
+openBrowser(url),Chrome 131.0.0.0,,,23-11-2024 20:44:56,23-11-2024 20:45:46,49.818s,PASSED
+"click(findTestObject(""Customer_Register/a_Register""))",Chrome 131.0.0.0,,,23-11-2024 20:45:46,23-11-2024 20:45:52,5.744s,PASSED
+"setText(findTestObject(""Customer_Register/input_Full Name""), fullname)",Chrome 131.0.0.0,,,23-11-2024 20:45:52,23-11-2024 20:45:53,0.934s,PASSED
+"setText(findTestObject(""Customer_Register/input_Company Name""), company_name)",Chrome 131.0.0.0,,,23-11-2024 20:45:53,23-11-2024 20:45:53,0.599s,PASSED
+"setText(findTestObject(""Customer_Register/input_Email Address""), email_address)",Chrome 131.0.0.0,,,23-11-2024 20:45:53,23-11-2024 20:45:54,0.985s,PASSED
+"setText(findTestObject(""Customer_Register/input_Phone Number""), phone_number)",Chrome 131.0.0.0,,,23-11-2024 20:45:54,23-11-2024 20:45:55,0.904s,PASSED
+"setText(findTestObject(""Customer_Register/textarea_Address""), address)",Chrome 131.0.0.0,,,23-11-2024 20:45:55,23-11-2024 20:45:56,0.672s,PASSED
+"setText(findTestObject(""Customer_Register/input_Country""), country)",Chrome 131.0.0.0,,,23-11-2024 20:45:56,23-11-2024 20:45:56,0.649s,PASSED
+"setText(findTestObject(""Customer_Register/input_City""), city)",Chrome 131.0.0.0,,,23-11-2024 20:45:56,23-11-2024 20:45:57,0.710s,PASSED
+"setText(findTestObject(""Customer_Register/input_State""), state)",Chrome 131.0.0.0,,,23-11-2024 20:45:57,23-11-2024 20:45:58,0.676s,PASSED
+"setText(findTestObject(""Customer_Register/input_Zip Code""), zip_code)",Chrome 131.0.0.0,,,23-11-2024 20:45:58,23-11-2024 20:45:58,0.761s,PASSED
+"setText(findTestObject(""Customer_Register/input_Password""), password)",Chrome 131.0.0.0,,,23-11-2024 20:45:58,23-11-2024 20:45:59,0.708s,PASSED
+"setText(findTestObject(""Customer_Register/input_Retype Password""), repassword)",Chrome 131.0.0.0,,,23-11-2024 20:45:59,23-11-2024 20:46:00,0.705s,PASSED
+"password = getAttribute(findTestObject(""Customer_Register/input_Password""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 20:46:00,23-11-2024 20:46:00,0.286s,PASSED
+"repassword = getAttribute(findTestObject(""Customer_Register/input_Retype Password""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 20:46:00,23-11-2024 20:46:01,0.312s,PASSED
+"click(findTestObject(""Customer_Register/btn_Register_form1""))",Chrome 131.0.0.0,,,23-11-2024 20:46:01,23-11-2024 20:46:06,5.086s,PASSED
+"messagePresent = waitForElementPresent(findTestObject(""Customer_Register/div_Message Present""), 1)",Chrome 131.0.0.0,,,23-11-2024 20:46:06,23-11-2024 20:46:06,0.428s,PASSED
+if (messagePresent),Chrome 131.0.0.0,,,23-11-2024 20:46:06,23-11-2024 20:46:07,1.282s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,23-11-2024 20:46:07,23-11-2024 20:46:07,0.000s,PASSED
+,,,,,,,
+Test Cases/Customer Register/CR_Account registration successful,Chrome 131.0.0.0,,,23-11-2024 20:46:07,23-11-2024 20:47:36,1m - 28.384s,PASSED
+openBrowser(url),Chrome 131.0.0.0,,,23-11-2024 20:46:07,23-11-2024 20:47:01,53.944s,PASSED
+"click(findTestObject(""Customer_Register/a_Register""))",Chrome 131.0.0.0,,,23-11-2024 20:47:01,23-11-2024 20:47:10,8.405s,PASSED
+"setText(findTestObject(""Customer_Register/input_Full Name""), fullname)",Chrome 131.0.0.0,,,23-11-2024 20:47:10,23-11-2024 20:47:20,10.291s,PASSED
+"setText(findTestObject(""Customer_Register/input_Company Name""), company_name)",Chrome 131.0.0.0,,,23-11-2024 20:47:20,23-11-2024 20:47:21,0.708s,PASSED
+"setText(findTestObject(""Customer_Register/input_Email Address""), email_address)",Chrome 131.0.0.0,,,23-11-2024 20:47:21,23-11-2024 20:47:22,0.699s,PASSED
+"setText(findTestObject(""Customer_Register/input_Phone Number""), phone_number)",Chrome 131.0.0.0,,,23-11-2024 20:47:22,23-11-2024 20:47:22,0.868s,PASSED
+"setText(findTestObject(""Customer_Register/textarea_Address""), address)",Chrome 131.0.0.0,,,23-11-2024 20:47:22,23-11-2024 20:47:23,0.697s,PASSED
+"setText(findTestObject(""Customer_Register/input_Country""), country)",Chrome 131.0.0.0,,,23-11-2024 20:47:23,23-11-2024 20:47:24,0.708s,PASSED
+"setText(findTestObject(""Customer_Register/input_City""), city)",Chrome 131.0.0.0,,,23-11-2024 20:47:24,23-11-2024 20:47:24,0.677s,PASSED
+"setText(findTestObject(""Customer_Register/input_State""), state)",Chrome 131.0.0.0,,,23-11-2024 20:47:24,23-11-2024 20:47:25,0.678s,PASSED
+"setText(findTestObject(""Customer_Register/input_Zip Code""), zip_code)",Chrome 131.0.0.0,,,23-11-2024 20:47:25,23-11-2024 20:47:26,0.653s,PASSED
+"setText(findTestObject(""Customer_Register/input_Password""), password)",Chrome 131.0.0.0,,,23-11-2024 20:47:26,23-11-2024 20:47:27,1.080s,PASSED
+"setText(findTestObject(""Customer_Register/input_Retype Password""), repassword)",Chrome 131.0.0.0,,,23-11-2024 20:47:27,23-11-2024 20:47:28,0.707s,PASSED
+"click(findTestObject(""Customer_Register/btn_Register_form1""))",Chrome 131.0.0.0,,,23-11-2024 20:47:28,23-11-2024 20:47:34,6.209s,PASSED
+"messagePresent = waitForElementPresent(findTestObject(""Customer_Register/div_Message Present""), 1)",Chrome 131.0.0.0,,,23-11-2024 20:47:34,23-11-2024 20:47:34,0.391s,PASSED
+if (messagePresent),Chrome 131.0.0.0,,,23-11-2024 20:47:34,23-11-2024 20:47:34,0.285s,PASSED
+delay(1),Chrome 131.0.0.0,,,23-11-2024 20:47:34,23-11-2024 20:47:36,1.016s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,23-11-2024 20:47:36,23-11-2024 20:47:36,0.199s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,23-11-2024 20:47:36,23-11-2024 20:47:36,0.002s,PASSED

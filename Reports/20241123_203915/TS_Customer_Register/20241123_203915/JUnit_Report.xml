@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Customer_Register" time="496.302" tests="8" failures="3" errors="0">
+   <testsuite name="TS_Customer_Register" tests="8" failures="3" errors="0" time="496.302" skipped="0" timestamp="23-11-2024T20:39:19" hostname="Hp - Admin-PC" id="Test Suites/TS_Customer_Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Katalon\\Katalon_Project_Final\\Reports\\20241123_203915\\TS_Customer_Register\\20241123_203915"/>
+         <property name="logFiles" value="D:\\Katalon\\Katalon_Project_Final\\Reports\\20241123_203915\\TS_Customer_Register\\20241123_203915\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hp - Admin-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="sessionId" value="c8d15c1edf9aece0491c8b0ae44a3285"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Customer Register/CR_Leave required fields blank" time="62.742" classname="Test Cases/Customer Register/CR_Leave required fields blank" status="PASSED">
+         <system-out><![CDATA[23-11-2024T20:39:20 - [TEST_CASE][PASSED] - Test Cases/Customer Register/CR_Leave required fields blank: Test Cases/Customer Register/CR_Leave required fields blank
+
+23-11-2024T20:39:20 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T20:39:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-11-2024T20:39:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2024T20:39:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T20:39:58 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Register/a_Register")): Object: 'Object Repository/Customer_Register/a_Register' is clicked on
+
+23-11-2024T20:40:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Register/a_Register' is clicked on
+
+23-11-2024T20:40:05 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Full Name"), fullname): Text '' is set on object 'Object Repository/Customer_Register/input_Full Name'
+
+23-11-2024T20:40:06 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer_Register/input_Full Name'
+
+23-11-2024T20:40:06 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Company Name"), company_name): Text '' is set on object 'Object Repository/Customer_Register/input_Company Name'
+
+23-11-2024T20:40:07 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer_Register/input_Company Name'
+
+23-11-2024T20:40:07 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Email Address"), email_address): Text '' is set on object 'Object Repository/Customer_Register/input_Email Address'
+
+23-11-2024T20:40:07 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer_Register/input_Email Address'
+
+23-11-2024T20:40:07 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Phone Number"), phone_number): Text '' is set on object 'Object Repository/Customer_Register/input_Phone Number'
+
+23-11-2024T20:40:08 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer_Register/input_Phone Number'
+
+23-11-2024T20:40:08 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/textarea_Address"), address): Text '' is set on object 'Object Repository/Customer_Register/textarea_Address'
+
+23-11-2024T20:40:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer_Register/textarea_Address'
+
+23-11-2024T20:40:09 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Country"), country): Text '' is set on object 'Object Repository/Customer_Register/input_Country'
+
+23-11-2024T20:40:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer_Register/input_Country'
+
+23-11-2024T20:40:10 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_City"), city): Text '' is set on object 'Object Repository/Customer_Register/input_City'
+
+23-11-2024T20:40:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer_Register/input_City'
+
+23-11-2024T20:40:10 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_State"), state): Text '' is set on object 'Object Repository/Customer_Register/input_State'
+
+23-11-2024T20:40:11 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer_Register/input_State'
+
+23-11-2024T20:40:11 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Zip Code"), zip_code): Text '' is set on object 'Object Repository/Customer_Register/input_Zip Code'
+
+23-11-2024T20:40:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer_Register/input_Zip Code'
+
+23-11-2024T20:40:12 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Password"), password): Text '' is set on object 'Object Repository/Customer_Register/input_Password'
+
+23-11-2024T20:40:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer_Register/input_Password'
+
+23-11-2024T20:40:13 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Retype Password"), repassword): Text '' is set on object 'Object Repository/Customer_Register/input_Retype Password'
+
+23-11-2024T20:40:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer_Register/input_Retype Password'
+
+23-11-2024T20:40:13 - [TEST_STEP][PASSED] - fullName = getAttribute(findTestObject("Customer_Register/input_Full Name"), "value"): Attribute 'value' of object 'Object Repository/Customer_Register/input_Full Name' is: ''
+
+23-11-2024T20:40:14 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Customer_Register/input_Full Name' is: ''
+
+23-11-2024T20:40:14 - [TEST_STEP][PASSED] - emailAddress = getAttribute(findTestObject("Customer_Register/input_Email Address"), "value"): Attribute 'value' of object 'Object Repository/Customer_Register/input_Email Address' is: ''
+
+23-11-2024T20:40:14 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Customer_Register/input_Email Address' is: ''
+
+23-11-2024T20:40:14 - [TEST_STEP][PASSED] - phoneNumber = getAttribute(findTestObject("Customer_Register/input_Phone Number"), "value"): Attribute 'value' of object 'Object Repository/Customer_Register/input_Phone Number' is: ''
+
+23-11-2024T20:40:14 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Customer_Register/input_Phone Number' is: ''
+
+23-11-2024T20:40:14 - [TEST_STEP][PASSED] - address = getText(findTestObject("Customer_Register/textarea_Address")): Text of object 'Object Repository/Customer_Register/textarea_Address' is: ''
+
+23-11-2024T20:40:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customer_Register/textarea_Address' is: ''
+
+23-11-2024T20:40:15 - [TEST_STEP][PASSED] - country = getAttribute(findTestObject("Customer_Register/input_Country"), "value"): Attribute 'value' of object 'Object Repository/Customer_Register/input_Country' is: ''
+
+23-11-2024T20:40:15 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Customer_Register/input_Country' is: ''
+
+23-11-2024T20:40:15 - [TEST_STEP][PASSED] - city = getAttribute(findTestObject("Customer_Register/input_City"), "value"): Attribute 'value' of object 'Object Repository/Customer_Register/input_City' is: ''
+
+23-11-2024T20:40:15 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Customer_Register/input_City' is: ''
+
+23-11-2024T20:40:15 - [TEST_STEP][PASSED] - state = getAttribute(findTestObject("Customer_Register/input_State"), "value"): Attribute 'value' of object 'Object Repository/Customer_Register/input_State' is: ''
+
+23-11-2024T20:40:16 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Customer_Register/input_State' is: ''
+
+23-11-2024T20:40:16 - [TEST_STEP][PASSED] - zipCode = getAttribute(findTestObject("Customer_Register/input_Zip Code"), "value"): Attribute 'value' of object 'Object Repository/Customer_Register/input_Zip Code' is: ''
+
+23-11-2024T20:40:16 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Customer_Register/input_Zip Code' is: ''
+
+23-11-2024T20:40:16 - [TEST_STEP][PASSED] - password = getAttribute(findTestObject("Customer_Register/input_Password"), "value"): Attribute 'value' of object 'Object Repository/Customer_Register/input_Password' is: ''
+
+23-11-2024T20:40:16 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Customer_Register/input_Password' is: ''
+
+23-11-2024T20:40:16 - [TEST_STEP][PASSED] - rePassword = getAttribute(findTestObject("Customer_Register/input_Retype Password"), "value"): Attribute 'value' of object 'Object Repository/Customer_Register/input_Retype Password' is: ''
+
+23-11-2024T20:40:16 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Customer_Register/input_Retype Password' is: ''
+
+23-11-2024T20:40:16 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Register/btn_Register_form1")): Object: 'Object Repository/Customer_Register/btn_Register_form1' is clicked on
+
+23-11-2024T20:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Register/btn_Register_form1' is clicked on
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - expectedMessages = []: null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (fullName == null || trim().isEmpty()): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - expectedMessages.add("Customer Name can not be empty."): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (emailAddress == null || trim().isEmpty()): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - expectedMessages.add("Email Address can not be empty."): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (phoneNumber == null || trim().isEmpty()): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - expectedMessages.add("Phone Number can not be empty."): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (address == null || trim().isEmpty()): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - expectedMessages.add("Address can not be empty."): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (country == null || trim().isEmpty()): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - expectedMessages.add("Country can not be empty."): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (city == null || trim().isEmpty()): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - expectedMessages.add("City can not be empty."): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (state == null || trim().isEmpty()): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - expectedMessages.add("State can not be empty."): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (zipCode == null || trim().isEmpty()): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - expectedMessages.add("Zip Code can not be empty."): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (password == null || trim().isEmpty()): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - expectedMessages.add("Password can not be empty."): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (rePassword == null || trim().isEmpty()): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - expectedMessages.add("Retype Password can not be empty."): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - actualMessage = getText(findTestObject("Object Repository/Customer_Register/div_Message Present")): Text of object 'Object Repository/Customer_Register/div_Message Present' is: 'Customer Name can not be empty.
+Email Address can not be empty.
+Phone Number can not be empty.
+Address can not be empty.
+Country can not be empty.
+City can not be empty.
+State can not be empty.
+Zip Code can not be empty.
+Password can not be empty.
+Retype Password can not be empty.'
+
+23-11-2024T20:40:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customer_Register/div_Message Present' is: 'Customer Name can not be empty.
+Email Address can not be empty.
+Phone Number can not be empty.
+Address can not be empty.
+Country can not be empty.
+City can not be empty.
+State can not be empty.
+Zip Code can not be empty.
+Password can not be empty.
+Retype Password can not be empty.'
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - actualMessages = toList().findAll({ -> ... }): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (actualMessages.size() != expectedMessages.size()): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - else: null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - for ([i = 0, i < actualMessages.size(), (i++)]): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (!(actualMessages[i].equals(expectedMessages[i]))): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (!(actualMessages[i].equals(expectedMessages[i]))): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (!(actualMessages[i].equals(expectedMessages[i]))): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (!(actualMessages[i].equals(expectedMessages[i]))): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (!(actualMessages[i].equals(expectedMessages[i]))): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (!(actualMessages[i].equals(expectedMessages[i]))): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (!(actualMessages[i].equals(expectedMessages[i]))): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (!(actualMessages[i].equals(expectedMessages[i]))): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (!(actualMessages[i].equals(expectedMessages[i]))): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - if (!(actualMessages[i].equals(expectedMessages[i]))): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - logInfo("All actual notifications match expectations."): All actual notifications match expectations.
+
+23-11-2024T20:40:22 - [MESSAGE][INFO] - All actual notifications match expectations.
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+23-11-2024T20:40:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer Register/CR_Email address is not in correct format" time="47.798" classname="Test Cases/Customer Register/CR_Email address is not in correct format" status="PASSED">
+         <system-out><![CDATA[23-11-2024T20:40:22 - [TEST_CASE][PASSED] - Test Cases/Customer Register/CR_Email address is not in correct format: Test Cases/Customer Register/CR_Email address is not in correct format
+
+23-11-2024T20:40:23 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/
+'
+
+23-11-2024T20:40:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-11-2024T20:40:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-11-2024T20:40:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2024T20:40:48 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/
+'
+
+23-11-2024T20:40:48 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Register/a_Register")): Object: 'Object Repository/Customer_Register/a_Register' is clicked on
+
+23-11-2024T20:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Register/a_Register' is clicked on
+
+23-11-2024T20:40:54 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Full Name"), fullname): Text 'Nguyen Hoang Minh Khanh' is set on object 'Object Repository/Customer_Register/input_Full Name'
+
+23-11-2024T20:40:54 - [MESSAGE][PASSED] - Text 'Nguyen Hoang Minh Khanh' is set on object 'Object Repository/Customer_Register/input_Full Name'
+
+23-11-2024T20:40:54 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Company Name"), company_name): Text 'ABNS' is set on object 'Object Repository/Customer_Register/input_Company Name'
+
+23-11-2024T20:40:55 - [MESSAGE][PASSED] - Text 'ABNS' is set on object 'Object Repository/Customer_Register/input_Company Name'
+
+23-11-2024T20:40:55 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Email Address"), email_address): Text 'khanhnhm.2.2@.gmail.com' is set on object 'Object Repository/Customer_Register/input_Email Address'
+
+23-11-2024T20:40:56 - [MESSAGE][PASSED] - Text 'khanhnhm.2.2@.gmail.com' is set on object 'Object Repository/Customer_Register/input_Email Address'
+
+23-11-2024T20:40:56 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Phone Number"), phone_number): Text '0866320960' is set on object 'Object Repository/Customer_Register/input_Phone Number'
+
+23-11-2024T20:40:57 - [MESSAGE][PASSED] - Text '0866320960' is set on object 'Object Repository/Customer_Register/input_Phone Number'
+
+23-11-2024T20:40:57 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/textarea_Address"), address): Text '256 To Hieu' is set on object 'Object Repository/Customer_Register/textarea_Address'
+
+23-11-2024T20:40:58 - [MESSAGE][PASSED] - Text '256 To Hieu' is set on object 'Object Repository/Customer_Register/textarea_Address'
+
+23-11-2024T20:40:58 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Country"), country): Text 'Viet Nam' is set on object 'Object Repository/Customer_Register/input_Country'
+
+23-11-2024T20:40:58 - [MESSAGE][PASSED] - Text 'Viet Nam' is set on object 'Object Repository/Customer_Register/input_Country'
+
+23-11-2024T20:40:58 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_City"), city): Text 'Ho Chi Minh' is set on object 'Object Repository/Customer_Register/input_City'
+
+23-11-2024T20:40:59 - [MESSAGE][PASSED] - Text 'Ho Chi Minh' is set on object 'Object Repository/Customer_Register/input_City'
+
+23-11-2024T20:40:59 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_State"), state): Text 'Tan Phu' is set on object 'Object Repository/Customer_Register/input_State'
+
+23-11-2024T20:41:00 - [MESSAGE][PASSED] - Text 'Tan Phu' is set on object 'Object Repository/Customer_Register/input_State'
+
+23-11-2024T20:41:00 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Zip Code"), zip_code): Text '203044' is set on object 'Object Repository/Customer_Register/input_Zip Code'
+
+23-11-2024T20:41:01 - [MESSAGE][PASSED] - Text '203044' is set on object 'Object Repository/Customer_Register/input_Zip Code'
+
+23-11-2024T20:41:01 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Password"), password): Text 'Khanh@123' is set on object 'Object Repository/Customer_Register/input_Password'
+
+23-11-2024T20:41:01 - [MESSAGE][PASSED] - Text 'Khanh@123' is set on object 'Object Repository/Customer_Register/input_Password'
+
+23-11-2024T20:41:02 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Retype Password"), repassword): Text 'Khanh@123' is set on object 'Object Repository/Customer_Register/input_Retype Password'
+
+23-11-2024T20:41:02 - [MESSAGE][PASSED] - Text 'Khanh@123' is set on object 'Object Repository/Customer_Register/input_Retype Password'
+
+23-11-2024T20:41:02 - [TEST_STEP][PASSED] - email = getAttribute(findTestObject("Customer_Register/input_Email Address"), "value"): Attribute 'value' of object 'Object Repository/Customer_Register/input_Email Address' is: 'khanhnhm.2.2@.gmail.com'
+
+23-11-2024T20:41:03 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Customer_Register/input_Email Address' is: 'khanhnhm.2.2@.gmail.com'
+
+23-11-2024T20:41:03 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Register/btn_Register_form1")): Object: 'Object Repository/Customer_Register/btn_Register_form1' is clicked on
+
+23-11-2024T20:41:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Register/btn_Register_form1' is clicked on
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - if (isValidEmail(email)): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - if (!(e.contains("@"))): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - parts = e.split("@"): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - if (length != 2): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - user = parts[0]: null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - domain = parts[1]: null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - if (user.isEmpty() || user.startsWith(".") || user.endsWith(".")): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - for (char c : user.toCharArray()): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - if (!(Character.isLetterOrDigit(c)) && c != "." && c != "_" && c != "-"): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - if (!(Character.isLetterOrDigit(c)) && c != "." && c != "_" && c != "-"): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - if (!(Character.isLetterOrDigit(c)) && c != "." && c != "_" && c != "-"): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - if (!(Character.isLetterOrDigit(c)) && c != "." && c != "_" && c != "-"): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - if (!(Character.isLetterOrDigit(c)) && c != "." && c != "_" && c != "-"): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - if (!(Character.isLetterOrDigit(c)) && c != "." && c != "_" && c != "-"): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - if (!(Character.isLetterOrDigit(c)) && c != "." && c != "_" && c != "-"): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - if (!(Character.isLetterOrDigit(c)) && c != "." && c != "_" && c != "-"): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - if (!(Character.isLetterOrDigit(c)) && c != "." && c != "_" && c != "-"): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - if (!(Character.isLetterOrDigit(c)) && c != "." && c != "_" && c != "-"): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - if (!(Character.isLetterOrDigit(c)) && c != "." && c != "_" && c != "-"): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - if (!(Character.isLetterOrDigit(c)) && c != "." && c != "_" && c != "-"): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - if (domain.isEmpty() || domain.startsWith(".") || domain.endsWith(".")): null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - return false: null
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - else: Actual text 'Email address must be valid.' and expected text 'Email address must be valid.' are matched 
+
+23-11-2024T20:41:08 - [TEST_STEP][PASSED] - messagePresent = waitForElementPresent(findTestObject("Customer_Register/div_Message Present"), 1): Object 'Object Repository/Customer_Register/div_Message Present' is present
+
+23-11-2024T20:41:09 - [MESSAGE][PASSED] - Object 'Object Repository/Customer_Register/div_Message Present' is present
+
+23-11-2024T20:41:09 - [TEST_STEP][PASSED] - if (messagePresent): Actual text 'Email address must be valid.' and expected text 'Email address must be valid.' are matched 
+
+23-11-2024T20:41:09 - [TEST_STEP][PASSED] - message = getText(findTestObject("Customer_Register/div_Message Present")): Text of object 'Object Repository/Customer_Register/div_Message Present' is: 'Email address must be valid.'
+
+23-11-2024T20:41:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customer_Register/div_Message Present' is: 'Email address must be valid.'
+
+23-11-2024T20:41:09 - [TEST_STEP][PASSED] - verifyMatch(message, "Email address must be valid.", false): Actual text 'Email address must be valid.' and expected text 'Email address must be valid.' are matched 
+
+23-11-2024T20:41:09 - [MESSAGE][PASSED] - Actual text 'Email address must be valid.' and expected text 'Email address must be valid.' are matched 
+
+23-11-2024T20:41:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+23-11-2024T20:41:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-11-2024T20:41:10 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+23-11-2024T20:41:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+23-11-2024T20:41:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer Register/CR_Email address already exists" time="51.894" classname="Test Cases/Customer Register/CR_Email address already exists" status="PASSED">
+         <system-out><![CDATA[23-11-2024T20:41:10 - [TEST_CASE][PASSED] - Test Cases/Customer Register/CR_Email address already exists: Test Cases/Customer Register/CR_Email address already exists
+
+23-11-2024T20:41:11 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/
+'
+
+23-11-2024T20:41:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-11-2024T20:41:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-11-2024T20:41:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2024T20:41:35 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/
+'
+
+23-11-2024T20:41:35 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Register/a_Register")): Object: 'Object Repository/Customer_Register/a_Register' is clicked on
+
+23-11-2024T20:41:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Register/a_Register' is clicked on
+
+23-11-2024T20:41:43 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Full Name"), fullname): Text 'Ho Mai Khanh' is set on object 'Object Repository/Customer_Register/input_Full Name'
+
+23-11-2024T20:41:43 - [MESSAGE][PASSED] - Text 'Ho Mai Khanh' is set on object 'Object Repository/Customer_Register/input_Full Name'
+
+23-11-2024T20:41:43 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Company Name"), company_name): Text 'ANBC' is set on object 'Object Repository/Customer_Register/input_Company Name'
+
+23-11-2024T20:41:44 - [MESSAGE][PASSED] - Text 'ANBC' is set on object 'Object Repository/Customer_Register/input_Company Name'
+
+23-11-2024T20:41:44 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Email Address"), email_address): Text 'khanhhm@gmail.com' is set on object 'Object Repository/Customer_Register/input_Email Address'
+
+23-11-2024T20:41:45 - [MESSAGE][PASSED] - Text 'khanhhm@gmail.com' is set on object 'Object Repository/Customer_Register/input_Email Address'
+
+23-11-2024T20:41:45 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Phone Number"), phone_number): Text '0866320660' is set on object 'Object Repository/Customer_Register/input_Phone Number'
+
+23-11-2024T20:41:46 - [MESSAGE][PASSED] - Text '0866320660' is set on object 'Object Repository/Customer_Register/input_Phone Number'
+
+23-11-2024T20:41:46 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/textarea_Address"), address): Text '240 An Duong Vuong' is set on object 'Object Repository/Customer_Register/textarea_Address'
+
+23-11-2024T20:41:46 - [MESSAGE][PASSED] - Text '240 An Duong Vuong' is set on object 'Object Repository/Customer_Register/textarea_Address'
+
+23-11-2024T20:41:46 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Country"), country): Text 'Viet Nam' is set on object 'Object Repository/Customer_Register/input_Country'
+
+23-11-2024T20:41:47 - [MESSAGE][PASSED] - Text 'Viet Nam' is set on object 'Object Repository/Customer_Register/input_Country'
+
+23-11-2024T20:41:47 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_City"), city): Text 'Ho Chi Minh' is set on object 'Object Repository/Customer_Register/input_City'
+
+23-11-2024T20:41:48 - [MESSAGE][PASSED] - Text 'Ho Chi Minh' is set on object 'Object Repository/Customer_Register/input_City'
+
+23-11-2024T20:41:48 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_State"), state): Text 'Quan 5' is set on object 'Object Repository/Customer_Register/input_State'
+
+23-11-2024T20:41:48 - [MESSAGE][PASSED] - Text 'Quan 5' is set on object 'Object Repository/Customer_Register/input_State'
+
+23-11-2024T20:41:48 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Zip Code"), zip_code): Text '880234
+' is set on object 'Object Repository/Customer_Register/input_Zip Code'
+
+23-11-2024T20:41:54 - [MESSAGE][PASSED] - Text '880234
+' is set on object 'Object Repository/Customer_Register/input_Zip Code'
+
+23-11-2024T20:41:54 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Password"), password): Text 'Khanh@112' is set on object 'Object Repository/Customer_Register/input_Password'
+
+23-11-2024T20:41:55 - [MESSAGE][PASSED] - Text 'Khanh@112' is set on object 'Object Repository/Customer_Register/input_Password'
+
+23-11-2024T20:41:55 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Retype Password"), repassword): Text 'Khanh@112' is set on object 'Object Repository/Customer_Register/input_Retype Password'
+
+23-11-2024T20:41:56 - [MESSAGE][PASSED] - Text 'Khanh@112' is set on object 'Object Repository/Customer_Register/input_Retype Password'
+
+23-11-2024T20:41:56 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Register/btn_Register_form1")): Object: 'Object Repository/Customer_Register/btn_Register_form1' is clicked on
+
+23-11-2024T20:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Register/btn_Register_form1' is clicked on
+
+23-11-2024T20:42:01 - [TEST_STEP][PASSED] - errorPresent = waitForElementPresent(findTestObject("Customer_Register/div_Message Present"), 1, OPTIONAL): Object 'Object Repository/Customer_Register/div_Message Present' is present
+
+23-11-2024T20:42:02 - [MESSAGE][PASSED] - Object 'Object Repository/Customer_Register/div_Message Present' is present
+
+23-11-2024T20:42:02 - [TEST_STEP][PASSED] - if (errorPresent): null
+
+23-11-2024T20:42:02 - [TEST_STEP][PASSED] - errorMessage = getText(findTestObject("Customer_Register/div_Message Present")): Text of object 'Object Repository/Customer_Register/div_Message Present' is: 'Email Address Already Exists.'
+
+23-11-2024T20:42:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customer_Register/div_Message Present' is: 'Email Address Already Exists.'
+
+23-11-2024T20:42:02 - [TEST_STEP][PASSED] - if (errorMessage.contains("Email Address Already Exists.")): null
+
+23-11-2024T20:42:02 - [TEST_STEP][PASSED] - println("Email Address Already Exists."): null
+
+23-11-2024T20:42:02 - [TEST_STEP][PASSED] - return null: null
+
+23-11-2024T20:42:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+23-11-2024T20:42:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+23-11-2024T20:42:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer Register/CR_Check phone number validity" time="44.139" classname="Test Cases/Customer Register/CR_Check phone number validity" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Customer Register/CR_Check phone number validity FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Phone numbers must contain only numbers, be 10 - 15 characters long and contain no spaces.' are not matched&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at CR_Check phone number validity.run(CR_Check phone number validity:66)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[23-11-2024T20:42:02 - [TEST_CASE][FAILED] - Test Cases/Customer Register/CR_Check phone number validity: Test Cases/Customer Register/CR_Check phone number validity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Phone numbers must contain only numbers, be 10 - 15 characters long and contain no spaces.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check phone number validity.run(CR_Check phone number validity:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+23-11-2024T20:42:03 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T20:42:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-11-2024T20:42:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-11-2024T20:42:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2024T20:42:26 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T20:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Register/a_Register")): Object: 'Object Repository/Customer_Register/a_Register' is clicked on
+
+23-11-2024T20:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Register/a_Register' is clicked on
+
+23-11-2024T20:42:31 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Full Name"), fullname): Text 'Nguyen Hoang Minh Khanh' is set on object 'Object Repository/Customer_Register/input_Full Name'
+
+23-11-2024T20:42:32 - [MESSAGE][PASSED] - Text 'Nguyen Hoang Minh Khanh' is set on object 'Object Repository/Customer_Register/input_Full Name'
+
+23-11-2024T20:42:32 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Company Name"), company_name): Text 'ABNS' is set on object 'Object Repository/Customer_Register/input_Company Name'
+
+23-11-2024T20:42:33 - [MESSAGE][PASSED] - Text 'ABNS' is set on object 'Object Repository/Customer_Register/input_Company Name'
+
+23-11-2024T20:42:33 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Email Address"), email_address): Text 'khanhnhm@gmail.com' is set on object 'Object Repository/Customer_Register/input_Email Address'
+
+23-11-2024T20:42:34 - [MESSAGE][PASSED] - Text 'khanhnhm@gmail.com' is set on object 'Object Repository/Customer_Register/input_Email Address'
+
+23-11-2024T20:42:34 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Phone Number"), phone_number): Text '03 24@73a7' is set on object 'Object Repository/Customer_Register/input_Phone Number'
+
+23-11-2024T20:42:34 - [MESSAGE][PASSED] - Text '03 24@73a7' is set on object 'Object Repository/Customer_Register/input_Phone Number'
+
+23-11-2024T20:42:34 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/textarea_Address"), address): Text '123 Ly Thai To' is set on object 'Object Repository/Customer_Register/textarea_Address'
+
+23-11-2024T20:42:35 - [MESSAGE][PASSED] - Text '123 Ly Thai To' is set on object 'Object Repository/Customer_Register/textarea_Address'
+
+23-11-2024T20:42:35 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Country"), country): Text 'Viet Nam' is set on object 'Object Repository/Customer_Register/input_Country'
+
+23-11-2024T20:42:36 - [MESSAGE][PASSED] - Text 'Viet Nam' is set on object 'Object Repository/Customer_Register/input_Country'
+
+23-11-2024T20:42:36 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_City"), city): Text 'Ho Chi Minh' is set on object 'Object Repository/Customer_Register/input_City'
+
+23-11-2024T20:42:37 - [MESSAGE][PASSED] - Text 'Ho Chi Minh' is set on object 'Object Repository/Customer_Register/input_City'
+
+23-11-2024T20:42:37 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_State"), state): Text 'Quan 11' is set on object 'Object Repository/Customer_Register/input_State'
+
+23-11-2024T20:42:37 - [MESSAGE][PASSED] - Text 'Quan 11' is set on object 'Object Repository/Customer_Register/input_State'
+
+23-11-2024T20:42:37 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Zip Code"), zip_code): Text '110211' is set on object 'Object Repository/Customer_Register/input_Zip Code'
+
+23-11-2024T20:42:38 - [MESSAGE][PASSED] - Text '110211' is set on object 'Object Repository/Customer_Register/input_Zip Code'
+
+23-11-2024T20:42:38 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Password"), password): Text 'Khanh@112' is set on object 'Object Repository/Customer_Register/input_Password'
+
+23-11-2024T20:42:39 - [MESSAGE][PASSED] - Text 'Khanh@112' is set on object 'Object Repository/Customer_Register/input_Password'
+
+23-11-2024T20:42:39 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Retype Password"), repassword): Text 'Khanh@112' is set on object 'Object Repository/Customer_Register/input_Retype Password'
+
+23-11-2024T20:42:39 - [MESSAGE][PASSED] - Text 'Khanh@112' is set on object 'Object Repository/Customer_Register/input_Retype Password'
+
+23-11-2024T20:42:39 - [TEST_STEP][PASSED] - phoneNumber = getAttribute(findTestObject("Customer_Register/input_Phone Number"), "value"): Attribute 'value' of object 'Object Repository/Customer_Register/input_Phone Number' is: '03 24@73a7'
+
+23-11-2024T20:42:40 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Customer_Register/input_Phone Number' is: '03 24@73a7'
+
+23-11-2024T20:42:40 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Register/btn_Register_form1")): Object: 'Object Repository/Customer_Register/btn_Register_form1' is clicked on
+
+23-11-2024T20:42:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Register/btn_Register_form1' is clicked on
+
+23-11-2024T20:42:46 - [TEST_STEP][PASSED] - isLength = phoneNumber.length() >= 10 && phoneNumber.length() <= 15: null
+
+23-11-2024T20:42:46 - [TEST_STEP][PASSED] - isDigit = phoneNumber.isNumber(): null
+
+23-11-2024T20:42:46 - [TEST_STEP][PASSED] - hasWhiteSpace = phoneNumber.contains(" "): null
+
+23-11-2024T20:42:46 - [TEST_STEP][PASSED] - messagePresent = waitForElementPresent(findTestObject("Customer_Register/div_Message Present"), 1): Object 'Object Repository/Customer_Register/div_Message Present' is present
+
+23-11-2024T20:42:46 - [MESSAGE][PASSED] - Object 'Object Repository/Customer_Register/div_Message Present' is present
+
+23-11-2024T20:42:46 - [TEST_STEP][FAILED] - if (messagePresent): Unable to verify match between actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Phone numbers must contain only numbers, be 10 - 15 characters long and contain no spaces.' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Phone numbers must contain only numbers, be 10 - 15 characters long and contain no spaces.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check phone number validity.run(CR_Check phone number validity:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T20:42:46 - [TEST_STEP][PASSED] - message = getText(findTestObject("Customer_Register/div_Message Present")): Text of object 'Object Repository/Customer_Register/div_Message Present' is: 'Your registration is completed. Please check your email address to follow the process to confirm your registration.'
+
+23-11-2024T20:42:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customer_Register/div_Message Present' is: 'Your registration is completed. Please check your email address to follow the process to confirm your registration.'
+
+23-11-2024T20:42:46 - [TEST_STEP][FAILED] - if (!(isLength) || !(isDigit) || hasWhiteSpace): Unable to verify match between actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Phone numbers must contain only numbers, be 10 - 15 characters long and contain no spaces.' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Phone numbers must contain only numbers, be 10 - 15 characters long and contain no spaces.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check phone number validity.run(CR_Check phone number validity:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T20:42:46 - [TEST_STEP][FAILED] - verifyMatch(message, "Phone numbers must contain only numbers, be 10 - 15 characters long and contain no spaces.", false): Unable to verify match between actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Phone numbers must contain only numbers, be 10 - 15 characters long and contain no spaces.' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Phone numbers must contain only numbers, be 10 - 15 characters long and contain no spaces.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check phone number validity.run(CR_Check phone number validity:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T20:42:46 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Phone numbers must contain only numbers, be 10 - 15 characters long and contain no spaces.' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Phone numbers must contain only numbers, be 10 - 15 characters long and contain no spaces.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check phone number validity.run(CR_Check phone number validity:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T20:42:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+23-11-2024T20:42:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+23-11-2024T20:42:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[23-11-2024T20:42:02 - [TEST_CASE][FAILED] - Test Cases/Customer Register/CR_Check phone number validity: Test Cases/Customer Register/CR_Check phone number validity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Phone numbers must contain only numbers, be 10 - 15 characters long and contain no spaces.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check phone number validity.run(CR_Check phone number validity:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer Register/CR_Check the validity of the zip code" time="59.56" classname="Test Cases/Customer Register/CR_Check the validity of the zip code" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Customer Register/CR_Check the validity of the zip code FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Zip Code must contain only numbers, be 6 characters long and contain no spaces.' are not matched&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at CR_Check the validity of the zip code.run(CR_Check the validity of the zip code:63)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[23-11-2024T20:42:46 - [TEST_CASE][FAILED] - Test Cases/Customer Register/CR_Check the validity of the zip code: Test Cases/Customer Register/CR_Check the validity of the zip code FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Zip Code must contain only numbers, be 6 characters long and contain no spaces.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check the validity of the zip code.run(CR_Check the validity of the zip code:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+23-11-2024T20:42:47 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T20:42:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-11-2024T20:42:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-11-2024T20:42:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2024T20:43:25 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T20:43:25 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Register/a_Register")): Object: 'Object Repository/Customer_Register/a_Register' is clicked on
+
+23-11-2024T20:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Register/a_Register' is clicked on
+
+23-11-2024T20:43:31 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Full Name"), fullname): Text 'Phan Dang Thanh Phu' is set on object 'Object Repository/Customer_Register/input_Full Name'
+
+23-11-2024T20:43:32 - [MESSAGE][PASSED] - Text 'Phan Dang Thanh Phu' is set on object 'Object Repository/Customer_Register/input_Full Name'
+
+23-11-2024T20:43:32 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Company Name"), company_name): Text 'JJBC' is set on object 'Object Repository/Customer_Register/input_Company Name'
+
+23-11-2024T20:43:33 - [MESSAGE][PASSED] - Text 'JJBC' is set on object 'Object Repository/Customer_Register/input_Company Name'
+
+23-11-2024T20:43:33 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Email Address"), email_address): Text 'phupdt@gmail.com' is set on object 'Object Repository/Customer_Register/input_Email Address'
+
+23-11-2024T20:43:33 - [MESSAGE][PASSED] - Text 'phupdt@gmail.com' is set on object 'Object Repository/Customer_Register/input_Email Address'
+
+23-11-2024T20:43:33 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Phone Number"), phone_number): Text '0237345678' is set on object 'Object Repository/Customer_Register/input_Phone Number'
+
+23-11-2024T20:43:34 - [MESSAGE][PASSED] - Text '0237345678' is set on object 'Object Repository/Customer_Register/input_Phone Number'
+
+23-11-2024T20:43:34 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/textarea_Address"), address): Text '11 An Duong Vuong' is set on object 'Object Repository/Customer_Register/textarea_Address'
+
+23-11-2024T20:43:35 - [MESSAGE][PASSED] - Text '11 An Duong Vuong' is set on object 'Object Repository/Customer_Register/textarea_Address'
+
+23-11-2024T20:43:35 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Country"), country): Text 'Viet Nam' is set on object 'Object Repository/Customer_Register/input_Country'
+
+23-11-2024T20:43:36 - [MESSAGE][PASSED] - Text 'Viet Nam' is set on object 'Object Repository/Customer_Register/input_Country'
+
+23-11-2024T20:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_City"), city): Text 'Ho Chi Minh' is set on object 'Object Repository/Customer_Register/input_City'
+
+23-11-2024T20:43:36 - [MESSAGE][PASSED] - Text 'Ho Chi Minh' is set on object 'Object Repository/Customer_Register/input_City'
+
+23-11-2024T20:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_State"), state): Text 'Quan 5' is set on object 'Object Repository/Customer_Register/input_State'
+
+23-11-2024T20:43:37 - [MESSAGE][PASSED] - Text 'Quan 5' is set on object 'Object Repository/Customer_Register/input_State'
+
+23-11-2024T20:43:37 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Zip Code"), zip_code): Text '88ab3@' is set on object 'Object Repository/Customer_Register/input_Zip Code'
+
+23-11-2024T20:43:38 - [MESSAGE][PASSED] - Text '88ab3@' is set on object 'Object Repository/Customer_Register/input_Zip Code'
+
+23-11-2024T20:43:38 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Password"), password): Text 'Thanhphu@12' is set on object 'Object Repository/Customer_Register/input_Password'
+
+23-11-2024T20:43:39 - [MESSAGE][PASSED] - Text 'Thanhphu@12' is set on object 'Object Repository/Customer_Register/input_Password'
+
+23-11-2024T20:43:39 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Retype Password"), repassword): Text 'Thanhphu@12' is set on object 'Object Repository/Customer_Register/input_Retype Password'
+
+23-11-2024T20:43:39 - [MESSAGE][PASSED] - Text 'Thanhphu@12' is set on object 'Object Repository/Customer_Register/input_Retype Password'
+
+23-11-2024T20:43:39 - [TEST_STEP][PASSED] - zipCode = getAttribute(findTestObject("Customer_Register/input_Zip Code"), "value"): Attribute 'value' of object 'Object Repository/Customer_Register/input_Zip Code' is: '88ab3@'
+
+23-11-2024T20:43:40 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Customer_Register/input_Zip Code' is: '88ab3@'
+
+23-11-2024T20:43:40 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Register/btn_Register_form1")): Object: 'Object Repository/Customer_Register/btn_Register_form1' is clicked on
+
+23-11-2024T20:43:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Register/btn_Register_form1' is clicked on
+
+23-11-2024T20:43:45 - [TEST_STEP][PASSED] - isLength = zipCode.length() == 6: null
+
+23-11-2024T20:43:45 - [TEST_STEP][PASSED] - isDigit = zipCode.isNumber(): null
+
+23-11-2024T20:43:45 - [TEST_STEP][PASSED] - hasWhiteSpace = zipCode.contains(" "): null
+
+23-11-2024T20:43:45 - [TEST_STEP][PASSED] - messagePresent = waitForElementPresent(findTestObject("Customer_Register/div_Message Present"), 1): Object 'Object Repository/Customer_Register/div_Message Present' is present
+
+23-11-2024T20:43:46 - [MESSAGE][PASSED] - Object 'Object Repository/Customer_Register/div_Message Present' is present
+
+23-11-2024T20:43:46 - [TEST_STEP][FAILED] - if (messagePresent): Unable to verify match between actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Zip Code must contain only numbers, be 6 characters long and contain no spaces.' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Zip Code must contain only numbers, be 6 characters long and contain no spaces.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check the validity of the zip code.run(CR_Check the validity of the zip code:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T20:43:46 - [TEST_STEP][PASSED] - message = getText(findTestObject("Customer_Register/div_Message Present")): Text of object 'Object Repository/Customer_Register/div_Message Present' is: 'Your registration is completed. Please check your email address to follow the process to confirm your registration.'
+
+23-11-2024T20:43:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customer_Register/div_Message Present' is: 'Your registration is completed. Please check your email address to follow the process to confirm your registration.'
+
+23-11-2024T20:43:46 - [TEST_STEP][FAILED] - if (!(isLength) || !(isDigit) || hasWhiteSpace): Unable to verify match between actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Zip Code must contain only numbers, be 6 characters long and contain no spaces.' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Zip Code must contain only numbers, be 6 characters long and contain no spaces.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check the validity of the zip code.run(CR_Check the validity of the zip code:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T20:43:46 - [TEST_STEP][FAILED] - verifyMatch(message, "Zip Code must contain only numbers, be 6 characters long and contain no spaces.", false): Unable to verify match between actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Zip Code must contain only numbers, be 6 characters long and contain no spaces.' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Zip Code must contain only numbers, be 6 characters long and contain no spaces.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check the validity of the zip code.run(CR_Check the validity of the zip code:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T20:43:46 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Zip Code must contain only numbers, be 6 characters long and contain no spaces.' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Zip Code must contain only numbers, be 6 characters long and contain no spaces.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check the validity of the zip code.run(CR_Check the validity of the zip code:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T20:43:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+23-11-2024T20:43:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+23-11-2024T20:43:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[23-11-2024T20:42:46 - [TEST_CASE][FAILED] - Test Cases/Customer Register/CR_Check the validity of the zip code: Test Cases/Customer Register/CR_Check the validity of the zip code FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Zip Code must contain only numbers, be 6 characters long and contain no spaces.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check the validity of the zip code.run(CR_Check the validity of the zip code:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer Register/CR_Check strong password" time="69.63" classname="Test Cases/Customer Register/CR_Check strong password" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Customer Register/CR_Check strong password FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Password must be at least 8 characters, not including spaces. Must contain at least 1 lowercase letter, 1 uppercase letter, 1 number and 1 special character' are not matched&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at CR_Check strong password.run(CR_Check strong password:64)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[23-11-2024T20:43:46 - [TEST_CASE][FAILED] - Test Cases/Customer Register/CR_Check strong password: Test Cases/Customer Register/CR_Check strong password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Password must be at least 8 characters, not including spaces. Must contain at least 1 lowercase letter, 1 uppercase letter, 1 number and 1 special character' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check strong password.run(CR_Check strong password:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+23-11-2024T20:43:46 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T20:43:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-11-2024T20:43:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-11-2024T20:43:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2024T20:44:30 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T20:44:30 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Register/a_Register")): Object: 'Object Repository/Customer_Register/a_Register' is clicked on
+
+23-11-2024T20:44:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Register/a_Register' is clicked on
+
+23-11-2024T20:44:36 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Full Name"), fullname): Text 'Dang Thanh Ngoc' is set on object 'Object Repository/Customer_Register/input_Full Name'
+
+23-11-2024T20:44:37 - [MESSAGE][PASSED] - Text 'Dang Thanh Ngoc' is set on object 'Object Repository/Customer_Register/input_Full Name'
+
+23-11-2024T20:44:37 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Company Name"), company_name): Text 'JJBDC' is set on object 'Object Repository/Customer_Register/input_Company Name'
+
+23-11-2024T20:44:37 - [MESSAGE][PASSED] - Text 'JJBDC' is set on object 'Object Repository/Customer_Register/input_Company Name'
+
+23-11-2024T20:44:37 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Email Address"), email_address): Text 'thanhngocdt@gmail.com' is set on object 'Object Repository/Customer_Register/input_Email Address'
+
+23-11-2024T20:44:40 - [MESSAGE][PASSED] - Text 'thanhngocdt@gmail.com' is set on object 'Object Repository/Customer_Register/input_Email Address'
+
+23-11-2024T20:44:40 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Phone Number"), phone_number): Text '0397342342' is set on object 'Object Repository/Customer_Register/input_Phone Number'
+
+23-11-2024T20:44:41 - [MESSAGE][PASSED] - Text '0397342342' is set on object 'Object Repository/Customer_Register/input_Phone Number'
+
+23-11-2024T20:44:41 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/textarea_Address"), address): Text '82 An Duong Vuong' is set on object 'Object Repository/Customer_Register/textarea_Address'
+
+23-11-2024T20:44:42 - [MESSAGE][PASSED] - Text '82 An Duong Vuong' is set on object 'Object Repository/Customer_Register/textarea_Address'
+
+23-11-2024T20:44:42 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Country"), country): Text 'Viet Nam' is set on object 'Object Repository/Customer_Register/input_Country'
+
+23-11-2024T20:44:43 - [MESSAGE][PASSED] - Text 'Viet Nam' is set on object 'Object Repository/Customer_Register/input_Country'
+
+23-11-2024T20:44:43 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_City"), city): Text 'Ho Chi Minh' is set on object 'Object Repository/Customer_Register/input_City'
+
+23-11-2024T20:44:45 - [MESSAGE][PASSED] - Text 'Ho Chi Minh' is set on object 'Object Repository/Customer_Register/input_City'
+
+23-11-2024T20:44:45 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_State"), state): Text 'Quan 5' is set on object 'Object Repository/Customer_Register/input_State'
+
+23-11-2024T20:44:46 - [MESSAGE][PASSED] - Text 'Quan 5' is set on object 'Object Repository/Customer_Register/input_State'
+
+23-11-2024T20:44:46 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Zip Code"), zip_code): Text '880234' is set on object 'Object Repository/Customer_Register/input_Zip Code'
+
+23-11-2024T20:44:47 - [MESSAGE][PASSED] - Text '880234' is set on object 'Object Repository/Customer_Register/input_Zip Code'
+
+23-11-2024T20:44:47 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Password"), password): Text 'ngoc123' is set on object 'Object Repository/Customer_Register/input_Password'
+
+23-11-2024T20:44:47 - [MESSAGE][PASSED] - Text 'ngoc123' is set on object 'Object Repository/Customer_Register/input_Password'
+
+23-11-2024T20:44:47 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Retype Password"), repassword): Text 'ngoc123' is set on object 'Object Repository/Customer_Register/input_Retype Password'
+
+23-11-2024T20:44:48 - [MESSAGE][PASSED] - Text 'ngoc123' is set on object 'Object Repository/Customer_Register/input_Retype Password'
+
+23-11-2024T20:44:48 - [TEST_STEP][PASSED] - password = getAttribute(findTestObject("Customer_Register/input_Password"), "value"): Attribute 'value' of object 'Object Repository/Customer_Register/input_Password' is: 'ngoc123'
+
+23-11-2024T20:44:49 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Customer_Register/input_Password' is: 'ngoc123'
+
+23-11-2024T20:44:49 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Register/btn_Register_form1")): Object: 'Object Repository/Customer_Register/btn_Register_form1' is clicked on
+
+23-11-2024T20:44:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Register/btn_Register_form1' is clicked on
+
+23-11-2024T20:44:55 - [TEST_STEP][PASSED] - messagePresent = waitForElementPresent(findTestObject("Customer_Register/div_Message Present"), 1): Object 'Object Repository/Customer_Register/div_Message Present' is present
+
+23-11-2024T20:44:55 - [MESSAGE][PASSED] - Object 'Object Repository/Customer_Register/div_Message Present' is present
+
+23-11-2024T20:44:55 - [TEST_STEP][PASSED] - if (messagePresent): null
+
+23-11-2024T20:44:55 - [TEST_STEP][PASSED] - message = getText(findTestObject("Customer_Register/div_Message Present")): Text of object 'Object Repository/Customer_Register/div_Message Present' is: 'Your registration is completed. Please check your email address to follow the process to confirm your registration.'
+
+23-11-2024T20:44:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customer_Register/div_Message Present' is: 'Your registration is completed. Please check your email address to follow the process to confirm your registration.'
+
+23-11-2024T20:44:55 - [TEST_STEP][PASSED] - if (isPasswordStrong(password)): null
+
+23-11-2024T20:44:55 - [TEST_STEP][PASSED] - if (pw.contains(" ")): null
+
+23-11-2024T20:44:55 - [TEST_STEP][FAILED] - if (pw.length() < 8): Unable to verify match between actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Password must be at least 8 characters, not including spaces. Must contain at least 1 lowercase letter, 1 uppercase letter, 1 number and 1 special character' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Password must be at least 8 characters, not including spaces. Must contain at least 1 lowercase letter, 1 uppercase letter, 1 number and 1 special character' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check strong password.run(CR_Check strong password:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T20:44:55 - [TEST_STEP][PASSED] - return false: null
+
+23-11-2024T20:44:55 - [TEST_STEP][FAILED] - else: Unable to verify match between actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Password must be at least 8 characters, not including spaces. Must contain at least 1 lowercase letter, 1 uppercase letter, 1 number and 1 special character' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Password must be at least 8 characters, not including spaces. Must contain at least 1 lowercase letter, 1 uppercase letter, 1 number and 1 special character' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check strong password.run(CR_Check strong password:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T20:44:55 - [TEST_STEP][PASSED] - comment("Password must be at least 8 characters, not including spaces. Must contain at least 1 lowercase letter, 1 uppercase letter, 1 number and 1 special character"): Password must be at least 8 characters, not including spaces. Must contain at least 1 lowercase letter, 1 uppercase letter, 1 number and 1 special character
+
+23-11-2024T20:44:56 - [MESSAGE][INFO] - Password must be at least 8 characters, not including spaces. Must contain at least 1 lowercase letter, 1 uppercase letter, 1 number and 1 special character
+
+23-11-2024T20:44:56 - [TEST_STEP][FAILED] - verifyMatch(message, "Password must be at least 8 characters, not including spaces. Must contain at least 1 lowercase letter, 1 uppercase letter, 1 number and 1 special character", false): Unable to verify match between actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Password must be at least 8 characters, not including spaces. Must contain at least 1 lowercase letter, 1 uppercase letter, 1 number and 1 special character' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Password must be at least 8 characters, not including spaces. Must contain at least 1 lowercase letter, 1 uppercase letter, 1 number and 1 special character' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check strong password.run(CR_Check strong password:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T20:44:56 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Password must be at least 8 characters, not including spaces. Must contain at least 1 lowercase letter, 1 uppercase letter, 1 number and 1 special character' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Password must be at least 8 characters, not including spaces. Must contain at least 1 lowercase letter, 1 uppercase letter, 1 number and 1 special character' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check strong password.run(CR_Check strong password:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T20:44:56 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+23-11-2024T20:44:56 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+23-11-2024T20:44:56 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[23-11-2024T20:43:46 - [TEST_CASE][FAILED] - Test Cases/Customer Register/CR_Check strong password: Test Cases/Customer Register/CR_Check strong password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Password must be at least 8 characters, not including spaces. Must contain at least 1 lowercase letter, 1 uppercase letter, 1 number and 1 special character' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check strong password.run(CR_Check strong password:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer Register/CR_Check password and retype password to match" time="71.792" classname="Test Cases/Customer Register/CR_Check password and retype password to match" status="PASSED">
+         <system-out><![CDATA[23-11-2024T20:44:56 - [TEST_CASE][PASSED] - Test Cases/Customer Register/CR_Check password and retype password to match: Test Cases/Customer Register/CR_Check password and retype password to match
+
+23-11-2024T20:44:56 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/
+'
+
+23-11-2024T20:44:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-11-2024T20:44:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-11-2024T20:44:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2024T20:45:46 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/
+'
+
+23-11-2024T20:45:46 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Register/a_Register")): Object: 'Object Repository/Customer_Register/a_Register' is clicked on
+
+23-11-2024T20:45:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Register/a_Register' is clicked on
+
+23-11-2024T20:45:52 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Full Name"), fullname): Text 'Pham Minh Thu' is set on object 'Object Repository/Customer_Register/input_Full Name'
+
+23-11-2024T20:45:53 - [MESSAGE][PASSED] - Text 'Pham Minh Thu' is set on object 'Object Repository/Customer_Register/input_Full Name'
+
+23-11-2024T20:45:53 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Company Name"), company_name): Text 'DBCG' is set on object 'Object Repository/Customer_Register/input_Company Name'
+
+23-11-2024T20:45:53 - [MESSAGE][PASSED] - Text 'DBCG' is set on object 'Object Repository/Customer_Register/input_Company Name'
+
+23-11-2024T20:45:53 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Email Address"), email_address): Text 'thupm@gmail.com' is set on object 'Object Repository/Customer_Register/input_Email Address'
+
+23-11-2024T20:45:54 - [MESSAGE][PASSED] - Text 'thupm@gmail.com' is set on object 'Object Repository/Customer_Register/input_Email Address'
+
+23-11-2024T20:45:54 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Phone Number"), phone_number): Text '0327890890' is set on object 'Object Repository/Customer_Register/input_Phone Number'
+
+23-11-2024T20:45:55 - [MESSAGE][PASSED] - Text '0327890890' is set on object 'Object Repository/Customer_Register/input_Phone Number'
+
+23-11-2024T20:45:55 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/textarea_Address"), address): Text '293 An Duong Vuong' is set on object 'Object Repository/Customer_Register/textarea_Address'
+
+23-11-2024T20:45:56 - [MESSAGE][PASSED] - Text '293 An Duong Vuong' is set on object 'Object Repository/Customer_Register/textarea_Address'
+
+23-11-2024T20:45:56 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Country"), country): Text 'Viet Nam' is set on object 'Object Repository/Customer_Register/input_Country'
+
+23-11-2024T20:45:56 - [MESSAGE][PASSED] - Text 'Viet Nam' is set on object 'Object Repository/Customer_Register/input_Country'
+
+23-11-2024T20:45:56 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_City"), city): Text 'Ho Chi Minh' is set on object 'Object Repository/Customer_Register/input_City'
+
+23-11-2024T20:45:57 - [MESSAGE][PASSED] - Text 'Ho Chi Minh' is set on object 'Object Repository/Customer_Register/input_City'
+
+23-11-2024T20:45:57 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_State"), state): Text 'Quan 5' is set on object 'Object Repository/Customer_Register/input_State'
+
+23-11-2024T20:45:58 - [MESSAGE][PASSED] - Text 'Quan 5' is set on object 'Object Repository/Customer_Register/input_State'
+
+23-11-2024T20:45:58 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Zip Code"), zip_code): Text '880234' is set on object 'Object Repository/Customer_Register/input_Zip Code'
+
+23-11-2024T20:45:58 - [MESSAGE][PASSED] - Text '880234' is set on object 'Object Repository/Customer_Register/input_Zip Code'
+
+23-11-2024T20:45:58 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Password"), password): Text 'Minhthu@123' is set on object 'Object Repository/Customer_Register/input_Password'
+
+23-11-2024T20:45:59 - [MESSAGE][PASSED] - Text 'Minhthu@123' is set on object 'Object Repository/Customer_Register/input_Password'
+
+23-11-2024T20:45:59 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Retype Password"), repassword): Text 'minhthu@12' is set on object 'Object Repository/Customer_Register/input_Retype Password'
+
+23-11-2024T20:46:00 - [MESSAGE][PASSED] - Text 'minhthu@12' is set on object 'Object Repository/Customer_Register/input_Retype Password'
+
+23-11-2024T20:46:00 - [TEST_STEP][PASSED] - password = getAttribute(findTestObject("Customer_Register/input_Password"), "value"): Attribute 'value' of object 'Object Repository/Customer_Register/input_Password' is: 'Minhthu@123'
+
+23-11-2024T20:46:00 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Customer_Register/input_Password' is: 'Minhthu@123'
+
+23-11-2024T20:46:00 - [TEST_STEP][PASSED] - repassword = getAttribute(findTestObject("Customer_Register/input_Retype Password"), "value"): Attribute 'value' of object 'Object Repository/Customer_Register/input_Retype Password' is: 'minhthu@12'
+
+23-11-2024T20:46:00 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Customer_Register/input_Retype Password' is: 'minhthu@12'
+
+23-11-2024T20:46:01 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Register/btn_Register_form1")): Object: 'Object Repository/Customer_Register/btn_Register_form1' is clicked on
+
+23-11-2024T20:46:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Register/btn_Register_form1' is clicked on
+
+23-11-2024T20:46:06 - [TEST_STEP][PASSED] - messagePresent = waitForElementPresent(findTestObject("Customer_Register/div_Message Present"), 1): Object 'Object Repository/Customer_Register/div_Message Present' is present
+
+23-11-2024T20:46:06 - [MESSAGE][PASSED] - Object 'Object Repository/Customer_Register/div_Message Present' is present
+
+23-11-2024T20:46:06 - [TEST_STEP][PASSED] - if (messagePresent): null
+
+23-11-2024T20:46:06 - [TEST_STEP][PASSED] - message = getText(findTestObject("Customer_Register/div_Message Present")): Text of object 'Object Repository/Customer_Register/div_Message Present' is: 'Passwords do not match.'
+
+23-11-2024T20:46:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customer_Register/div_Message Present' is: 'Passwords do not match.'
+
+23-11-2024T20:46:06 - [TEST_STEP][PASSED] - if (password != repassword): Actual text 'Passwords do not match.' and expected text 'Passwords do not match.' are matched 
+
+23-11-2024T20:46:06 - [TEST_STEP][PASSED] - println("Passwords do not match."): null
+
+23-11-2024T20:46:06 - [TEST_STEP][PASSED] - verifyMatch(message, "Passwords do not match.", false): Actual text 'Passwords do not match.' and expected text 'Passwords do not match.' are matched 
+
+23-11-2024T20:46:06 - [MESSAGE][PASSED] - Actual text 'Passwords do not match.' and expected text 'Passwords do not match.' are matched 
+
+23-11-2024T20:46:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+23-11-2024T20:46:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-11-2024T20:46:07 - [TEST_STEP][PASSED] - return null: null
+
+23-11-2024T20:46:07 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+23-11-2024T20:46:07 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+23-11-2024T20:46:07 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer Register/CR_Account registration successful" time="88.384" classname="Test Cases/Customer Register/CR_Account registration successful" status="PASSED">
+         <system-out><![CDATA[23-11-2024T20:46:07 - [TEST_CASE][PASSED] - Test Cases/Customer Register/CR_Account registration successful: Test Cases/Customer Register/CR_Account registration successful
+
+23-11-2024T20:46:07 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T20:46:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-11-2024T20:46:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-11-2024T20:46:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2024T20:47:01 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T20:47:01 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Register/a_Register")): Object: 'Object Repository/Customer_Register/a_Register' is clicked on
+
+23-11-2024T20:47:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Register/a_Register' is clicked on
+
+23-11-2024T20:47:10 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Full Name"), fullname): Text 'Pham Thanh Minh' is set on object 'Object Repository/Customer_Register/input_Full Name'
+
+23-11-2024T20:47:20 - [MESSAGE][PASSED] - Text 'Pham Thanh Minh' is set on object 'Object Repository/Customer_Register/input_Full Name'
+
+23-11-2024T20:47:20 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Company Name"), company_name): Text 'ANV' is set on object 'Object Repository/Customer_Register/input_Company Name'
+
+23-11-2024T20:47:21 - [MESSAGE][PASSED] - Text 'ANV' is set on object 'Object Repository/Customer_Register/input_Company Name'
+
+23-11-2024T20:47:21 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Email Address"), email_address): Text 'phamthanhminh@gmail.com' is set on object 'Object Repository/Customer_Register/input_Email Address'
+
+23-11-2024T20:47:22 - [MESSAGE][PASSED] - Text 'phamthanhminh@gmail.com' is set on object 'Object Repository/Customer_Register/input_Email Address'
+
+23-11-2024T20:47:22 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Phone Number"), phone_number): Text '0349347568' is set on object 'Object Repository/Customer_Register/input_Phone Number'
+
+23-11-2024T20:47:22 - [MESSAGE][PASSED] - Text '0349347568' is set on object 'Object Repository/Customer_Register/input_Phone Number'
+
+23-11-2024T20:47:22 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/textarea_Address"), address): Text '120 An Duong Vuong' is set on object 'Object Repository/Customer_Register/textarea_Address'
+
+23-11-2024T20:47:23 - [MESSAGE][PASSED] - Text '120 An Duong Vuong' is set on object 'Object Repository/Customer_Register/textarea_Address'
+
+23-11-2024T20:47:23 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Country"), country): Text 'Viet Nam' is set on object 'Object Repository/Customer_Register/input_Country'
+
+23-11-2024T20:47:24 - [MESSAGE][PASSED] - Text 'Viet Nam' is set on object 'Object Repository/Customer_Register/input_Country'
+
+23-11-2024T20:47:24 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_City"), city): Text 'Ho Chi Minh' is set on object 'Object Repository/Customer_Register/input_City'
+
+23-11-2024T20:47:24 - [MESSAGE][PASSED] - Text 'Ho Chi Minh' is set on object 'Object Repository/Customer_Register/input_City'
+
+23-11-2024T20:47:24 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_State"), state): Text 'Quan 5' is set on object 'Object Repository/Customer_Register/input_State'
+
+23-11-2024T20:47:25 - [MESSAGE][PASSED] - Text 'Quan 5' is set on object 'Object Repository/Customer_Register/input_State'
+
+23-11-2024T20:47:25 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Zip Code"), zip_code): Text '880234' is set on object 'Object Repository/Customer_Register/input_Zip Code'
+
+23-11-2024T20:47:26 - [MESSAGE][PASSED] - Text '880234' is set on object 'Object Repository/Customer_Register/input_Zip Code'
+
+23-11-2024T20:47:26 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Password"), password): Text 'Minh@123' is set on object 'Object Repository/Customer_Register/input_Password'
+
+23-11-2024T20:47:27 - [MESSAGE][PASSED] - Text 'Minh@123' is set on object 'Object Repository/Customer_Register/input_Password'
+
+23-11-2024T20:47:27 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Register/input_Retype Password"), repassword): Text 'Minh@123' is set on object 'Object Repository/Customer_Register/input_Retype Password'
+
+23-11-2024T20:47:28 - [MESSAGE][PASSED] - Text 'Minh@123' is set on object 'Object Repository/Customer_Register/input_Retype Password'
+
+23-11-2024T20:47:28 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Register/btn_Register_form1")): Object: 'Object Repository/Customer_Register/btn_Register_form1' is clicked on
+
+23-11-2024T20:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Register/btn_Register_form1' is clicked on
+
+23-11-2024T20:47:34 - [TEST_STEP][PASSED] - messagePresent = waitForElementPresent(findTestObject("Customer_Register/div_Message Present"), 1): Object 'Object Repository/Customer_Register/div_Message Present' is present
+
+23-11-2024T20:47:34 - [MESSAGE][PASSED] - Object 'Object Repository/Customer_Register/div_Message Present' is present
+
+23-11-2024T20:47:34 - [TEST_STEP][PASSED] - if (messagePresent): Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' are matched 
+
+23-11-2024T20:47:34 - [TEST_STEP][PASSED] - message = getText(findTestObject("Customer_Register/div_Message Present")): Text of object 'Object Repository/Customer_Register/div_Message Present' is: 'Your registration is completed. Please check your email address to follow the process to confirm your registration.'
+
+23-11-2024T20:47:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customer_Register/div_Message Present' is: 'Your registration is completed. Please check your email address to follow the process to confirm your registration.'
+
+23-11-2024T20:47:34 - [TEST_STEP][PASSED] - verifyMatch(message, "Your registration is completed. Please check your email address to follow the process to confirm your registration.", false): Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' are matched 
+
+23-11-2024T20:47:34 - [MESSAGE][PASSED] - Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' are matched 
+
+23-11-2024T20:47:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+23-11-2024T20:47:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-11-2024T20:47:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-11-2024T20:47:36 - [MESSAGE][PASSED] - Browser is closed
+
+23-11-2024T20:47:36 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+23-11-2024T20:47:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+23-11-2024T20:47:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-11-2024T20:39:19 - [TEST_SUITE][FAILED] - TS_Customer_Register: Test Cases/Customer Register/CR_Check phone number validity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Phone numbers must contain only numbers, be 10 - 15 characters long and contain no spaces.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check phone number validity.run(CR_Check phone number validity:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[23-11-2024T20:39:19 - [TEST_SUITE][FAILED] - TS_Customer_Register: Test Cases/Customer Register/CR_Check phone number validity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Your registration is completed. Please check your email address to follow the process to confirm your registration.' and expected text 'Phone numbers must contain only numbers, be 10 - 15 characters long and contain no spaces.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CR_Check phone number validity.run(CR_Check phone number validity:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732369155413.run(TempTestSuite1732369155413.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

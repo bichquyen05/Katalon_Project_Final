@@ -7,7 +7,8 @@
    <createdVersion>9.3.1</createdVersion>
    <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedVersion>9.3.1</modifiedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>9.7.2</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <projectFileLocation>D:\Katalon\Katalon_Project_Final\Katalon_Project_Final.prj</projectFileLocation>
    <sourceContent>
