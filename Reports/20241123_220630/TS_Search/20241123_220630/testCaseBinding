@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/SP_Search_Page","testCaseId":"Test Cases/SP_Search_Page","iterationVariableName":""}
+{"testCaseName":"Test Cases/SP_Search_Page","testCaseId":"Test Cases/SP_Search_Page","iterationVariableName":"","bindedValues":{"keyword":"\u0027khoai   t\\u00E2y    \u0027"}}
+{"testCaseName":"Test Cases/SP_Search_Page","testCaseId":"Test Cases/SP_Search_Page","iterationVariableName":"","bindedValues":{"keyword":"\u0027\u0026 khoai t\\u00E2y ~ +\u0027"}}
+{"testCaseName":"Test Cases/SP_Search_Page","testCaseId":"Test Cases/SP_Search_Page","iterationVariableName":"","bindedValues":{"keyword":"\u0027kHoAi T\\u00C2y\u0027"}}
+{"testCaseName":"Test Cases/SP_Search_Page","testCaseId":"Test Cases/SP_Search_Page","iterationVariableName":"","bindedValues":{"keyword":"\u0027KHOAI T\\u00C2Y\u0027"}}
+{"testCaseName":"Test Cases/SP_Search_Page","testCaseId":"Test Cases/SP_Search_Page","iterationVariableName":"","bindedValues":{"keyword":"\u0027khoai t\\u00E2y\u0027"}}

@@ -1,0 +1,73 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Search,Chrome 131.0.0.0,,,23-11-2024 22:06:34,23-11-2024 22:11:43,5m - 8.554s,FAILED
+,,,,,,,
+Test Cases/SP_Search_Page,Chrome 131.0.0.0,,,23-11-2024 22:06:34,23-11-2024 22:07:23,48.784s,PASSED
+openBrowser(url),Chrome 131.0.0.0,,,23-11-2024 22:06:35,23-11-2024 22:07:20,44.831s,PASSED
+"cleanedKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:07:20,23-11-2024 22:07:20,0.005s,PASSED
+"resultWithKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:07:20,23-11-2024 22:07:20,0.005s,PASSED
+"resultWithCleanedKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:07:20,23-11-2024 22:07:20,0.005s,PASSED
+"setText(findTestObject(""Search_Page/input_Keyword""), keyword)",Chrome 131.0.0.0,,,23-11-2024 22:07:20,23-11-2024 22:07:20,0.963s,PASSED
+"keyword = getAttribute(findTestObject(""Search_Page/input_Keyword""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 22:07:20,23-11-2024 22:07:21,0.328s,PASSED
+"click(findTestObject(""Search_Page/button_Search""))",Chrome 131.0.0.0,,,23-11-2024 22:07:21,23-11-2024 22:07:21,0.443s,PASSED
+"if (keyword == null || keyword.trim() == """")",Chrome 131.0.0.0,,,23-11-2024 22:07:21,23-11-2024 22:07:23,1.764s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,23-11-2024 22:07:23,23-11-2024 22:07:23,0.032s,PASSED
+,,,,,,,
+Test Cases/SP_Search_Page,Chrome 131.0.0.0,,,23-11-2024 22:07:23,23-11-2024 22:08:13,49.700s,FAILED
+openBrowser(url),Chrome 131.0.0.0,,,23-11-2024 22:07:23,23-11-2024 22:07:56,33.275s,PASSED
+"cleanedKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:07:56,23-11-2024 22:07:56,0.004s,PASSED
+"resultWithKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:07:56,23-11-2024 22:07:56,0.001s,PASSED
+"resultWithCleanedKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:07:56,23-11-2024 22:07:56,0.001s,PASSED
+"setText(findTestObject(""Search_Page/input_Keyword""), keyword)",Chrome 131.0.0.0,,,23-11-2024 22:07:56,23-11-2024 22:07:57,0.893s,PASSED
+"keyword = getAttribute(findTestObject(""Search_Page/input_Keyword""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 22:07:57,23-11-2024 22:07:58,0.301s,PASSED
+"click(findTestObject(""Search_Page/button_Search""))",Chrome 131.0.0.0,,,23-11-2024 22:07:58,23-11-2024 22:08:03,5.290s,PASSED
+"if (keyword == null || keyword.trim() == """")",Chrome 131.0.0.0,,,23-11-2024 22:08:03,23-11-2024 22:08:03,0.002s,PASSED
+else,Chrome 131.0.0.0,,,23-11-2024 22:08:03,23-11-2024 22:08:13,9.876s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,23-11-2024 22:08:13,23-11-2024 22:08:13,0.012s,PASSED
+,,,,,,,
+Test Cases/SP_Search_Page,Chrome 131.0.0.0,,,23-11-2024 22:08:13,23-11-2024 22:09:14,1m - 0.775s,FAILED
+openBrowser(url),Chrome 131.0.0.0,,,23-11-2024 22:08:13,23-11-2024 22:08:50,37.582s,PASSED
+"cleanedKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:08:50,23-11-2024 22:08:50,0.002s,PASSED
+"resultWithKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:08:50,23-11-2024 22:08:50,0.001s,PASSED
+"resultWithCleanedKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:08:50,23-11-2024 22:08:50,0.001s,PASSED
+"setText(findTestObject(""Search_Page/input_Keyword""), keyword)",Chrome 131.0.0.0,,,23-11-2024 22:08:50,23-11-2024 22:08:51,0.989s,PASSED
+"keyword = getAttribute(findTestObject(""Search_Page/input_Keyword""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 22:08:51,23-11-2024 22:08:52,0.288s,PASSED
+"click(findTestObject(""Search_Page/button_Search""))",Chrome 131.0.0.0,,,23-11-2024 22:08:52,23-11-2024 22:08:58,6.564s,PASSED
+"if (keyword == null || keyword.trim() == """")",Chrome 131.0.0.0,,,23-11-2024 22:08:58,23-11-2024 22:08:58,0.002s,PASSED
+else,Chrome 131.0.0.0,,,23-11-2024 22:08:58,23-11-2024 22:09:14,15.300s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,23-11-2024 22:09:14,23-11-2024 22:09:14,0.002s,PASSED
+,,,,,,,
+Test Cases/SP_Search_Page,Chrome 131.0.0.0,,,23-11-2024 22:09:14,23-11-2024 22:10:04,50.793s,FAILED
+openBrowser(url),Chrome 131.0.0.0,,,23-11-2024 22:09:14,23-11-2024 22:09:47,32.882s,PASSED
+"cleanedKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:09:47,23-11-2024 22:09:47,0.000s,PASSED
+"resultWithKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:09:47,23-11-2024 22:09:47,0.001s,PASSED
+"resultWithCleanedKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:09:47,23-11-2024 22:09:47,0.004s,PASSED
+"setText(findTestObject(""Search_Page/input_Keyword""), keyword)",Chrome 131.0.0.0,,,23-11-2024 22:09:47,23-11-2024 22:09:47,0.889s,PASSED
+"keyword = getAttribute(findTestObject(""Search_Page/input_Keyword""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 22:09:47,23-11-2024 22:09:48,0.276s,PASSED
+"click(findTestObject(""Search_Page/button_Search""))",Chrome 131.0.0.0,,,23-11-2024 22:09:48,23-11-2024 22:09:56,8.014s,PASSED
+"if (keyword == null || keyword.trim() == """")",Chrome 131.0.0.0,,,23-11-2024 22:09:56,23-11-2024 22:09:56,0.001s,PASSED
+else,Chrome 131.0.0.0,,,23-11-2024 22:09:56,23-11-2024 22:10:04,8.680s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,23-11-2024 22:10:04,23-11-2024 22:10:04,0.002s,PASSED
+,,,,,,,
+Test Cases/SP_Search_Page,Chrome 131.0.0.0,,,23-11-2024 22:10:04,23-11-2024 22:10:53,48.301s,FAILED
+openBrowser(url),Chrome 131.0.0.0,,,23-11-2024 22:10:04,23-11-2024 22:10:37,32.368s,PASSED
+"cleanedKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:10:37,23-11-2024 22:10:37,0.001s,PASSED
+"resultWithKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:10:37,23-11-2024 22:10:37,0.001s,PASSED
+"resultWithCleanedKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:10:37,23-11-2024 22:10:37,0.000s,PASSED
+"setText(findTestObject(""Search_Page/input_Keyword""), keyword)",Chrome 131.0.0.0,,,23-11-2024 22:10:37,23-11-2024 22:10:38,1.010s,PASSED
+"keyword = getAttribute(findTestObject(""Search_Page/input_Keyword""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 22:10:38,23-11-2024 22:10:38,0.280s,PASSED
+"click(findTestObject(""Search_Page/button_Search""))",Chrome 131.0.0.0,,,23-11-2024 22:10:38,23-11-2024 22:10:44,5.618s,PASSED
+"if (keyword == null || keyword.trim() == """")",Chrome 131.0.0.0,,,23-11-2024 22:10:44,23-11-2024 22:10:44,0.001s,PASSED
+else,Chrome 131.0.0.0,,,23-11-2024 22:10:44,23-11-2024 22:10:53,8.976s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,23-11-2024 22:10:53,23-11-2024 22:10:53,0.003s,PASSED
+,,,,,,,
+Test Cases/SP_Search_Page,Chrome 131.0.0.0,,,23-11-2024 22:10:53,23-11-2024 22:11:43,49.882s,PASSED
+openBrowser(url),Chrome 131.0.0.0,,,23-11-2024 22:10:53,23-11-2024 22:11:26,32.762s,PASSED
+"cleanedKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:11:26,23-11-2024 22:11:26,0.003s,PASSED
+"resultWithKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:11:26,23-11-2024 22:11:26,0.000s,PASSED
+"resultWithCleanedKeyword = """"",Chrome 131.0.0.0,,,23-11-2024 22:11:26,23-11-2024 22:11:26,0.001s,PASSED
+"setText(findTestObject(""Search_Page/input_Keyword""), keyword)",Chrome 131.0.0.0,,,23-11-2024 22:11:26,23-11-2024 22:11:26,0.873s,PASSED
+"keyword = getAttribute(findTestObject(""Search_Page/input_Keyword""), ""value"")",Chrome 131.0.0.0,,,23-11-2024 22:11:26,23-11-2024 22:11:27,0.250s,PASSED
+"click(findTestObject(""Search_Page/button_Search""))",Chrome 131.0.0.0,,,23-11-2024 22:11:27,23-11-2024 22:11:35,7.912s,PASSED
+"if (keyword == null || keyword.trim() == """")",Chrome 131.0.0.0,,,23-11-2024 22:11:35,23-11-2024 22:11:35,0.000s,PASSED
+else,Chrome 131.0.0.0,,,23-11-2024 22:11:35,23-11-2024 22:11:43,8.045s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,23-11-2024 22:11:43,23-11-2024 22:11:43,0.003s,PASSED
