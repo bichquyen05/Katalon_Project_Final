@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Customer_Login" time="620.435" tests="7" failures="2" errors="0">
+   <testsuite name="TS_Customer_Login" tests="7" failures="2" errors="0" time="620.435" skipped="0" timestamp="23-11-2024T21:23:52" hostname="Hp - Admin-PC" id="Test Suites/TS_Customer_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Katalon\\Katalon_Project_Final\\Reports\\20241123_212348\\TS_Customer_Login\\20241123_212348"/>
+         <property name="logFiles" value="D:\\Katalon\\Katalon_Project_Final\\Reports\\20241123_212348\\TS_Customer_Login\\20241123_212348\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hp - Admin-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="sessionId" value="df212fd4551f1139586f5ce933cdbadc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Customer Login/CL_Email address and password cannot be blank" time="112.56" classname="Test Cases/Customer Login/CL_Email address and password cannot be blank" status="PASSED">
+         <system-out><![CDATA[23-11-2024T21:23:53 - [TEST_CASE][PASSED] - Test Cases/Customer Login/CL_Email address and password cannot be blank: Test Cases/Customer Login/CL_Email address and password cannot be blank
+
+23-11-2024T21:23:53 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T21:23:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-11-2024T21:23:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2024T21:25:10 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T21:25:10 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Login/a_Login")): Object: 'Object Repository/Customer_Login/a_Login' is clicked on
+
+23-11-2024T21:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Login/a_Login' is clicked on
+
+23-11-2024T21:25:22 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Login/input_Email Address"), email_address): Text '' is set on object 'Object Repository/Customer_Login/input_Email Address'
+
+23-11-2024T21:25:37 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer_Login/input_Email Address'
+
+23-11-2024T21:25:37 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Login/input_Password"), password): Text '' is set on object 'Object Repository/Customer_Login/input_Password'
+
+23-11-2024T21:25:37 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer_Login/input_Password'
+
+23-11-2024T21:25:37 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Login/btn_Login_form1")): Object: 'Object Repository/Customer_Login/btn_Login_form1' is clicked on
+
+23-11-2024T21:25:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Login/btn_Login_form1' is clicked on
+
+23-11-2024T21:25:43 - [TEST_STEP][PASSED] - if (email_address == "" || password == ""): null
+
+23-11-2024T21:25:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Customer_Login/div_Message Present"), 1): Object 'Object Repository/Customer_Login/div_Message Present' is present
+
+23-11-2024T21:25:44 - [MESSAGE][PASSED] - Object 'Object Repository/Customer_Login/div_Message Present' is present
+
+23-11-2024T21:25:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Customer_Login/div_Message Present"), "Email and/or Password can not be empty."): Actual text and expected text of test object 'Object Repository/Customer_Login/div_Message Present' are matched.
+
+23-11-2024T21:25:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer_Login/div_Message Present' are matched.
+
+23-11-2024T21:25:44 - [TEST_STEP][PASSED] - println("Email and/or Password can not be empty."): null
+
+23-11-2024T21:25:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+23-11-2024T21:25:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-11-2024T21:25:45 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+23-11-2024T21:25:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+23-11-2024T21:25:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer Login/CL_Email address format" time="75.271" classname="Test Cases/Customer Login/CL_Email address format" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Customer Login/CL_Email address format FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Actual text 'Email Address does not match.' and expected text 'Email address must be valid.' are not matched&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at CL_Email address format.run(CL_Email address format:91)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1732371828848.run(TempTestSuite1732371828848.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[23-11-2024T21:25:45 - [TEST_CASE][FAILED] - Test Cases/Customer Login/CL_Email address format: Test Cases/Customer Login/CL_Email address format FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Email Address does not match.' and expected text 'Email address must be valid.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CL_Email address format.run(CL_Email address format:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732371828848.run(TempTestSuite1732371828848.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+23-11-2024T21:25:46 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T21:25:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-11-2024T21:25:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-11-2024T21:25:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2024T21:26:40 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T21:26:40 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Login/a_Login")): Object: 'Object Repository/Customer_Login/a_Login' is clicked on
+
+23-11-2024T21:26:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Login/a_Login' is clicked on
+
+23-11-2024T21:26:49 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Login/input_Email Address"), email_address): Text 'hoangtran2.2.0.@.gmail.com' is set on object 'Object Repository/Customer_Login/input_Email Address'
+
+23-11-2024T21:26:50 - [MESSAGE][PASSED] - Text 'hoangtran2.2.0.@.gmail.com' is set on object 'Object Repository/Customer_Login/input_Email Address'
+
+23-11-2024T21:26:50 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Login/input_Password"), password): Text 'Hoang@123' is set on object 'Object Repository/Customer_Login/input_Password'
+
+23-11-2024T21:26:51 - [MESSAGE][PASSED] - Text 'Hoang@123' is set on object 'Object Repository/Customer_Login/input_Password'
+
+23-11-2024T21:26:51 - [TEST_STEP][PASSED] - email = getAttribute(findTestObject("Customer_Login/input_Email Address"), "value"): Attribute 'value' of object 'Object Repository/Customer_Login/input_Email Address' is: 'hoangtran2.2.0.@.gmail.com'
+
+23-11-2024T21:26:52 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Customer_Login/input_Email Address' is: 'hoangtran2.2.0.@.gmail.com'
+
+23-11-2024T21:26:52 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Login/btn_Login_form1")): Object: 'Object Repository/Customer_Login/btn_Login_form1' is clicked on
+
+23-11-2024T21:27:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Login/btn_Login_form1' is clicked on
+
+23-11-2024T21:27:00 - [TEST_STEP][PASSED] - if (isValidEmail(email)): null
+
+23-11-2024T21:27:00 - [TEST_STEP][PASSED] - if (!(e.contains("@"))): null
+
+23-11-2024T21:27:00 - [TEST_STEP][PASSED] - parts = e.split("@"): null
+
+23-11-2024T21:27:00 - [TEST_STEP][PASSED] - if (length != 2): null
+
+23-11-2024T21:27:00 - [TEST_STEP][PASSED] - user = parts[0]: null
+
+23-11-2024T21:27:00 - [TEST_STEP][PASSED] - domain = parts[1]: null
+
+23-11-2024T21:27:00 - [TEST_STEP][PASSED] - if (user.isEmpty() || user.startsWith(".") || user.endsWith(".")): null
+
+23-11-2024T21:27:00 - [TEST_STEP][PASSED] - return false: null
+
+23-11-2024T21:27:00 - [TEST_STEP][FAILED] - else: Unable to verify match between actual text 'Email Address does not match.' and expected text 'Email address must be valid.' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email Address does not match.' and expected text 'Email address must be valid.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CL_Email address format.run(CL_Email address format:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732371828848.run(TempTestSuite1732371828848.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T21:27:00 - [TEST_STEP][PASSED] - messagePresent = verifyElementPresent(findTestObject("Customer_Login/div_Message Present"), 1): Object 'Object Repository/Customer_Login/div_Message Present' is present
+
+23-11-2024T21:27:00 - [MESSAGE][PASSED] - Object 'Object Repository/Customer_Login/div_Message Present' is present
+
+23-11-2024T21:27:00 - [TEST_STEP][FAILED] - if (messagePresent): Unable to verify match between actual text 'Email Address does not match.' and expected text 'Email address must be valid.' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email Address does not match.' and expected text 'Email address must be valid.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CL_Email address format.run(CL_Email address format:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732371828848.run(TempTestSuite1732371828848.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T21:27:00 - [TEST_STEP][PASSED] - message = getText(findTestObject("Customer_Login/div_Message Present")): Text of object 'Object Repository/Customer_Login/div_Message Present' is: 'Email Address does not match.'
+
+23-11-2024T21:27:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customer_Login/div_Message Present' is: 'Email Address does not match.'
+
+23-11-2024T21:27:00 - [TEST_STEP][FAILED] - verifyMatch(message, "Email address must be valid.", false): Unable to verify match between actual text 'Email Address does not match.' and expected text 'Email address must be valid.' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email Address does not match.' and expected text 'Email address must be valid.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CL_Email address format.run(CL_Email address format:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732371828848.run(TempTestSuite1732371828848.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T21:27:00 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Email Address does not match.' and expected text 'Email address must be valid.' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email Address does not match.' and expected text 'Email address must be valid.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CL_Email address format.run(CL_Email address format:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732371828848.run(TempTestSuite1732371828848.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T21:27:01 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+23-11-2024T21:27:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+23-11-2024T21:27:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[23-11-2024T21:25:45 - [TEST_CASE][FAILED] - Test Cases/Customer Login/CL_Email address format: Test Cases/Customer Login/CL_Email address format FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Email Address does not match.' and expected text 'Email address must be valid.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CL_Email address format.run(CL_Email address format:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732371828848.run(TempTestSuite1732371828848.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer Login/CL_Email address exists in customer table database" time="73.969" classname="Test Cases/Customer Login/CL_Email address exists in customer table database" status="PASSED">
+         <system-out><![CDATA[23-11-2024T21:27:01 - [TEST_CASE][PASSED] - Test Cases/Customer Login/CL_Email address exists in customer table database: Test Cases/Customer Login/CL_Email address exists in customer table database
+
+23-11-2024T21:27:01 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T21:27:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-11-2024T21:27:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-11-2024T21:27:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2024T21:27:50 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T21:27:50 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Login/a_Login")): Object: 'Object Repository/Customer_Login/a_Login' is clicked on
+
+23-11-2024T21:28:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Login/a_Login' is clicked on
+
+23-11-2024T21:28:00 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Login/input_Email Address"), email_address): Text 'nhulannguyen@gmail.com' is set on object 'Object Repository/Customer_Login/input_Email Address'
+
+23-11-2024T21:28:01 - [MESSAGE][PASSED] - Text 'nhulannguyen@gmail.com' is set on object 'Object Repository/Customer_Login/input_Email Address'
+
+23-11-2024T21:28:01 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Login/input_Password"), password): Text 'Nhulan@123' is set on object 'Object Repository/Customer_Login/input_Password'
+
+23-11-2024T21:28:02 - [MESSAGE][PASSED] - Text 'Nhulan@123' is set on object 'Object Repository/Customer_Login/input_Password'
+
+23-11-2024T21:28:02 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Login/btn_Login_form1")): Object: 'Object Repository/Customer_Login/btn_Login_form1' is clicked on
+
+23-11-2024T21:28:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Login/btn_Login_form1' is clicked on
+
+23-11-2024T21:28:13 - [TEST_STEP][PASSED] - messagePresent = verifyElementPresent(findTestObject("Customer_Login/div_Message Present"), 1): Object 'Object Repository/Customer_Login/div_Message Present' is present
+
+23-11-2024T21:28:13 - [MESSAGE][PASSED] - Object 'Object Repository/Customer_Login/div_Message Present' is present
+
+23-11-2024T21:28:13 - [TEST_STEP][PASSED] - if (messagePresent): Actual text 'Sorry! Your account is inactive. Please contact to the administrator.' and expected text 'Sorry! Your account is inactive. Please contact to the administrator.' are matched 
+
+23-11-2024T21:28:13 - [TEST_STEP][PASSED] - message = getText(findTestObject("Customer_Login/div_Message Present")): Text of object 'Object Repository/Customer_Login/div_Message Present' is: 'Sorry! Your account is inactive. Please contact to the administrator.'
+
+23-11-2024T21:28:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customer_Login/div_Message Present' is: 'Sorry! Your account is inactive. Please contact to the administrator.'
+
+23-11-2024T21:28:13 - [TEST_STEP][PASSED] - verifyMatch(message, "Sorry! Your account is inactive. Please contact to the administrator.", false): Actual text 'Sorry! Your account is inactive. Please contact to the administrator.' and expected text 'Sorry! Your account is inactive. Please contact to the administrator.' are matched 
+
+23-11-2024T21:28:13 - [MESSAGE][PASSED] - Actual text 'Sorry! Your account is inactive. Please contact to the administrator.' and expected text 'Sorry! Your account is inactive. Please contact to the administrator.' are matched 
+
+23-11-2024T21:28:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+23-11-2024T21:28:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-11-2024T21:28:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+23-11-2024T21:28:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+23-11-2024T21:28:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer Login/CL_Email address does not exist in the database" time="91.844" classname="Test Cases/Customer Login/CL_Email address does not exist in the database" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Customer Login/CL_Email address does not exist in the database FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Actual text 'Email Address does not match.' and expected text 'Email Address not registered.' are not matched&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at CL_Email address does not exist in the database.run(CL_Email address does not exist in the database:39)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1732371828848.run(TempTestSuite1732371828848.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[23-11-2024T21:28:14 - [TEST_CASE][FAILED] - Test Cases/Customer Login/CL_Email address does not exist in the database: Test Cases/Customer Login/CL_Email address does not exist in the database FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Email Address does not match.' and expected text 'Email Address not registered.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CL_Email address does not exist in the database.run(CL_Email address does not exist in the database:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732371828848.run(TempTestSuite1732371828848.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+23-11-2024T21:28:15 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T21:28:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-11-2024T21:28:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-11-2024T21:28:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2024T21:28:54 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T21:28:54 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Login/a_Login")): Object: 'Object Repository/Customer_Login/a_Login' is clicked on
+
+23-11-2024T21:29:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Login/a_Login' is clicked on
+
+23-11-2024T21:29:18 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Login/input_Email Address"), email_address): Text 'hoangson@gmail.com' is set on object 'Object Repository/Customer_Login/input_Email Address'
+
+23-11-2024T21:29:19 - [MESSAGE][PASSED] - Text 'hoangson@gmail.com' is set on object 'Object Repository/Customer_Login/input_Email Address'
+
+23-11-2024T21:29:19 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Login/input_Password"), password): Text 'Hoangson@112' is set on object 'Object Repository/Customer_Login/input_Password'
+
+23-11-2024T21:29:20 - [MESSAGE][PASSED] - Text 'Hoangson@112' is set on object 'Object Repository/Customer_Login/input_Password'
+
+23-11-2024T21:29:20 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Login/btn_Login_form1")): Object: 'Object Repository/Customer_Login/btn_Login_form1' is clicked on
+
+23-11-2024T21:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Login/btn_Login_form1' is clicked on
+
+23-11-2024T21:29:46 - [TEST_STEP][PASSED] - messagePresent = verifyElementPresent(findTestObject("Customer_Login/div_Message Present"), 1): Object 'Object Repository/Customer_Login/div_Message Present' is present
+
+23-11-2024T21:29:46 - [MESSAGE][PASSED] - Object 'Object Repository/Customer_Login/div_Message Present' is present
+
+23-11-2024T21:29:46 - [TEST_STEP][FAILED] - if (messagePresent): Unable to verify match between actual text 'Email Address does not match.' and expected text 'Email Address not registered.' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email Address does not match.' and expected text 'Email Address not registered.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CL_Email address does not exist in the database.run(CL_Email address does not exist in the database:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732371828848.run(TempTestSuite1732371828848.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T21:29:46 - [TEST_STEP][PASSED] - message = getText(findTestObject("Customer_Login/div_Message Present")): Text of object 'Object Repository/Customer_Login/div_Message Present' is: 'Email Address does not match.'
+
+23-11-2024T21:29:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customer_Login/div_Message Present' is: 'Email Address does not match.'
+
+23-11-2024T21:29:46 - [TEST_STEP][FAILED] - verifyMatch(message, "Email Address not registered.", false): Unable to verify match between actual text 'Email Address does not match.' and expected text 'Email Address not registered.' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email Address does not match.' and expected text 'Email Address not registered.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CL_Email address does not exist in the database.run(CL_Email address does not exist in the database:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732371828848.run(TempTestSuite1732371828848.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T21:29:46 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Email Address does not match.' and expected text 'Email Address not registered.' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email Address does not match.' and expected text 'Email Address not registered.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CL_Email address does not exist in the database.run(CL_Email address does not exist in the database:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732371828848.run(TempTestSuite1732371828848.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-11-2024T21:29:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+23-11-2024T21:29:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+23-11-2024T21:29:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[23-11-2024T21:28:14 - [TEST_CASE][FAILED] - Test Cases/Customer Login/CL_Email address does not exist in the database: Test Cases/Customer Login/CL_Email address does not exist in the database FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Email Address does not match.' and expected text 'Email Address not registered.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CL_Email address does not exist in the database.run(CL_Email address does not exist in the database:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732371828848.run(TempTestSuite1732371828848.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer Login/CL_Incorrect email address, correct password" time="63.746" classname="Test Cases/Customer Login/CL_Incorrect email address, correct password" status="PASSED">
+         <system-out><![CDATA[23-11-2024T21:29:46 - [TEST_CASE][PASSED] - Test Cases/Customer Login/CL_Incorrect email address, correct password: Test Cases/Customer Login/CL_Incorrect email address, correct password
+
+23-11-2024T21:29:46 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T21:29:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-11-2024T21:29:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-11-2024T21:29:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2024T21:30:32 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T21:30:32 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Login/a_Login")): Object: 'Object Repository/Customer_Login/a_Login' is clicked on
+
+23-11-2024T21:30:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Login/a_Login' is clicked on
+
+23-11-2024T21:30:39 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Login/input_Email Address"), email_address): Text 'hoangsontran@gmail.com' is set on object 'Object Repository/Customer_Login/input_Email Address'
+
+23-11-2024T21:30:40 - [MESSAGE][PASSED] - Text 'hoangsontran@gmail.com' is set on object 'Object Repository/Customer_Login/input_Email Address'
+
+23-11-2024T21:30:40 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Login/input_Password"), password): Text 'Hoang@123' is set on object 'Object Repository/Customer_Login/input_Password'
+
+23-11-2024T21:30:41 - [MESSAGE][PASSED] - Text 'Hoang@123' is set on object 'Object Repository/Customer_Login/input_Password'
+
+23-11-2024T21:30:41 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Login/btn_Login_form1")): Object: 'Object Repository/Customer_Login/btn_Login_form1' is clicked on
+
+23-11-2024T21:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Login/btn_Login_form1' is clicked on
+
+23-11-2024T21:30:49 - [TEST_STEP][PASSED] - messagePresent = verifyElementPresent(findTestObject("Customer_Login/div_Message Present"), 1): Object 'Object Repository/Customer_Login/div_Message Present' is present
+
+23-11-2024T21:30:50 - [MESSAGE][PASSED] - Object 'Object Repository/Customer_Login/div_Message Present' is present
+
+23-11-2024T21:30:50 - [TEST_STEP][PASSED] - if (messagePresent): Actual text 'Email Address does not match.' and expected text 'Email Address does not match.' are matched 
+
+23-11-2024T21:30:50 - [TEST_STEP][PASSED] - message = getText(findTestObject("Customer_Login/div_Message Present")): Text of object 'Object Repository/Customer_Login/div_Message Present' is: 'Email Address does not match.'
+
+23-11-2024T21:30:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customer_Login/div_Message Present' is: 'Email Address does not match.'
+
+23-11-2024T21:30:50 - [TEST_STEP][PASSED] - verifyMatch(message, "Email Address does not match.", false): Actual text 'Email Address does not match.' and expected text 'Email Address does not match.' are matched 
+
+23-11-2024T21:30:50 - [MESSAGE][PASSED] - Actual text 'Email Address does not match.' and expected text 'Email Address does not match.' are matched 
+
+23-11-2024T21:30:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-11-2024T21:30:50 - [MESSAGE][PASSED] - Browser is closed
+
+23-11-2024T21:30:50 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+23-11-2024T21:30:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+23-11-2024T21:30:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer Login/CL_Email address correct, password incorrect" time="104.686" classname="Test Cases/Customer Login/CL_Email address correct, password incorrect" status="PASSED">
+         <system-out><![CDATA[23-11-2024T21:30:50 - [TEST_CASE][PASSED] - Test Cases/Customer Login/CL_Email address correct, password incorrect: Test Cases/Customer Login/CL_Email address correct, password incorrect
+
+23-11-2024T21:30:50 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T21:30:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-11-2024T21:30:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2024T21:32:22 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T21:32:22 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Login/a_Login")): Object: 'Object Repository/Customer_Login/a_Login' is clicked on
+
+23-11-2024T21:32:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Login/a_Login' is clicked on
+
+23-11-2024T21:32:27 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Login/input_Email Address"), email_address): Text 'hoangtran@gmail.com' is set on object 'Object Repository/Customer_Login/input_Email Address'
+
+23-11-2024T21:32:28 - [MESSAGE][PASSED] - Text 'hoangtran@gmail.com' is set on object 'Object Repository/Customer_Login/input_Email Address'
+
+23-11-2024T21:32:28 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Login/input_Password"), password): Text 'hoang@123' is set on object 'Object Repository/Customer_Login/input_Password'
+
+23-11-2024T21:32:29 - [MESSAGE][PASSED] - Text 'hoang@123' is set on object 'Object Repository/Customer_Login/input_Password'
+
+23-11-2024T21:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Login/btn_Login_form1")): Object: 'Object Repository/Customer_Login/btn_Login_form1' is clicked on
+
+23-11-2024T21:32:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Login/btn_Login_form1' is clicked on
+
+23-11-2024T21:32:34 - [TEST_STEP][PASSED] - messagePresent = verifyElementPresent(findTestObject("Customer_Login/div_Message Present"), 1): Object 'Object Repository/Customer_Login/div_Message Present' is present
+
+23-11-2024T21:32:34 - [MESSAGE][PASSED] - Object 'Object Repository/Customer_Login/div_Message Present' is present
+
+23-11-2024T21:32:34 - [TEST_STEP][PASSED] - if (messagePresent): Actual text 'Passwords do not match.' and expected text 'Passwords do not match.' are matched 
+
+23-11-2024T21:32:34 - [TEST_STEP][PASSED] - message = getText(findTestObject("Customer_Login/div_Message Present")): Text of object 'Object Repository/Customer_Login/div_Message Present' is: 'Passwords do not match.'
+
+23-11-2024T21:32:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customer_Login/div_Message Present' is: 'Passwords do not match.'
+
+23-11-2024T21:32:35 - [TEST_STEP][PASSED] - verifyMatch(message, "Passwords do not match.", false): Actual text 'Passwords do not match.' and expected text 'Passwords do not match.' are matched 
+
+23-11-2024T21:32:35 - [MESSAGE][PASSED] - Actual text 'Passwords do not match.' and expected text 'Passwords do not match.' are matched 
+
+23-11-2024T21:32:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-11-2024T21:32:35 - [MESSAGE][PASSED] - Browser is closed
+
+23-11-2024T21:32:35 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+23-11-2024T21:32:35 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+23-11-2024T21:32:35 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer Login/CL_Login successful" time="98.044" classname="Test Cases/Customer Login/CL_Login successful" status="PASSED">
+         <system-out><![CDATA[23-11-2024T21:32:35 - [TEST_CASE][PASSED] - Test Cases/Customer Login/CL_Login successful: Test Cases/Customer Login/CL_Login successful
+
+23-11-2024T21:32:35 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T21:32:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-11-2024T21:32:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-11-2024T21:33:17 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+23-11-2024T21:33:17 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Login/a_Login")): Object: 'Object Repository/Customer_Login/a_Login' is clicked on
+
+23-11-2024T21:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Login/a_Login' is clicked on
+
+23-11-2024T21:33:42 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Login/input_Email Address"), email_address): Text 'hoangtran@gmail.com' is set on object 'Object Repository/Customer_Login/input_Email Address'
+
+23-11-2024T21:33:43 - [MESSAGE][PASSED] - Text 'hoangtran@gmail.com' is set on object 'Object Repository/Customer_Login/input_Email Address'
+
+23-11-2024T21:33:43 - [TEST_STEP][PASSED] - setText(findTestObject("Customer_Login/input_Password"), password): Text 'Hoang@123' is set on object 'Object Repository/Customer_Login/input_Password'
+
+23-11-2024T21:33:44 - [MESSAGE][PASSED] - Text 'Hoang@123' is set on object 'Object Repository/Customer_Login/input_Password'
+
+23-11-2024T21:33:44 - [TEST_STEP][PASSED] - click(findTestObject("Customer_Login/btn_Login_form1")): Object: 'Object Repository/Customer_Login/btn_Login_form1' is clicked on
+
+23-11-2024T21:34:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Login/btn_Login_form1' is clicked on
+
+23-11-2024T21:34:11 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'http://shopbachhoaweb.wuaze.com/index.php'
+
+23-11-2024T21:34:11 - [MESSAGE][PASSED] - Current window's url is: 'http://shopbachhoaweb.wuaze.com/index.php'
+
+23-11-2024T21:34:11 - [TEST_STEP][PASSED] - expectedUrl = "http://shopbachhoaweb.wuaze.com/index.php": null
+
+23-11-2024T21:34:11 - [TEST_STEP][PASSED] - verifyMatch(currentUrl, expectedUrl, false): Actual text 'http://shopbachhoaweb.wuaze.com/index.php' and expected text 'http://shopbachhoaweb.wuaze.com/index.php' are matched 
+
+23-11-2024T21:34:11 - [MESSAGE][PASSED] - Actual text 'http://shopbachhoaweb.wuaze.com/index.php' and expected text 'http://shopbachhoaweb.wuaze.com/index.php' are matched 
+
+23-11-2024T21:34:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-11-2024T21:34:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-11-2024T21:34:13 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+23-11-2024T21:34:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+23-11-2024T21:34:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-11-2024T21:23:52 - [TEST_SUITE][FAILED] - TS_Customer_Login: Test Cases/Customer Login/CL_Email address format FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Email Address does not match.' and expected text 'Email address must be valid.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CL_Email address format.run(CL_Email address format:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732371828848.run(TempTestSuite1732371828848.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[23-11-2024T21:23:52 - [TEST_SUITE][FAILED] - TS_Customer_Login: Test Cases/Customer Login/CL_Email address format FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Email Address does not match.' and expected text 'Email address must be valid.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at CL_Email address format.run(CL_Email address format:91)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732371828848.run(TempTestSuite1732371828848.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

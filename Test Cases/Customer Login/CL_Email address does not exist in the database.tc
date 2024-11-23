@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CL_Email address does not exist in the database</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3808e33c-015d-46b7-9319-f3f945791dba</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1ac34b12-4bbc-4f11-90ef-7510c0cefae7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e4e7da0d-8c80-45c5-bdef-124591b940f0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e1865150-0c64-4511-906d-bdd5707d9dc3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'http://shopbachhoaweb.wuaze.com/'</defaultValue>
+      <description></description>
+      <id>1ac34b12-4bbc-4f11-90ef-7510c0cefae7</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'hoangson@gmail.com'</defaultValue>
+      <description></description>
+      <id>e4e7da0d-8c80-45c5-bdef-124591b940f0</id>
+      <masked>false</masked>
+      <name>email_address</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hoangson@112'</defaultValue>
+      <description></description>
+      <id>e1865150-0c64-4511-906d-bdd5707d9dc3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

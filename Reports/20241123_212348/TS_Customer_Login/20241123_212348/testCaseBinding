@@ -1,0 +1,7 @@
+{"testCaseName":"Test Cases/Customer Login/CL_Email address and password cannot be blank","testCaseId":"Test Cases/Customer Login/CL_Email address and password cannot be blank","iterationVariableName":""}
+{"testCaseName":"Test Cases/Customer Login/CL_Email address format","testCaseId":"Test Cases/Customer Login/CL_Email address format","iterationVariableName":""}
+{"testCaseName":"Test Cases/Customer Login/CL_Email address exists in customer table database","testCaseId":"Test Cases/Customer Login/CL_Email address exists in customer table database","iterationVariableName":""}
+{"testCaseName":"Test Cases/Customer Login/CL_Email address does not exist in the database","testCaseId":"Test Cases/Customer Login/CL_Email address does not exist in the database","iterationVariableName":""}
+{"testCaseName":"Test Cases/Customer Login/CL_Incorrect email address, correct password","testCaseId":"Test Cases/Customer Login/CL_Incorrect email address, correct password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Customer Login/CL_Email address correct, password incorrect","testCaseId":"Test Cases/Customer Login/CL_Email address correct, password incorrect","iterationVariableName":""}
+{"testCaseName":"Test Cases/Customer Login/CL_Login successful","testCaseId":"Test Cases/Customer Login/CL_Login successful","iterationVariableName":""}
