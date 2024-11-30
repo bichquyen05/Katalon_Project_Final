@@ -1,0 +1,164 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Shopping Cart,Chrome 131.0.0.0,,,30-11-2024 09:52:13,30-11-2024 10:03:42,11m - 28.989s,FAILED
+,,,,,,,
+Test Cases/Shopping Cart/SC_Add product to cart,Chrome 131.0.0.0,Add one product to cart and check product information is displayed correctly,,30-11-2024 09:52:13,30-11-2024 09:53:03,50.354s,PASSED
+"openBrowser(""http://shopbachhoaweb.wuaze.com/"")",Chrome 131.0.0.0,,,30-11-2024 09:52:14,30-11-2024 09:52:29,15.322s,PASSED
+"click(findTestObject(""Shopping Cart/a_Cart""))",Chrome 131.0.0.0,,,30-11-2024 09:52:29,30-11-2024 09:52:34,5.505s,PASSED
+driver = getWebDriver(),Chrome 131.0.0.0,,,30-11-2024 09:52:34,30-11-2024 09:52:34,0.038s,PASSED
+"emptyCartMessage = xpath(""//h2"")).getText()",Chrome 131.0.0.0,,,30-11-2024 09:52:34,30-11-2024 09:52:35,0.427s,PASSED
+"assert emptyCartMessage.contains(""Your cart is empty!"") : ""Cart does not show empty status!""",Chrome 131.0.0.0,,,30-11-2024 09:52:35,30-11-2024 09:52:35,0.031s,PASSED
+"navigateToUrl(""http://shopbachhoaweb.wuaze.com/"")",Chrome 131.0.0.0,,,30-11-2024 09:52:35,30-11-2024 09:52:40,5.163s,PASSED
+"click(findTestObject(""Shopping Cart/a_Product Details""))",Chrome 131.0.0.0,,,30-11-2024 09:52:40,30-11-2024 09:52:46,5.831s,PASSED
+"name = getText(findTestObject(""Shopping Cart/h2_PD_Product Name""))",Chrome 131.0.0.0,,,30-11-2024 09:52:46,30-11-2024 09:52:46,0.494s,PASSED
+"fullPrice = getText(findTestObject(""Shopping Cart/span_PD_Price"")).split("" "")[0]",Chrome 131.0.0.0,,,30-11-2024 09:52:46,30-11-2024 09:52:47,0.345s,PASSED
+"price = Double.parseDouble(fullPrice.replace("","", """"))",Chrome 131.0.0.0,,,30-11-2024 09:52:47,30-11-2024 09:52:47,0.023s,PASSED
+"quantity = Integer.parseInt(getAttribute(findTestObject(""Shopping Cart/input_PD_Product Quantity""), ""value""))",Chrome 131.0.0.0,,,30-11-2024 09:52:47,30-11-2024 09:52:47,0.382s,PASSED
+"click(findTestObject(""Shopping Cart/btn_PD_Add To Cart""))",Chrome 131.0.0.0,,,30-11-2024 09:52:47,30-11-2024 09:52:56,8.591s,PASSED
+"click(findTestObject(""Shopping Cart/a_Cart""))",Chrome 131.0.0.0,,,30-11-2024 09:52:56,30-11-2024 09:53:02,5.848s,PASSED
+"productRows = driver.findElements(By.xpath(""//table/tbody/tr""))",Chrome 131.0.0.0,,,30-11-2024 09:53:02,30-11-2024 09:53:02,0.592s,PASSED
+"assert productRows.size() > 0 : ""Cart is still empty after adding products!""",Chrome 131.0.0.0,,,30-11-2024 09:53:02,30-11-2024 09:53:02,0.007s,PASSED
+lastRow = productRows.get(productRows.size() - 1),Chrome 131.0.0.0,,,30-11-2024 09:53:02,30-11-2024 09:53:02,0.015s,PASSED
+"sName = xpath(""/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[3]"")).getText()",Chrome 131.0.0.0,,,30-11-2024 09:53:02,30-11-2024 09:53:02,0.296s,PASSED
+"sPrice = getText().split("" "")[0]",Chrome 131.0.0.0,,,30-11-2024 09:53:02,30-11-2024 09:53:03,0.283s,PASSED
+"bPrice = Double.parseDouble(sPrice.replace("","", """"))",Chrome 131.0.0.0,,,30-11-2024 09:53:03,30-11-2024 09:53:03,0.007s,PASSED
+"sQuantity = xpath(""/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[7]/input[3]"")).getAttribute(""value"")",Chrome 131.0.0.0,,,30-11-2024 09:53:03,30-11-2024 09:53:03,0.287s,PASSED
+iQuantity = Integer.parseInt(sQuantity),Chrome 131.0.0.0,,,30-11-2024 09:53:03,30-11-2024 09:53:03,0.004s,PASSED
+"sTotal = getText().split("" "")[0]",Chrome 131.0.0.0,,,30-11-2024 09:53:03,30-11-2024 09:53:03,0.294s,PASSED
+"bTotal = Double.parseDouble(sTotal.replace("","", """"))",Chrome 131.0.0.0,,,30-11-2024 09:53:03,30-11-2024 09:53:03,0.028s,PASSED
+"assert sName == name : ""Product name does not match!""",Chrome 131.0.0.0,,,30-11-2024 09:53:03,30-11-2024 09:53:03,0.002s,PASSED
+"assert bPrice == price : ""Product prices do not match!""",Chrome 131.0.0.0,,,30-11-2024 09:53:03,30-11-2024 09:53:03,0.003s,PASSED
+"assert iQuantity == quantity : ""Product quantity does not match!""",Chrome 131.0.0.0,,,30-11-2024 09:53:03,30-11-2024 09:53:03,0.003s,PASSED
+bexpectedTotal = bPrice * iQuantity,Chrome 131.0.0.0,,,30-11-2024 09:53:03,30-11-2024 09:53:03,0.044s,PASSED
+assert Math.abs(bTotal - bexpectedTotal) < 0.01,Chrome 131.0.0.0,,,30-11-2024 09:53:03,30-11-2024 09:53:03,0.017s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,30-11-2024 09:53:03,30-11-2024 09:53:03,0.046s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/SC_Show successful add to cart message,Chrome 131.0.0.0,Check if the product added to cart successfully message should be displayed,,30-11-2024 09:53:03,30-11-2024 09:54:16,1m - 12.823s,FAILED
+"openBrowser(""http://shopbachhoaweb.wuaze.com/"")",Chrome 131.0.0.0,,,30-11-2024 09:53:04,30-11-2024 09:53:38,34.532s,PASSED
+"click(findTestObject(""Shopping Cart/a_Cart""))",Chrome 131.0.0.0,,,30-11-2024 09:53:38,30-11-2024 09:53:44,5.370s,PASSED
+driver = getWebDriver(),Chrome 131.0.0.0,,,30-11-2024 09:53:44,30-11-2024 09:53:44,0.003s,PASSED
+"emptyCartMessage = xpath(""//h2"")).getText()",Chrome 131.0.0.0,,,30-11-2024 09:53:44,30-11-2024 09:53:44,0.546s,PASSED
+"assert emptyCartMessage.contains(""Your cart is empty!"") : ""Cart does not show empty status!""",Chrome 131.0.0.0,,,30-11-2024 09:53:44,30-11-2024 09:53:44,0.005s,PASSED
+"navigateToUrl(""http://shopbachhoaweb.wuaze.com/"")",Chrome 131.0.0.0,,,30-11-2024 09:53:44,30-11-2024 09:53:49,5.110s,PASSED
+"click(findTestObject(""Shopping Cart/a_Product Details""))",Chrome 131.0.0.0,,,30-11-2024 09:53:49,30-11-2024 09:53:57,7.583s,PASSED
+"click(findTestObject(""Shopping Cart/btn_PD_Add To Cart""))",Chrome 131.0.0.0,,,30-11-2024 09:53:57,30-11-2024 09:54:06,8.848s,PASSED
+messagePresent = verifyAlertPresent(10),Chrome 131.0.0.0,,,30-11-2024 09:54:06,30-11-2024 09:54:16,10.474s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,30-11-2024 09:54:16,30-11-2024 09:54:16,0.004s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/SC_Update cart,Chrome 131.0.0.0,"Update product quantity and check total amount, order total has been updated accordingly",,30-11-2024 09:54:16,30-11-2024 09:55:24,1m - 7.544s,PASSED
+"openBrowser(""http://shopbachhoaweb.wuaze.com/"")",Chrome 131.0.0.0,,,30-11-2024 09:54:17,30-11-2024 09:54:47,29.857s,PASSED
+driver = getWebDriver(),Chrome 131.0.0.0,,,30-11-2024 09:54:47,30-11-2024 09:54:47,0.010s,PASSED
+"navigateToUrl(""http://shopbachhoaweb.wuaze.com/"")",Chrome 131.0.0.0,,,30-11-2024 09:54:47,30-11-2024 09:54:52,5.511s,PASSED
+"click(findTestObject(""Shopping Cart/a_Product Details""))",Chrome 131.0.0.0,,,30-11-2024 09:54:52,30-11-2024 09:54:59,7.355s,PASSED
+"click(findTestObject(""Shopping Cart/btn_PD_Add To Cart""))",Chrome 131.0.0.0,,,30-11-2024 09:54:59,30-11-2024 09:55:08,8.192s,PASSED
+"click(findTestObject(""Shopping Cart/a_Cart""))",Chrome 131.0.0.0,,,30-11-2024 09:55:08,30-11-2024 09:55:13,5.468s,PASSED
+"productRows = driver.findElements(By.xpath(""//table/tbody/tr""))",Chrome 131.0.0.0,,,30-11-2024 09:55:13,30-11-2024 09:55:14,0.488s,PASSED
+"assert productRows.size() > 0 : ""Cart is still empty after adding products!""",Chrome 131.0.0.0,,,30-11-2024 09:55:14,30-11-2024 09:55:14,0.004s,PASSED
+lastRow = productRows.get(productRows.size() - 1),Chrome 131.0.0.0,,,30-11-2024 09:55:14,30-11-2024 09:55:14,0.004s,PASSED
+"sPrice = getText().split("" "")[0]",Chrome 131.0.0.0,,,30-11-2024 09:55:14,30-11-2024 09:55:14,0.301s,PASSED
+"bPrice = Double.parseDouble(sPrice.replace("","", """"))",Chrome 131.0.0.0,,,30-11-2024 09:55:14,30-11-2024 09:55:14,0.004s,PASSED
+"quantityInput = lastRow.findElement(By.xpath(""/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[7]/input[3]""))",Chrome 131.0.0.0,,,30-11-2024 09:55:14,30-11-2024 09:55:14,0.264s,PASSED
+"quantityBefore = Integer.parseInt(quantityInput.getAttribute(""value""))",Chrome 131.0.0.0,,,30-11-2024 09:55:14,30-11-2024 09:55:14,0.022s,PASSED
+quantityInput.clear(),Chrome 131.0.0.0,,,30-11-2024 09:55:14,30-11-2024 09:55:14,0.081s,PASSED
+quantityInput.sendKeys(quantity),Chrome 131.0.0.0,,,30-11-2024 09:55:14,30-11-2024 09:55:14,0.098s,PASSED
+"quantity = Integer.parseInt(quantityInput.getAttribute(""value""))",Chrome 131.0.0.0,,,30-11-2024 09:55:14,30-11-2024 09:55:14,0.023s,PASSED
+"click(findTestObject(""Shopping Cart/btn_Update Cart""))",Chrome 131.0.0.0,,,30-11-2024 09:55:14,30-11-2024 09:55:20,5.278s,PASSED
+"quantityAfter = Integer.parseInt(getAttribute(findTestObject(""Shopping Cart/input_Cart_Quantity""), ""value""))",Chrome 131.0.0.0,,,30-11-2024 09:55:20,30-11-2024 09:55:23,3.504s,PASSED
+"sTotalAfter = getText(findTestObject(""Shopping Cart/td_Cart_Total"")).split("" "")[0]",Chrome 131.0.0.0,,,30-11-2024 09:55:23,30-11-2024 09:55:23,0.299s,PASSED
+"totalAfter = Double.parseDouble(sTotalAfter.replace("","", """"))",Chrome 131.0.0.0,,,30-11-2024 09:55:23,30-11-2024 09:55:23,0.004s,PASSED
+"sTotalOrderlAfter = getText(findTestObject(""Shopping Cart/th_Cart_Total Order"")).split("" "")[0]",Chrome 131.0.0.0,,,30-11-2024 09:55:23,30-11-2024 09:55:24,0.313s,PASSED
+"totalOrderAfter = Double.parseDouble(sTotalOrderlAfter.replace("","", """"))",Chrome 131.0.0.0,,,30-11-2024 09:55:24,30-11-2024 09:55:24,0.004s,PASSED
+totalExpected = quantityAfter * bPrice,Chrome 131.0.0.0,,,30-11-2024 09:55:24,30-11-2024 09:55:24,0.012s,PASSED
+"assert quantityAfter == quantity : ""Quantity not updated yet!""",Chrome 131.0.0.0,,,30-11-2024 09:55:24,30-11-2024 09:55:24,0.002s,PASSED
+"assert totalAfter == totalExpected : ""Total update incorrect!""",Chrome 131.0.0.0,,,30-11-2024 09:55:24,30-11-2024 09:55:24,0.001s,PASSED
+"assert totalOrderAfter == totalExpected : ""Order total updated incorrect!""",Chrome 131.0.0.0,,,30-11-2024 09:55:24,30-11-2024 09:55:24,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,30-11-2024 09:55:24,30-11-2024 09:55:24,0.003s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/SC_Show successful update message,Chrome 131.0.0.0,Successful cart update message must be displayed,,30-11-2024 09:55:24,30-11-2024 09:56:21,56.788s,PASSED
+"openBrowser(""http://shopbachhoaweb.wuaze.com/"")",Chrome 131.0.0.0,,,30-11-2024 09:55:24,30-11-2024 09:55:45,20.544s,PASSED
+driver = getWebDriver(),Chrome 131.0.0.0,,,30-11-2024 09:55:45,30-11-2024 09:55:45,0.003s,PASSED
+"navigateToUrl(""http://shopbachhoaweb.wuaze.com/"")",Chrome 131.0.0.0,,,30-11-2024 09:55:45,30-11-2024 09:55:50,5.767s,PASSED
+"click(findTestObject(""Shopping Cart/a_Product Details""))",Chrome 131.0.0.0,,,30-11-2024 09:55:50,30-11-2024 09:55:57,6.681s,PASSED
+"click(findTestObject(""Shopping Cart/btn_PD_Add To Cart""))",Chrome 131.0.0.0,,,30-11-2024 09:55:57,30-11-2024 09:56:06,8.514s,PASSED
+"click(findTestObject(""Shopping Cart/a_Cart""))",Chrome 131.0.0.0,,,30-11-2024 09:56:06,30-11-2024 09:56:11,5.547s,PASSED
+"productRows = driver.findElements(By.xpath(""//table/tbody/tr""))",Chrome 131.0.0.0,,,30-11-2024 09:56:11,30-11-2024 09:56:12,0.504s,PASSED
+"assert productRows.size() > 0 : ""Cart is still empty after adding products!""",Chrome 131.0.0.0,,,30-11-2024 09:56:12,30-11-2024 09:56:12,0.003s,PASSED
+lastRow = productRows.get(productRows.size() - 1),Chrome 131.0.0.0,,,30-11-2024 09:56:12,30-11-2024 09:56:12,0.004s,PASSED
+"quantityInput = lastRow.findElement(By.xpath(""/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[7]/input[3]""))",Chrome 131.0.0.0,,,30-11-2024 09:56:12,30-11-2024 09:56:12,0.272s,PASSED
+"quantityBefore = Integer.parseInt(quantityInput.getAttribute(""value""))",Chrome 131.0.0.0,,,30-11-2024 09:56:12,30-11-2024 09:56:12,0.029s,PASSED
+quantityInput.clear(),Chrome 131.0.0.0,,,30-11-2024 09:56:12,30-11-2024 09:56:12,0.123s,PASSED
+quantityInput.sendKeys(quantity),Chrome 131.0.0.0,,,30-11-2024 09:56:12,30-11-2024 09:56:15,3.062s,PASSED
+"click(findTestObject(""Shopping Cart/btn_Update Cart""))",Chrome 131.0.0.0,,,30-11-2024 09:56:15,30-11-2024 09:56:21,5.374s,PASSED
+messagePresent = verifyAlertPresent(10),Chrome 131.0.0.0,,,30-11-2024 09:56:21,30-11-2024 09:56:21,0.014s,PASSED
+if (messagePresent),Chrome 131.0.0.0,,,30-11-2024 09:56:21,30-11-2024 09:56:21,0.046s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,30-11-2024 09:56:21,30-11-2024 09:56:21,0.003s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/SC_Cancel removing product from cart,Chrome 131.0.0.0,"Cancel removing product from cart, product is still in cart",,30-11-2024 09:56:21,30-11-2024 09:58:02,1m - 41.673s,PASSED
+"openBrowser(""http://shopbachhoaweb.wuaze.com/"")",Chrome 131.0.0.0,,,30-11-2024 09:56:21,30-11-2024 09:56:55,33.686s,PASSED
+driver = getWebDriver(),Chrome 131.0.0.0,,,30-11-2024 09:56:55,30-11-2024 09:56:55,0.002s,PASSED
+"navigateToUrl(""http://shopbachhoaweb.wuaze.com/"")",Chrome 131.0.0.0,,,30-11-2024 09:56:55,30-11-2024 09:57:21,26.530s,PASSED
+"click(findTestObject(""Shopping Cart/a_Product Details""))",Chrome 131.0.0.0,,,30-11-2024 09:57:21,30-11-2024 09:57:47,25.541s,PASSED
+"click(findTestObject(""Shopping Cart/btn_PD_Add To Cart""))",Chrome 131.0.0.0,,,30-11-2024 09:57:47,30-11-2024 09:57:55,8.146s,PASSED
+"click(findTestObject(""Shopping Cart/a_Cart""))",Chrome 131.0.0.0,,,30-11-2024 09:57:55,30-11-2024 09:58:00,5.581s,PASSED
+"productRows = driver.findElements(By.xpath(""//table/tbody/tr""))",Chrome 131.0.0.0,,,30-11-2024 09:58:00,30-11-2024 09:58:01,0.489s,PASSED
+"assert productRows.size() > 0 : ""Cart is still empty after adding products!""",Chrome 131.0.0.0,,,30-11-2024 09:58:01,30-11-2024 09:58:01,0.002s,PASSED
+lastRow = productRows.get(productRows.size() - 1),Chrome 131.0.0.0,,,30-11-2024 09:58:01,30-11-2024 09:58:01,0.001s,PASSED
+"sNameProductDelete = xpath(""/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[3]"")).getText()",Chrome 131.0.0.0,,,30-11-2024 09:58:01,30-11-2024 09:58:01,0.297s,PASSED
+"btnRemove = lastRow.findElement(By.xpath(""//td[9]/a/i""))",Chrome 131.0.0.0,,,30-11-2024 09:58:01,30-11-2024 09:58:02,0.268s,PASSED
+"driver.executeScript(""arguments[0].scrollIntoView(true);"", btnRemove)",Chrome 131.0.0.0,,,30-11-2024 09:58:02,30-11-2024 09:58:02,0.026s,PASSED
+btnRemove.click(),Chrome 131.0.0.0,,,30-11-2024 09:58:02,30-11-2024 09:58:02,0.136s,PASSED
+alert().dismiss(),Chrome 131.0.0.0,,,30-11-2024 09:58:02,30-11-2024 09:58:02,0.038s,PASSED
+"updatedProductRows = driver.findElements(By.xpath(""//table/tbody/tr""))",Chrome 131.0.0.0,,,30-11-2024 09:58:02,30-11-2024 09:58:02,0.274s,PASSED
+isProductStillExist = false,Chrome 131.0.0.0,,,30-11-2024 09:58:02,30-11-2024 09:58:02,0.001s,PASSED
+for (org.openqa.selenium.WebElement row : productRows),Chrome 131.0.0.0,,,30-11-2024 09:58:02,30-11-2024 09:58:02,0.299s,PASSED
+if (!(isProductStillExist)),Chrome 131.0.0.0,,,30-11-2024 09:58:02,30-11-2024 09:58:02,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,30-11-2024 09:58:02,30-11-2024 09:58:02,0.002s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/SC_Successfully removed an item from the cart,Chrome 131.0.0.0,"Add products to cart, then remove products from cart to empty cart.",,30-11-2024 09:58:02,30-11-2024 09:59:00,57.231s,PASSED
+"openBrowser(""http://shopbachhoaweb.wuaze.com/"")",Chrome 131.0.0.0,,,30-11-2024 09:58:03,30-11-2024 09:58:26,23.163s,PASSED
+driver = getWebDriver(),Chrome 131.0.0.0,,,30-11-2024 09:58:26,30-11-2024 09:58:26,0.005s,PASSED
+"navigateToUrl(""http://shopbachhoaweb.wuaze.com/"")",Chrome 131.0.0.0,,,30-11-2024 09:58:26,30-11-2024 09:58:32,5.738s,PASSED
+"click(findTestObject(""Shopping Cart/a_Product Details""))",Chrome 131.0.0.0,,,30-11-2024 09:58:32,30-11-2024 09:58:38,6.331s,PASSED
+"click(findTestObject(""Shopping Cart/btn_PD_Add To Cart""))",Chrome 131.0.0.0,,,30-11-2024 09:58:38,30-11-2024 09:58:45,7.295s,PASSED
+"click(findTestObject(""Shopping Cart/a_Cart""))",Chrome 131.0.0.0,,,30-11-2024 09:58:45,30-11-2024 09:58:50,5.247s,PASSED
+"productRows = driver.findElements(By.xpath(""//table/tbody/tr""))",Chrome 131.0.0.0,,,30-11-2024 09:58:50,30-11-2024 09:58:51,0.461s,PASSED
+"assert productRows.size() > 0 : ""Cart is still empty after adding products!""",Chrome 131.0.0.0,,,30-11-2024 09:58:51,30-11-2024 09:58:51,0.001s,PASSED
+lastRow = productRows.get(productRows.size() - 1),Chrome 131.0.0.0,,,30-11-2024 09:58:51,30-11-2024 09:58:51,0.001s,PASSED
+"sNameProductDelete = xpath(""/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[3]"")).getText()",Chrome 131.0.0.0,,,30-11-2024 09:58:51,30-11-2024 09:58:51,0.303s,PASSED
+"btnRemove = lastRow.findElement(By.xpath(""//td[9]/a/i""))",Chrome 131.0.0.0,,,30-11-2024 09:58:51,30-11-2024 09:58:51,0.290s,PASSED
+"driver.executeScript(""arguments[0].scrollIntoView(true);"", btnRemove)",Chrome 131.0.0.0,,,30-11-2024 09:58:51,30-11-2024 09:58:51,0.022s,PASSED
+btnRemove.click(),Chrome 131.0.0.0,,,30-11-2024 09:58:51,30-11-2024 09:58:52,0.120s,PASSED
+alert().accept(),Chrome 131.0.0.0,,,30-11-2024 09:58:52,30-11-2024 09:58:52,0.010s,PASSED
+"updatedProductRows = driver.findElements(By.xpath(""//table/tbody/tr""))",Chrome 131.0.0.0,,,30-11-2024 09:58:52,30-11-2024 09:58:59,7.358s,PASSED
+if (updatedProductRows.size() > 0),Chrome 131.0.0.0,,,30-11-2024 09:58:59,30-11-2024 09:58:59,0.002s,PASSED
+else,Chrome 131.0.0.0,,,30-11-2024 09:58:59,30-11-2024 09:59:00,0.602s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,30-11-2024 09:59:00,30-11-2024 09:59:00,0.002s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/SC_Continue shopping,Chrome 131.0.0.0,"Check your cart, click the 'Continue Shopping' button, do you return to the home page to continue shopping?",,30-11-2024 09:59:00,30-11-2024 10:01:51,2m - 51.231s,PASSED
+"openBrowser(""http://shopbachhoaweb.wuaze.com/"")",Chrome 131.0.0.0,,,30-11-2024 09:59:00,30-11-2024 09:59:45,45.688s,PASSED
+driver = getWebDriver(),Chrome 131.0.0.0,,,30-11-2024 09:59:45,30-11-2024 09:59:45,0.003s,PASSED
+"navigateToUrl(""http://shopbachhoaweb.wuaze.com/"")",Chrome 131.0.0.0,,,30-11-2024 09:59:45,30-11-2024 10:00:09,23.813s,PASSED
+"click(findTestObject(""Shopping Cart/a_Product Details""))",Chrome 131.0.0.0,,,30-11-2024 10:00:09,30-11-2024 10:00:33,24.174s,PASSED
+"click(findTestObject(""Shopping Cart/btn_PD_Add To Cart""))",Chrome 131.0.0.0,,,30-11-2024 10:00:33,30-11-2024 10:01:00,26.748s,PASSED
+"click(findTestObject(""Shopping Cart/a_Cart""))",Chrome 131.0.0.0,,,30-11-2024 10:01:00,30-11-2024 10:01:24,24.148s,PASSED
+"productRows = driver.findElements(By.xpath(""//table/tbody/tr""))",Chrome 131.0.0.0,,,30-11-2024 10:01:24,30-11-2024 10:01:25,0.275s,PASSED
+"assert productRows.size() > 0 : ""Cart is still empty after adding products!""",Chrome 131.0.0.0,,,30-11-2024 10:01:25,30-11-2024 10:01:25,0.001s,PASSED
+"click(findTestObject(""Shopping Cart/a_Continue Shopping""))",Chrome 131.0.0.0,,,30-11-2024 10:01:25,30-11-2024 10:01:51,26.053s,PASSED
+currentUrl = getUrl(),Chrome 131.0.0.0,,,30-11-2024 10:01:51,30-11-2024 10:01:51,0.033s,PASSED
+"expectedUrl = ""http://shopbachhoaweb.wuaze.com/index.php""",Chrome 131.0.0.0,,,30-11-2024 10:01:51,30-11-2024 10:01:51,0.008s,PASSED
+"verifyMatch(currentUrl, expectedUrl, false)",Chrome 131.0.0.0,,,30-11-2024 10:01:51,30-11-2024 10:01:51,0.051s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,30-11-2024 10:01:51,30-11-2024 10:01:51,0.000s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/SC_Proceed to checkout,Chrome 131.0.0.0,"Checkout cart, click 'Proceed to checkout' button, does it redirect to checkout page?",,30-11-2024 10:01:51,30-11-2024 10:03:42,1m - 51.093s,PASSED
+"openBrowser(""http://shopbachhoaweb.wuaze.com/"")",Chrome 131.0.0.0,,,30-11-2024 10:01:51,30-11-2024 10:02:29,37.636s,PASSED
+driver = getWebDriver(),Chrome 131.0.0.0,,,30-11-2024 10:02:29,30-11-2024 10:02:29,0.000s,PASSED
+"navigateToUrl(""http://shopbachhoaweb.wuaze.com/"")",Chrome 131.0.0.0,,,30-11-2024 10:02:29,30-11-2024 10:02:53,24.060s,PASSED
+"click(findTestObject(""Shopping Cart/a_Product Details""))",Chrome 131.0.0.0,,,30-11-2024 10:02:53,30-11-2024 10:03:17,24.384s,PASSED
+"click(findTestObject(""Shopping Cart/btn_PD_Add To Cart""))",Chrome 131.0.0.0,,,30-11-2024 10:03:17,30-11-2024 10:03:25,7.559s,PASSED
+"click(findTestObject(""Shopping Cart/a_Cart""))",Chrome 131.0.0.0,,,30-11-2024 10:03:25,30-11-2024 10:03:30,5.227s,PASSED
+"productRows = driver.findElements(By.xpath(""//table/tbody/tr""))",Chrome 131.0.0.0,,,30-11-2024 10:03:30,30-11-2024 10:03:30,0.430s,PASSED
+"assert productRows.size() > 0 : ""Cart is still empty after adding products!""",Chrome 131.0.0.0,,,30-11-2024 10:03:30,30-11-2024 10:03:30,0.003s,PASSED
+"click(findTestObject(""Shopping Cart/a_Proceed to Checkout""))",Chrome 131.0.0.0,,,30-11-2024 10:03:30,30-11-2024 10:03:42,11.482s,PASSED
+currentUrl = getUrl(),Chrome 131.0.0.0,,,30-11-2024 10:03:42,30-11-2024 10:03:42,0.093s,PASSED
+"expectedUrl = ""http://shopbachhoaweb.wuaze.com/checkout.php""",Chrome 131.0.0.0,,,30-11-2024 10:03:42,30-11-2024 10:03:42,0.000s,PASSED
+"verifyMatch(currentUrl, expectedUrl, false)",Chrome 131.0.0.0,,,30-11-2024 10:03:42,30-11-2024 10:03:42,0.008s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,30-11-2024 10:03:42,30-11-2024 10:03:42,0.006s,PASSED

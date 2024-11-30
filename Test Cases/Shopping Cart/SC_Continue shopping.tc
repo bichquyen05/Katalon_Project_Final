@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check your cart, click the 'Continue Shopping' button, do you return to the home page to continue shopping?</description>
+   <name>SC_Continue shopping</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b2ea3b15-51c7-4348-9022-8432f203ae6b</testCaseGuid>
+</TestCaseEntity>

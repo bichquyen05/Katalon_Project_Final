@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Successful cart update message must be displayed</description>
+   <name>SC_Show successful update message</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>36cbe13a-a452-40da-b45a-d7c1c6f37dce</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2c2d0b99-b25e-412b-bb11-3e4bc72c1de0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'7\r\n'</defaultValue>
+      <description></description>
+      <id>2c2d0b99-b25e-412b-bb11-3e4bc72c1de0</id>
+      <masked>false</masked>
+      <name>quantity</name>
+   </variable>
+</TestCaseEntity>

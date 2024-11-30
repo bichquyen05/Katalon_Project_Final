@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checkout cart, click 'Proceed to checkout' button, does it redirect to checkout page?</description>
+   <name>SC_Proceed to checkout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0646ea51-ca37-4c1b-9003-b4c0ebc2aec2</testCaseGuid>
+</TestCaseEntity>

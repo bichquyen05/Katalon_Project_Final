@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add products to cart, then remove products from cart to empty cart.</description>
+   <name>SC_Successfully removed an item from the cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c28eab37-f66c-46ed-a533-13ef1d468fe8</testCaseGuid>
+</TestCaseEntity>

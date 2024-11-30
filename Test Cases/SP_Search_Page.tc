@@ -26,7 +26,7 @@
       <name>url</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'khoai tây'</defaultValue>
       <description></description>
       <id>84c4f82d-8b6b-4124-9a5f-adf5f542aad6</id>
       <masked>false</masked>

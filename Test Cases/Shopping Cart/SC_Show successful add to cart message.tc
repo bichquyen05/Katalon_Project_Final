@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check if the product added to cart successfully message should be displayed</description>
+   <name>SC_Show successful add to cart message</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9ae3eb58-28be-4334-9627-52edb93c89e7</testCaseGuid>
+</TestCaseEntity>

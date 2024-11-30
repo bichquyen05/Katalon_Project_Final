@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cancel removing product from cart, product is still in cart</description>
+   <name>SC_Cancel removing product from cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fe81f5d8-b84d-4f13-bc16-5119a7d22a80</testCaseGuid>
+</TestCaseEntity>

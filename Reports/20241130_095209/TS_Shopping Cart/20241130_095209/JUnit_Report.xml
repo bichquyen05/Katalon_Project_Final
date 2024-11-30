@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Shopping Cart" time="688.989" tests="8" failures="1" errors="0">
+   <testsuite name="TS_Shopping Cart" tests="8" failures="1" errors="0" time="688.989" skipped="0" timestamp="30-11-2024T09:52:13" hostname="Hp - host.docker.internal" id="Test Suites/TS_Shopping Cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Katalon\\Katalon_Project_Final\\Reports\\20241130_095209\\TS_Shopping Cart\\20241130_095209"/>
+         <property name="logFiles" value="D:\\Katalon\\Katalon_Project_Final\\Reports\\20241130_095209\\TS_Shopping Cart\\20241130_095209\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hp - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="sessionId" value="7f746c5f0252a9e67a5f52b022d64c69"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Shopping Cart/SC_Add product to cart" time="50.354" classname="Test Cases/Shopping Cart/SC_Add product to cart" status="PASSED">
+         <system-out><![CDATA[30-11-2024T09:52:13 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/SC_Add product to cart: Test Cases/Shopping Cart/SC_Add product to cart
+
+30-11-2024T09:52:14 - [TEST_STEP][PASSED] - openBrowser("http://shopbachhoaweb.wuaze.com/"): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+30-11-2024T09:52:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T09:52:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T09:52:29 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+30-11-2024T09:52:29 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Cart")): Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T09:52:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T09:52:34 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+30-11-2024T09:52:34 - [TEST_STEP][PASSED] - emptyCartMessage = xpath("//h2")).getText(): null
+
+30-11-2024T09:52:35 - [TEST_STEP][PASSED] - assert emptyCartMessage.contains("Your cart is empty!") : "Cart does not show empty status!": null
+
+30-11-2024T09:52:35 - [TEST_STEP][PASSED] - navigateToUrl("http://shopbachhoaweb.wuaze.com/"): Navigate to 'http://shopbachhoaweb.wuaze.com/' successfully
+
+30-11-2024T09:52:40 - [MESSAGE][PASSED] - Navigate to 'http://shopbachhoaweb.wuaze.com/' successfully
+
+30-11-2024T09:52:40 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Product Details")): Object: 'Object Repository/Shopping Cart/a_Product Details' is clicked on
+
+30-11-2024T09:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Product Details' is clicked on
+
+30-11-2024T09:52:46 - [TEST_STEP][PASSED] - name = getText(findTestObject("Shopping Cart/h2_PD_Product Name")): Text of object 'Object Repository/Shopping Cart/h2_PD_Product Name' is: 'Combo 3 hộp Snack rong biển kẹp hạt dinh dưỡng GUfoods (mỗi hộp 160g)'
+
+30-11-2024T09:52:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/h2_PD_Product Name' is: 'Combo 3 hộp Snack rong biển kẹp hạt dinh dưỡng GUfoods (mỗi hộp 160g)'
+
+30-11-2024T09:52:46 - [TEST_STEP][PASSED] - fullPrice = getText(findTestObject("Shopping Cart/span_PD_Price")).split(" ")[0]: Text of object 'Object Repository/Shopping Cart/span_PD_Price' is: '357,000 VND 715,000 VND'
+
+30-11-2024T09:52:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/span_PD_Price' is: '357,000 VND 715,000 VND'
+
+30-11-2024T09:52:47 - [TEST_STEP][PASSED] - price = Double.parseDouble(fullPrice.replace(",", "")): null
+
+30-11-2024T09:52:47 - [TEST_STEP][PASSED] - quantity = Integer.parseInt(getAttribute(findTestObject("Shopping Cart/input_PD_Product Quantity"), "value")): Attribute 'value' of object 'Object Repository/Shopping Cart/input_PD_Product Quantity' is: '1'
+
+30-11-2024T09:52:47 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Shopping Cart/input_PD_Product Quantity' is: '1'
+
+30-11-2024T09:52:47 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/btn_PD_Add To Cart")): Object: 'Object Repository/Shopping Cart/btn_PD_Add To Cart' is clicked on
+
+30-11-2024T09:52:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/btn_PD_Add To Cart' is clicked on
+
+30-11-2024T09:52:56 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Cart")): Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T09:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T09:53:02 - [TEST_STEP][PASSED] - productRows = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+30-11-2024T09:53:02 - [TEST_STEP][PASSED] - assert productRows.size() > 0 : "Cart is still empty after adding products!": null
+
+30-11-2024T09:53:02 - [TEST_STEP][PASSED] - lastRow = productRows.get(productRows.size() - 1): null
+
+30-11-2024T09:53:02 - [TEST_STEP][PASSED] - sName = xpath("/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[3]")).getText(): null
+
+30-11-2024T09:53:02 - [TEST_STEP][PASSED] - sPrice = getText().split(" ")[0]: null
+
+30-11-2024T09:53:03 - [TEST_STEP][PASSED] - bPrice = Double.parseDouble(sPrice.replace(",", "")): null
+
+30-11-2024T09:53:03 - [TEST_STEP][PASSED] - sQuantity = xpath("/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[7]/input[3]")).getAttribute("value"): null
+
+30-11-2024T09:53:03 - [TEST_STEP][PASSED] - iQuantity = Integer.parseInt(sQuantity): null
+
+30-11-2024T09:53:03 - [TEST_STEP][PASSED] - sTotal = getText().split(" ")[0]: null
+
+30-11-2024T09:53:03 - [TEST_STEP][PASSED] - bTotal = Double.parseDouble(sTotal.replace(",", "")): null
+
+30-11-2024T09:53:03 - [TEST_STEP][PASSED] - assert sName == name : "Product name does not match!": null
+
+30-11-2024T09:53:03 - [TEST_STEP][PASSED] - assert bPrice == price : "Product prices do not match!": null
+
+30-11-2024T09:53:03 - [TEST_STEP][PASSED] - assert iQuantity == quantity : "Product quantity does not match!": null
+
+30-11-2024T09:53:03 - [TEST_STEP][PASSED] - bexpectedTotal = bPrice * iQuantity: null
+
+30-11-2024T09:53:03 - [TEST_STEP][PASSED] - assert Math.abs(bTotal - bexpectedTotal) < 0.01: null
+
+30-11-2024T09:53:03 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+30-11-2024T09:53:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-11-2024T09:53:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/SC_Show successful add to cart message" time="72.823" classname="Test Cases/Shopping Cart/SC_Show successful add to cart message" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Shopping Cart/SC_Show successful add to cart message FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify alert present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.verifyAlertPresent(VerifyAlertPresentKeyword.groovy:82)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.execute(VerifyAlertPresentKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(WebUiBuiltInKeywords.groovy:1700)&#xa;	at SC_Show successful add to cart message.run(SC_Show successful add to cart message:41)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1732935129465.run(TempTestSuite1732935129465.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found after 10 second(s).&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.doCall(VerifyAlertPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.call(VerifyAlertPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[30-11-2024T09:53:03 - [TEST_CASE][FAILED] - Test Cases/Shopping Cart/SC_Show successful add to cart message: Test Cases/Shopping Cart/SC_Show successful add to cart message FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify alert present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.verifyAlertPresent(VerifyAlertPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.execute(VerifyAlertPresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(WebUiBuiltInKeywords.groovy:1700)
+	at SC_Show successful add to cart message.run(SC_Show successful add to cart message:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732935129465.run(TempTestSuite1732935129465.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found after 10 second(s).
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.doCall(VerifyAlertPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.call(VerifyAlertPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+30-11-2024T09:53:04 - [TEST_STEP][PASSED] - openBrowser("http://shopbachhoaweb.wuaze.com/"): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+30-11-2024T09:53:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-11-2024T09:53:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T09:53:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T09:53:38 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+30-11-2024T09:53:38 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Cart")): Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T09:53:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T09:53:44 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+30-11-2024T09:53:44 - [TEST_STEP][PASSED] - emptyCartMessage = xpath("//h2")).getText(): null
+
+30-11-2024T09:53:44 - [TEST_STEP][PASSED] - assert emptyCartMessage.contains("Your cart is empty!") : "Cart does not show empty status!": null
+
+30-11-2024T09:53:44 - [TEST_STEP][PASSED] - navigateToUrl("http://shopbachhoaweb.wuaze.com/"): Navigate to 'http://shopbachhoaweb.wuaze.com/' successfully
+
+30-11-2024T09:53:49 - [MESSAGE][PASSED] - Navigate to 'http://shopbachhoaweb.wuaze.com/' successfully
+
+30-11-2024T09:53:49 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Product Details")): Object: 'Object Repository/Shopping Cart/a_Product Details' is clicked on
+
+30-11-2024T09:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Product Details' is clicked on
+
+30-11-2024T09:53:57 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/btn_PD_Add To Cart")): Object: 'Object Repository/Shopping Cart/btn_PD_Add To Cart' is clicked on
+
+30-11-2024T09:54:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/btn_PD_Add To Cart' is clicked on
+
+30-11-2024T09:54:06 - [TEST_STEP][FAILED] - messagePresent = verifyAlertPresent(10): Unable to verify alert present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify alert present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.verifyAlertPresent(VerifyAlertPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.execute(VerifyAlertPresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(WebUiBuiltInKeywords.groovy:1700)
+	at SC_Show successful add to cart message.run(SC_Show successful add to cart message:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732935129465.run(TempTestSuite1732935129465.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found after 10 second(s).
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.doCall(VerifyAlertPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.call(VerifyAlertPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+)
+
+30-11-2024T09:54:16 - [MESSAGE][FAILED] - No alert found after 10 second(s). (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found after 10 second(s).
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.doCall(VerifyAlertPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.call(VerifyAlertPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.verifyAlertPresent(VerifyAlertPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.execute(VerifyAlertPresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(WebUiBuiltInKeywords.groovy:1700)
+	at SC_Show successful add to cart message.run(SC_Show successful add to cart message:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732935129465.run(TempTestSuite1732935129465.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+30-11-2024T09:54:16 - [MESSAGE][FAILED] - Unable to verify alert present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify alert present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.verifyAlertPresent(VerifyAlertPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.execute(VerifyAlertPresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(WebUiBuiltInKeywords.groovy:1700)
+	at SC_Show successful add to cart message.run(SC_Show successful add to cart message:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732935129465.run(TempTestSuite1732935129465.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found after 10 second(s).
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.doCall(VerifyAlertPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.call(VerifyAlertPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+)
+
+30-11-2024T09:54:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+30-11-2024T09:54:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-11-2024T09:54:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[30-11-2024T09:53:03 - [TEST_CASE][FAILED] - Test Cases/Shopping Cart/SC_Show successful add to cart message: Test Cases/Shopping Cart/SC_Show successful add to cart message FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify alert present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.verifyAlertPresent(VerifyAlertPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.execute(VerifyAlertPresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(WebUiBuiltInKeywords.groovy:1700)
+	at SC_Show successful add to cart message.run(SC_Show successful add to cart message:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732935129465.run(TempTestSuite1732935129465.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found after 10 second(s).
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.doCall(VerifyAlertPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.call(VerifyAlertPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/SC_Update cart" time="67.544" classname="Test Cases/Shopping Cart/SC_Update cart" status="PASSED">
+         <system-out><![CDATA[30-11-2024T09:54:16 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/SC_Update cart: Test Cases/Shopping Cart/SC_Update cart
+
+30-11-2024T09:54:17 - [TEST_STEP][PASSED] - openBrowser("http://shopbachhoaweb.wuaze.com/"): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+30-11-2024T09:54:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-11-2024T09:54:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T09:54:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T09:54:47 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+30-11-2024T09:54:47 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+30-11-2024T09:54:47 - [TEST_STEP][PASSED] - navigateToUrl("http://shopbachhoaweb.wuaze.com/"): Navigate to 'http://shopbachhoaweb.wuaze.com/' successfully
+
+30-11-2024T09:54:52 - [MESSAGE][PASSED] - Navigate to 'http://shopbachhoaweb.wuaze.com/' successfully
+
+30-11-2024T09:54:52 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Product Details")): Object: 'Object Repository/Shopping Cart/a_Product Details' is clicked on
+
+30-11-2024T09:54:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Product Details' is clicked on
+
+30-11-2024T09:54:59 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/btn_PD_Add To Cart")): Object: 'Object Repository/Shopping Cart/btn_PD_Add To Cart' is clicked on
+
+30-11-2024T09:55:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/btn_PD_Add To Cart' is clicked on
+
+30-11-2024T09:55:08 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Cart")): Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T09:55:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T09:55:13 - [TEST_STEP][PASSED] - productRows = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+30-11-2024T09:55:14 - [TEST_STEP][PASSED] - assert productRows.size() > 0 : "Cart is still empty after adding products!": null
+
+30-11-2024T09:55:14 - [TEST_STEP][PASSED] - lastRow = productRows.get(productRows.size() - 1): null
+
+30-11-2024T09:55:14 - [TEST_STEP][PASSED] - sPrice = getText().split(" ")[0]: null
+
+30-11-2024T09:55:14 - [TEST_STEP][PASSED] - bPrice = Double.parseDouble(sPrice.replace(",", "")): null
+
+30-11-2024T09:55:14 - [TEST_STEP][PASSED] - quantityInput = lastRow.findElement(By.xpath("/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[7]/input[3]")): null
+
+30-11-2024T09:55:14 - [TEST_STEP][PASSED] - quantityBefore = Integer.parseInt(quantityInput.getAttribute("value")): null
+
+30-11-2024T09:55:14 - [TEST_STEP][PASSED] - quantityInput.clear(): null
+
+30-11-2024T09:55:14 - [TEST_STEP][PASSED] - quantityInput.sendKeys(quantity): null
+
+30-11-2024T09:55:14 - [TEST_STEP][PASSED] - quantity = Integer.parseInt(quantityInput.getAttribute("value")): null
+
+30-11-2024T09:55:14 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/btn_Update Cart")): Object: 'Object Repository/Shopping Cart/btn_Update Cart' is clicked on
+
+30-11-2024T09:55:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/btn_Update Cart' is clicked on
+
+30-11-2024T09:55:20 - [TEST_STEP][PASSED] - quantityAfter = Integer.parseInt(getAttribute(findTestObject("Shopping Cart/input_Cart_Quantity"), "value")): Attribute 'value' of object 'Object Repository/Shopping Cart/input_Cart_Quantity' is: '7'
+
+30-11-2024T09:55:23 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Shopping Cart/input_Cart_Quantity' is: '7'
+
+30-11-2024T09:55:23 - [TEST_STEP][PASSED] - sTotalAfter = getText(findTestObject("Shopping Cart/td_Cart_Total")).split(" ")[0]: Text of object 'Object Repository/Shopping Cart/td_Cart_Total' is: '2,499,000 VND'
+
+30-11-2024T09:55:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/td_Cart_Total' is: '2,499,000 VND'
+
+30-11-2024T09:55:23 - [TEST_STEP][PASSED] - totalAfter = Double.parseDouble(sTotalAfter.replace(",", "")): null
+
+30-11-2024T09:55:23 - [TEST_STEP][PASSED] - sTotalOrderlAfter = getText(findTestObject("Shopping Cart/th_Cart_Total Order")).split(" ")[0]: Text of object 'Object Repository/Shopping Cart/th_Cart_Total Order' is: '2,499,000 VND'
+
+30-11-2024T09:55:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/th_Cart_Total Order' is: '2,499,000 VND'
+
+30-11-2024T09:55:24 - [TEST_STEP][PASSED] - totalOrderAfter = Double.parseDouble(sTotalOrderlAfter.replace(",", "")): null
+
+30-11-2024T09:55:24 - [TEST_STEP][PASSED] - totalExpected = quantityAfter * bPrice: null
+
+30-11-2024T09:55:24 - [TEST_STEP][PASSED] - assert quantityAfter == quantity : "Quantity not updated yet!": null
+
+30-11-2024T09:55:24 - [TEST_STEP][PASSED] - assert totalAfter == totalExpected : "Total update incorrect!": null
+
+30-11-2024T09:55:24 - [TEST_STEP][PASSED] - assert totalOrderAfter == totalExpected : "Order total updated incorrect!": null
+
+30-11-2024T09:55:24 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+30-11-2024T09:55:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-11-2024T09:55:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/SC_Show successful update message" time="56.788" classname="Test Cases/Shopping Cart/SC_Show successful update message" status="PASSED">
+         <system-out><![CDATA[30-11-2024T09:55:24 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/SC_Show successful update message: Test Cases/Shopping Cart/SC_Show successful update message
+
+30-11-2024T09:55:24 - [TEST_STEP][PASSED] - openBrowser("http://shopbachhoaweb.wuaze.com/"): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+30-11-2024T09:55:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-11-2024T09:55:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T09:55:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T09:55:45 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+30-11-2024T09:55:45 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+30-11-2024T09:55:45 - [TEST_STEP][PASSED] - navigateToUrl("http://shopbachhoaweb.wuaze.com/"): Navigate to 'http://shopbachhoaweb.wuaze.com/' successfully
+
+30-11-2024T09:55:50 - [MESSAGE][PASSED] - Navigate to 'http://shopbachhoaweb.wuaze.com/' successfully
+
+30-11-2024T09:55:50 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Product Details")): Object: 'Object Repository/Shopping Cart/a_Product Details' is clicked on
+
+30-11-2024T09:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Product Details' is clicked on
+
+30-11-2024T09:55:57 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/btn_PD_Add To Cart")): Object: 'Object Repository/Shopping Cart/btn_PD_Add To Cart' is clicked on
+
+30-11-2024T09:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/btn_PD_Add To Cart' is clicked on
+
+30-11-2024T09:56:06 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Cart")): Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T09:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T09:56:11 - [TEST_STEP][PASSED] - productRows = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+30-11-2024T09:56:12 - [TEST_STEP][PASSED] - assert productRows.size() > 0 : "Cart is still empty after adding products!": null
+
+30-11-2024T09:56:12 - [TEST_STEP][PASSED] - lastRow = productRows.get(productRows.size() - 1): null
+
+30-11-2024T09:56:12 - [TEST_STEP][PASSED] - quantityInput = lastRow.findElement(By.xpath("/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[7]/input[3]")): null
+
+30-11-2024T09:56:12 - [TEST_STEP][PASSED] - quantityBefore = Integer.parseInt(quantityInput.getAttribute("value")): null
+
+30-11-2024T09:56:12 - [TEST_STEP][PASSED] - quantityInput.clear(): null
+
+30-11-2024T09:56:12 - [TEST_STEP][PASSED] - quantityInput.sendKeys(quantity): null
+
+30-11-2024T09:56:15 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/btn_Update Cart")): Object: 'Object Repository/Shopping Cart/btn_Update Cart' is clicked on
+
+30-11-2024T09:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/btn_Update Cart' is clicked on
+
+30-11-2024T09:56:21 - [TEST_STEP][PASSED] - messagePresent = verifyAlertPresent(10): Alert is present after 10 second(s).
+
+30-11-2024T09:56:21 - [MESSAGE][PASSED] - Alert is present after 10 second(s).
+
+30-11-2024T09:56:21 - [TEST_STEP][PASSED] - if (messagePresent): null
+
+30-11-2024T09:56:21 - [TEST_STEP][PASSED] - message = getAlertText(): Get alert text successfully: 'Update quantity successfully!'
+
+30-11-2024T09:56:21 - [MESSAGE][PASSED] - Get alert text successfully: 'Update quantity successfully!'
+
+30-11-2024T09:56:21 - [TEST_STEP][PASSED] - if (message.contains("Update quantity successfully!")): null
+
+30-11-2024T09:56:21 - [TEST_STEP][PASSED] - println("Message display correctly: Update quantity successfully!"): null
+
+30-11-2024T09:56:21 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+30-11-2024T09:56:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-11-2024T09:56:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/SC_Cancel removing product from cart" time="101.673" classname="Test Cases/Shopping Cart/SC_Cancel removing product from cart" status="PASSED">
+         <system-out><![CDATA[30-11-2024T09:56:21 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/SC_Cancel removing product from cart: Test Cases/Shopping Cart/SC_Cancel removing product from cart
+
+30-11-2024T09:56:21 - [TEST_STEP][PASSED] - openBrowser("http://shopbachhoaweb.wuaze.com/"): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+30-11-2024T09:56:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-11-2024T09:56:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T09:56:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T09:56:55 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+30-11-2024T09:56:55 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+30-11-2024T09:56:55 - [TEST_STEP][PASSED] - navigateToUrl("http://shopbachhoaweb.wuaze.com/"): Navigate to 'http://shopbachhoaweb.wuaze.com/' successfully
+
+30-11-2024T09:57:21 - [MESSAGE][PASSED] - Navigate to 'http://shopbachhoaweb.wuaze.com/' successfully
+
+30-11-2024T09:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Product Details")): Object: 'Object Repository/Shopping Cart/a_Product Details' is clicked on
+
+30-11-2024T09:57:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Product Details' is clicked on
+
+30-11-2024T09:57:47 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/btn_PD_Add To Cart")): Object: 'Object Repository/Shopping Cart/btn_PD_Add To Cart' is clicked on
+
+30-11-2024T09:57:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/btn_PD_Add To Cart' is clicked on
+
+30-11-2024T09:57:55 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Cart")): Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T09:58:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T09:58:00 - [TEST_STEP][PASSED] - productRows = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+30-11-2024T09:58:01 - [TEST_STEP][PASSED] - assert productRows.size() > 0 : "Cart is still empty after adding products!": null
+
+30-11-2024T09:58:01 - [TEST_STEP][PASSED] - lastRow = productRows.get(productRows.size() - 1): null
+
+30-11-2024T09:58:01 - [TEST_STEP][PASSED] - sNameProductDelete = xpath("/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[3]")).getText(): null
+
+30-11-2024T09:58:01 - [TEST_STEP][PASSED] - btnRemove = lastRow.findElement(By.xpath("//td[9]/a/i")): null
+
+30-11-2024T09:58:02 - [TEST_STEP][PASSED] - driver.executeScript("arguments[0].scrollIntoView(true);", btnRemove): null
+
+30-11-2024T09:58:02 - [TEST_STEP][PASSED] - btnRemove.click(): null
+
+30-11-2024T09:58:02 - [TEST_STEP][PASSED] - alert().dismiss(): null
+
+30-11-2024T09:58:02 - [TEST_STEP][PASSED] - updatedProductRows = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+30-11-2024T09:58:02 - [TEST_STEP][PASSED] - isProductStillExist = false: null
+
+30-11-2024T09:58:02 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement row : productRows): null
+
+30-11-2024T09:58:02 - [TEST_STEP][PASSED] - productName = row.findElement(By.xpath("/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[3]")): null
+
+30-11-2024T09:58:02 - [TEST_STEP][PASSED] - if (getText().equals(sNameProductDelete)): null
+
+30-11-2024T09:58:02 - [TEST_STEP][PASSED] - isProductStillExist = true: null
+
+30-11-2024T09:58:02 - [TEST_STEP][PASSED] - break: null
+
+30-11-2024T09:58:02 - [TEST_STEP][PASSED] - if (!(isProductStillExist)): null
+
+30-11-2024T09:58:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+30-11-2024T09:58:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-11-2024T09:58:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/SC_Successfully removed an item from the cart" time="57.231" classname="Test Cases/Shopping Cart/SC_Successfully removed an item from the cart" status="PASSED">
+         <system-out><![CDATA[30-11-2024T09:58:02 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/SC_Successfully removed an item from the cart: Test Cases/Shopping Cart/SC_Successfully removed an item from the cart
+
+30-11-2024T09:58:03 - [TEST_STEP][PASSED] - openBrowser("http://shopbachhoaweb.wuaze.com/"): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+30-11-2024T09:58:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-11-2024T09:58:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T09:58:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T09:58:26 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+30-11-2024T09:58:26 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+30-11-2024T09:58:26 - [TEST_STEP][PASSED] - navigateToUrl("http://shopbachhoaweb.wuaze.com/"): Navigate to 'http://shopbachhoaweb.wuaze.com/' successfully
+
+30-11-2024T09:58:32 - [MESSAGE][PASSED] - Navigate to 'http://shopbachhoaweb.wuaze.com/' successfully
+
+30-11-2024T09:58:32 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Product Details")): Object: 'Object Repository/Shopping Cart/a_Product Details' is clicked on
+
+30-11-2024T09:58:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Product Details' is clicked on
+
+30-11-2024T09:58:38 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/btn_PD_Add To Cart")): Object: 'Object Repository/Shopping Cart/btn_PD_Add To Cart' is clicked on
+
+30-11-2024T09:58:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/btn_PD_Add To Cart' is clicked on
+
+30-11-2024T09:58:45 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Cart")): Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T09:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T09:58:50 - [TEST_STEP][PASSED] - productRows = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+30-11-2024T09:58:51 - [TEST_STEP][PASSED] - assert productRows.size() > 0 : "Cart is still empty after adding products!": null
+
+30-11-2024T09:58:51 - [TEST_STEP][PASSED] - lastRow = productRows.get(productRows.size() - 1): null
+
+30-11-2024T09:58:51 - [TEST_STEP][PASSED] - sNameProductDelete = xpath("/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[3]")).getText(): null
+
+30-11-2024T09:58:51 - [TEST_STEP][PASSED] - btnRemove = lastRow.findElement(By.xpath("//td[9]/a/i")): null
+
+30-11-2024T09:58:51 - [TEST_STEP][PASSED] - driver.executeScript("arguments[0].scrollIntoView(true);", btnRemove): null
+
+30-11-2024T09:58:51 - [TEST_STEP][PASSED] - btnRemove.click(): null
+
+30-11-2024T09:58:52 - [TEST_STEP][PASSED] - alert().accept(): null
+
+30-11-2024T09:58:52 - [TEST_STEP][PASSED] - updatedProductRows = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+30-11-2024T09:58:59 - [TEST_STEP][PASSED] - if (updatedProductRows.size() > 0): null
+
+30-11-2024T09:58:59 - [TEST_STEP][PASSED] - else: null
+
+30-11-2024T09:58:59 - [TEST_STEP][PASSED] - emptyCartMessage = xpath("//h2")).getText(): null
+
+30-11-2024T09:58:59 - [TEST_STEP][PASSED] - messageShopNow = xpath("//h4")).getText(): null
+
+30-11-2024T09:59:00 - [TEST_STEP][PASSED] - assert emptyCartMessage.contains("Your cart is empty!") : "": null
+
+30-11-2024T09:59:00 - [TEST_STEP][PASSED] - assert messageShopNow.contains("Let's go shopping now.") : "": null
+
+30-11-2024T09:59:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+30-11-2024T09:59:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-11-2024T09:59:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/SC_Continue shopping" time="171.231" classname="Test Cases/Shopping Cart/SC_Continue shopping" status="PASSED">
+         <system-out><![CDATA[30-11-2024T09:59:00 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/SC_Continue shopping: Test Cases/Shopping Cart/SC_Continue shopping
+
+30-11-2024T09:59:00 - [TEST_STEP][PASSED] - openBrowser("http://shopbachhoaweb.wuaze.com/"): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+30-11-2024T09:59:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-11-2024T09:59:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T09:59:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T09:59:45 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+30-11-2024T09:59:45 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+30-11-2024T09:59:45 - [TEST_STEP][PASSED] - navigateToUrl("http://shopbachhoaweb.wuaze.com/"): Navigate to 'http://shopbachhoaweb.wuaze.com/' successfully
+
+30-11-2024T10:00:09 - [MESSAGE][PASSED] - Navigate to 'http://shopbachhoaweb.wuaze.com/' successfully
+
+30-11-2024T10:00:09 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Product Details")): Object: 'Object Repository/Shopping Cart/a_Product Details' is clicked on
+
+30-11-2024T10:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Product Details' is clicked on
+
+30-11-2024T10:00:33 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/btn_PD_Add To Cart")): Object: 'Object Repository/Shopping Cart/btn_PD_Add To Cart' is clicked on
+
+30-11-2024T10:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/btn_PD_Add To Cart' is clicked on
+
+30-11-2024T10:01:00 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Cart")): Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T10:01:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T10:01:24 - [TEST_STEP][PASSED] - productRows = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+30-11-2024T10:01:25 - [TEST_STEP][PASSED] - assert productRows.size() > 0 : "Cart is still empty after adding products!": null
+
+30-11-2024T10:01:25 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Continue Shopping")): Object: 'Object Repository/Shopping Cart/a_Continue Shopping' is clicked on
+
+30-11-2024T10:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Continue Shopping' is clicked on
+
+30-11-2024T10:01:51 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'http://shopbachhoaweb.wuaze.com/index.php'
+
+30-11-2024T10:01:51 - [MESSAGE][PASSED] - Current window's url is: 'http://shopbachhoaweb.wuaze.com/index.php'
+
+30-11-2024T10:01:51 - [TEST_STEP][PASSED] - expectedUrl = "http://shopbachhoaweb.wuaze.com/index.php": null
+
+30-11-2024T10:01:51 - [TEST_STEP][PASSED] - verifyMatch(currentUrl, expectedUrl, false): Actual text 'http://shopbachhoaweb.wuaze.com/index.php' and expected text 'http://shopbachhoaweb.wuaze.com/index.php' are matched 
+
+30-11-2024T10:01:51 - [MESSAGE][PASSED] - Actual text 'http://shopbachhoaweb.wuaze.com/index.php' and expected text 'http://shopbachhoaweb.wuaze.com/index.php' are matched 
+
+30-11-2024T10:01:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+30-11-2024T10:01:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-11-2024T10:01:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/SC_Proceed to checkout" time="111.093" classname="Test Cases/Shopping Cart/SC_Proceed to checkout" status="PASSED">
+         <system-out><![CDATA[30-11-2024T10:01:51 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/SC_Proceed to checkout: Test Cases/Shopping Cart/SC_Proceed to checkout
+
+30-11-2024T10:01:51 - [TEST_STEP][PASSED] - openBrowser("http://shopbachhoaweb.wuaze.com/"): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+30-11-2024T10:01:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-11-2024T10:01:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T10:01:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T10:02:29 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+30-11-2024T10:02:29 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+30-11-2024T10:02:29 - [TEST_STEP][PASSED] - navigateToUrl("http://shopbachhoaweb.wuaze.com/"): Navigate to 'http://shopbachhoaweb.wuaze.com/' successfully
+
+30-11-2024T10:02:53 - [MESSAGE][PASSED] - Navigate to 'http://shopbachhoaweb.wuaze.com/' successfully
+
+30-11-2024T10:02:53 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Product Details")): Object: 'Object Repository/Shopping Cart/a_Product Details' is clicked on
+
+30-11-2024T10:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Product Details' is clicked on
+
+30-11-2024T10:03:17 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/btn_PD_Add To Cart")): Object: 'Object Repository/Shopping Cart/btn_PD_Add To Cart' is clicked on
+
+30-11-2024T10:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/btn_PD_Add To Cart' is clicked on
+
+30-11-2024T10:03:25 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Cart")): Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T10:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Cart' is clicked on
+
+30-11-2024T10:03:30 - [TEST_STEP][PASSED] - productRows = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+30-11-2024T10:03:30 - [TEST_STEP][PASSED] - assert productRows.size() > 0 : "Cart is still empty after adding products!": null
+
+30-11-2024T10:03:30 - [TEST_STEP][PASSED] - click(findTestObject("Shopping Cart/a_Proceed to Checkout")): Object: 'Object Repository/Shopping Cart/a_Proceed to Checkout' is clicked on
+
+30-11-2024T10:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/a_Proceed to Checkout' is clicked on
+
+30-11-2024T10:03:42 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'http://shopbachhoaweb.wuaze.com/checkout.php'
+
+30-11-2024T10:03:42 - [MESSAGE][PASSED] - Current window's url is: 'http://shopbachhoaweb.wuaze.com/checkout.php'
+
+30-11-2024T10:03:42 - [TEST_STEP][PASSED] - expectedUrl = "http://shopbachhoaweb.wuaze.com/checkout.php": null
+
+30-11-2024T10:03:42 - [TEST_STEP][PASSED] - verifyMatch(currentUrl, expectedUrl, false): Actual text 'http://shopbachhoaweb.wuaze.com/checkout.php' and expected text 'http://shopbachhoaweb.wuaze.com/checkout.php' are matched 
+
+30-11-2024T10:03:42 - [MESSAGE][PASSED] - Actual text 'http://shopbachhoaweb.wuaze.com/checkout.php' and expected text 'http://shopbachhoaweb.wuaze.com/checkout.php' are matched 
+
+30-11-2024T10:03:42 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+30-11-2024T10:03:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-11-2024T10:03:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-11-2024T09:52:13 - [TEST_SUITE][FAILED] - TS_Shopping Cart: Test Cases/Shopping Cart/SC_Show successful add to cart message FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify alert present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.verifyAlertPresent(VerifyAlertPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.execute(VerifyAlertPresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(WebUiBuiltInKeywords.groovy:1700)
+	at SC_Show successful add to cart message.run(SC_Show successful add to cart message:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732935129465.run(TempTestSuite1732935129465.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found after 10 second(s).
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.doCall(VerifyAlertPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.call(VerifyAlertPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[30-11-2024T09:52:13 - [TEST_SUITE][FAILED] - TS_Shopping Cart: Test Cases/Shopping Cart/SC_Show successful add to cart message FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify alert present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.verifyAlertPresent(VerifyAlertPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.execute(VerifyAlertPresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(WebUiBuiltInKeywords.groovy:1700)
+	at SC_Show successful add to cart message.run(SC_Show successful add to cart message:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732935129465.run(TempTestSuite1732935129465.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found after 10 second(s).
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.doCall(VerifyAlertPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.call(VerifyAlertPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

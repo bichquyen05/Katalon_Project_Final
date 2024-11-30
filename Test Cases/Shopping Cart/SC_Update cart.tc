@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Update product quantity and check total amount, order total has been updated accordingly</description>
+   <name>SC_Update cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c3a4aba7-7066-4506-87b0-020b2a0cab82</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0af7510f-57fe-4191-8889-868cd8e5b0d4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'7'</defaultValue>
+      <description></description>
+      <id>0af7510f-57fe-4191-8889-868cd8e5b0d4</id>
+      <masked>false</masked>
+      <name>quantity</name>
+   </variable>
+</TestCaseEntity>

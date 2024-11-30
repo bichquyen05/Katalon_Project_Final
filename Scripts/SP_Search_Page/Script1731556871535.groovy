@@ -36,7 +36,7 @@ if ((keyword == null) || (keyword.trim() == '')) {
 
     WebUI.delay(1)
 
-    WebUI.closeBrowser() 
+    //WebUI.closeBrowser() 
     
 } else {
     boolean hasWhiteSpace = keyword.contains(' ')

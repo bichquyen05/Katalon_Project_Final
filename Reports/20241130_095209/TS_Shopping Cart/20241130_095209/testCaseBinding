@@ -1,0 +1,8 @@
+{"testCaseName":"Test Cases/Shopping Cart/SC_Add product to cart","testCaseId":"Test Cases/Shopping Cart/SC_Add product to cart","iterationVariableName":""}
+{"testCaseName":"Test Cases/Shopping Cart/SC_Show successful add to cart message","testCaseId":"Test Cases/Shopping Cart/SC_Show successful add to cart message","iterationVariableName":""}
+{"testCaseName":"Test Cases/Shopping Cart/SC_Update cart","testCaseId":"Test Cases/Shopping Cart/SC_Update cart","iterationVariableName":""}
+{"testCaseName":"Test Cases/Shopping Cart/SC_Show successful update message","testCaseId":"Test Cases/Shopping Cart/SC_Show successful update message","iterationVariableName":""}
+{"testCaseName":"Test Cases/Shopping Cart/SC_Cancel removing product from cart","testCaseId":"Test Cases/Shopping Cart/SC_Cancel removing product from cart","iterationVariableName":""}
+{"testCaseName":"Test Cases/Shopping Cart/SC_Successfully removed an item from the cart","testCaseId":"Test Cases/Shopping Cart/SC_Successfully removed an item from the cart","iterationVariableName":""}
+{"testCaseName":"Test Cases/Shopping Cart/SC_Continue shopping","testCaseId":"Test Cases/Shopping Cart/SC_Continue shopping","iterationVariableName":""}
+{"testCaseName":"Test Cases/Shopping Cart/SC_Proceed to checkout","testCaseId":"Test Cases/Shopping Cart/SC_Proceed to checkout","iterationVariableName":""}
