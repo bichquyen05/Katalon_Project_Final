@@ -54,15 +54,15 @@ assert productRows.size() > 0 : "Cart is still empty after adding products!"
 
 WebElement lastRow = productRows.get(productRows.size() - 1)
 
-String sName = lastRow.findElement(By.xpath('/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[3]')).getText()
+String sName = lastRow.findElement(By.xpath('//td[3]')).getText()
 
-String sPrice = lastRow.findElement(By.xpath('/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[6]')).getText().split(' ')[0]
+String sPrice = lastRow.findElement(By.xpath('//td[6]')).getText().split(' ')[0]
 double bPrice = Double.parseDouble(sPrice.replace(",", ""))
 
-String sQuantity = lastRow.findElement(By.xpath('/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[7]/input[3]')).getAttribute('value')
+String sQuantity = lastRow.findElement(By.xpath('//td[7]/input[3]')).getAttribute('value')
 int iQuantity = Integer.parseInt(sQuantity)
 
-String sTotal = lastRow.findElement(By.xpath('/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[8]')).getText().split(' ')[0]
+String sTotal = lastRow.findElement(By.xpath('//td[8]')).getText().split(' ')[0]
 double bTotal = Double.parseDouble(sTotal.replace(",", ""))
 
 assert sName == name : "Product name does not match!"

@@ -38,10 +38,10 @@ assert productRows.size() > 0 : "Cart is still empty after adding products!"
 
 WebElement lastRow = productRows.get(productRows.size() - 1)
 
-String sPrice = lastRow.findElement(By.xpath('/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[6]')).getText().split(' ')[0]
+String sPrice = lastRow.findElement(By.xpath('//td[6]')).getText().split(' ')[0]
 double bPrice = Double.parseDouble(sPrice.replace(",", ""))
 
-WebElement quantityInput = lastRow.findElement(By.xpath("/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[7]/input[3]"));
+WebElement quantityInput = lastRow.findElement(By.xpath("//td[7]/input[3]"));
 int quantityBefore = Integer.parseInt(quantityInput.getAttribute('value'))
 quantityInput.clear()
 quantityInput.sendKeys(quantity)

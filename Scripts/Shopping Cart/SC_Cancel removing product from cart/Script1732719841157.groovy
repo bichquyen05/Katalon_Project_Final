@@ -42,7 +42,7 @@ assert productRows.size() > 0 : "Cart is still empty after adding products!"
 
 WebElement lastRow = productRows.get(productRows.size() - 1)
 
-String sNameProductDelete = lastRow.findElement(By.xpath('/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[3]')).getText()
+String sNameProductDelete = lastRow.findElement(By.xpath('//td[3]')).getText()
 
 WebElement btnRemove = lastRow.findElement(By.xpath("//td[9]/a/i"))
 ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", btnRemove)
@@ -56,7 +56,7 @@ List<WebElement> updatedProductRows = driver.findElements(By.xpath('//table/tbod
 boolean isProductStillExist = false;
 
 for (WebElement row : productRows) {
-	WebElement productName = row.findElement(By.xpath('/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[3]'));
+	WebElement productName = row.findElement(By.xpath('//td[3]'));
 	if (productName.getText().equals(sNameProductDelete)) {
 		isProductStillExist = true;
 		break;

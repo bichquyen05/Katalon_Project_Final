@@ -42,7 +42,7 @@ assert productRows.size() > 0 : "Cart is still empty after adding products!"
 
 WebElement lastRow = productRows.get(productRows.size() - 1)
 
-String sNameProductDelete = lastRow.findElement(By.xpath('/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[3]')).getText()
+String sNameProductDelete = lastRow.findElement(By.xpath('//td[3]')).getText()
 
 WebElement btnRemove = lastRow.findElement(By.xpath("//td[9]/a/i"))
 ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", btnRemove)
@@ -58,7 +58,7 @@ if(updatedProductRows.size() > 0) {
 	boolean isProductDeleted = true;
 	
 	for (WebElement row : updatedProductRows) {
-		WebElement productName = row.findElement(By.xpath('/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[3]'));
+		WebElement productName = row.findElement(By.xpath('//td[3]'));
 		if (productName.getText().equals(sNameProductDelete)) {
 			isProductDeleted = false;
 			break;
@@ -78,71 +78,3 @@ if(updatedProductRows.size() > 0) {
 	
 	assert messageShopNow.contains('Let\'s go shopping now.') : ''
 }
-
-
-//if(driver.switchTo().alert().accept()) {
-//	List<WebElement> updatedProductRows = driver.findElements(By.xpath('//table/tbody/tr'))
-//	if(updatedProductRows.size() > 0) {
-//		
-//		boolean isProductDeleted = true;
-//		
-//		for (WebElement row : updatedProductRows) {
-//			WebElement productName = row.findElement(By.xpath('/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[3]'));
-//			if (productName.getText().equals(sNameProductDelete)) {
-//				isProductDeleted = false; 
-//				break;
-//			}
-//		}
-//		
-//		if(!isProductDeleted) {
-//			assert false : "Product has not been removed from cart!"
-//		}
-//		
-//	}else {
-//		WebUI.verifyElementPresent(By.xpath('//h2'), 2)
-//		String emptyCartMessage = driver.findElement(By.xpath('//h2')).getText()
-//	
-//		WebUI.verifyElementPresent(By.xpath('//h4'), 2)
-//		String messageShopNow = driver.findElement(By.xpath('//h4')).getText()
-//	
-//		assert emptyCartMessage.contains('Your cart is empty!') : ''
-//		assert messageShopNow.contains('Let\'s go shopping now.') : ''
-//	}
-//}else {
-//	boolean isProductStillExist = false;
-//	
-//	for (WebElement row : productRows) {
-//		WebElement productName = row.findElement(By.xpath('/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[3]'));
-//		if (productName.getText().equals(sNameProductDelete)) {
-//			isProductStillExist = true;
-//			break;
-//		}
-//	}
-//	
-//	if(!isProductStillExist) {
-//		assert false : "Product has been removed from cart!"
-//	}
-//}
-
-
-//if(WebUI.acceptAlert()) {
-//	
-//	if(productRows.size() > 0) {
-//		
-//	}
-//	
-//	WebUI.verifyElementPresent(By.xpath('//h2'), 2)
-//	String emptyCartMessage = driver.findElement(By.xpath('//h2')).getText()
-//	
-//	WebUI.verifyElementPresent(By.xpath('//h4'), 2)
-//	String messageShopNow = driver.findElement(By.xpath('//h4')).getText()
-//	
-//	assert emptyCartMessage.contains('Your cart is empty!') : ''
-//	assert messageShopNow.contains('Let\'s go shopping now.') : ''
-//	
-//	
-//}
-//
-//String emptyCartMessage = driver.findElement(By.xpath('//h2')).getText()
-//
-//assert emptyCartMessage.contains('Your cart is empty!') : 'Product cannot be removed from cart'
