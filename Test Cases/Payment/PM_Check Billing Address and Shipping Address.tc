@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check that the “Billing Address” and “Shipping Address” fields are not blank. If they are blank, a red message will appear with a link to the page to update your billing and shipping addresses.</description>
+   <name>PM_Check Billing Address and Shipping Address</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>03a8439c-1e54-441c-9d01-35cc40db1c4e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d30c9506-e566-4609-bf08-0b343972949f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c12ab611-533a-4ff2-85fe-ae6f0892b9c1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>59aa7cb6-0aa0-40a4-9fb8-c6ccd8901d3e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'http://shopbachhoaweb.wuaze.com/'</defaultValue>
+      <description></description>
+      <id>d30c9506-e566-4609-bf08-0b343972949f</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'khanhhm@gmail.com'</defaultValue>
+      <description></description>
+      <id>c12ab611-533a-4ff2-85fe-ae6f0892b9c1</id>
+      <masked>false</masked>
+      <name>email_address</name>
+   </variable>
+   <variable>
+      <defaultValue>'Khanh@123'</defaultValue>
+      <description></description>
+      <id>59aa7cb6-0aa0-40a4-9fb8-c6ccd8901d3e</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

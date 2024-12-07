@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>The &quot;Back to Cart&quot; button works correctly, redirecting the user to the cart page</description>
+   <name>PM_Check that the Back to Cart button is working</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>975da7eb-7fc6-4ac8-8907-d7cd96dc8ae7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e3922b6-7614-41ac-b194-3c43ed587215</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9ae2cb1a-1da7-4a7f-8db1-e76157d38910</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0fd36a05-4b6e-4818-9614-2ab6a74ed568</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'http://shopbachhoaweb.wuaze.com/'</defaultValue>
+      <description></description>
+      <id>1e3922b6-7614-41ac-b194-3c43ed587215</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'hoangtran@gmail.com'</defaultValue>
+      <description></description>
+      <id>9ae2cb1a-1da7-4a7f-8db1-e76157d38910</id>
+      <masked>false</masked>
+      <name>email_address</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hoang@123'</defaultValue>
+      <description></description>
+      <id>0fd36a05-4b6e-4818-9614-2ab6a74ed568</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

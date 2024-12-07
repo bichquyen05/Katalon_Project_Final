@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check the accuracy of product information.</description>
+   <name>PM_Check that the ordered product information is displayed correctly</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6a890d05-97d8-42b0-81bb-ed7cf9932860</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cfbfb5db-66ca-42a8-975b-a59682b13399</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d84cea7-f041-4d20-b050-3d46ab6f658e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e489bef0-46e6-4533-ad64-1fef500ae081</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'http://shopbachhoaweb.wuaze.com/'</defaultValue>
+      <description></description>
+      <id>cfbfb5db-66ca-42a8-975b-a59682b13399</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'hoangtran@gmail.com'</defaultValue>
+      <description></description>
+      <id>7d84cea7-f041-4d20-b050-3d46ab6f658e</id>
+      <masked>false</masked>
+      <name>email_address</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hoang@123'</defaultValue>
+      <description></description>
+      <id>e489bef0-46e6-4533-ad64-1fef500ae081</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

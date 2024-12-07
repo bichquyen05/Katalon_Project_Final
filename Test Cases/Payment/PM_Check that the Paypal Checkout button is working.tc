@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check the “Paypal Checkout” button to redirect users to Paypal’s payment page</description>
+   <name>PM_Check that the Paypal Checkout button is working</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2c4877df-2d09-4823-be7a-eff890a5434e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d27c9606-8a50-405f-904b-63824d4414ce</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b11607c0-c461-44e5-8ba4-53dffe13ba09</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d735af6e-76a5-4855-b61a-a77d9b1498d7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'http://shopbachhoaweb.wuaze.com/'</defaultValue>
+      <description></description>
+      <id>d27c9606-8a50-405f-904b-63824d4414ce</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'hoangtran@gmail.com'</defaultValue>
+      <description></description>
+      <id>b11607c0-c461-44e5-8ba4-53dffe13ba09</id>
+      <masked>false</masked>
+      <name>email_address</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hoang@123'</defaultValue>
+      <description></description>
+      <id>d735af6e-76a5-4855-b61a-a77d9b1498d7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

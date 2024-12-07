@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>On the checkout page, redirect the user to the login page if they are not logged in. Then redirect them back to the checkout page to continue payment.</description>
+   <name>PM_Confirm after user login, redirect back to payment page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f906cdf1-7026-4728-ac72-40b2181081f2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7e802fa8-2325-4931-8fc1-95769f0dbf47</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9cc67b36-1bf7-4040-9d18-46e062b54bc3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a9e85bc3-cd5c-403c-90c5-b9fc88f92ed8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'http://shopbachhoaweb.wuaze.com/'</defaultValue>
+      <description></description>
+      <id>7e802fa8-2325-4931-8fc1-95769f0dbf47</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'hoangtran@gmail.com'</defaultValue>
+      <description></description>
+      <id>9cc67b36-1bf7-4040-9d18-46e062b54bc3</id>
+      <masked>false</masked>
+      <name>email_address</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hoang@123'</defaultValue>
+      <description></description>
+      <id>a9e85bc3-cd5c-403c-90c5-b9fc88f92ed8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

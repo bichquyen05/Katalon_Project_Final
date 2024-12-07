@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Displays a login request and redirects to the login page if the user is not logged into the account.</description>
+   <name>PM_Verify login account before payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>68fc96ae-fee5-437a-a5d8-0612b626d48b</testCaseGuid>
+</TestCaseEntity>

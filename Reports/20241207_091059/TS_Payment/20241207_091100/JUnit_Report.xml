@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Payment" time="750.597" tests="8" failures="2" errors="0">
+   <testsuite name="TS_Payment" tests="8" failures="2" errors="0" time="750.597" skipped="0" timestamp="07-12-2024T09:11:05" hostname="Hp - host.docker.internal" id="Test Suites/TS_Payment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Katalon\\Katalon_Project_Final\\Reports\\20241207_091059\\TS_Payment\\20241207_091100"/>
+         <property name="logFiles" value="D:\\Katalon\\Katalon_Project_Final\\Reports\\20241207_091059\\TS_Payment\\20241207_091100\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hp - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="sessionId" value="8e24a83de5b2830bea5e84e9f6c4008a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Payment/PM_Verify login account before payment" time="60.815" classname="Test Cases/Payment/PM_Verify login account before payment" status="PASSED">
+         <system-out><![CDATA[07-12-2024T09:11:05 - [TEST_CASE][PASSED] - Test Cases/Payment/PM_Verify login account before payment: Test Cases/Payment/PM_Verify login account before payment
+
+07-12-2024T09:11:06 - [TEST_STEP][PASSED] - openBrowser("http://shopbachhoaweb.wuaze.com/"): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+07-12-2024T09:11:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-12-2024T09:11:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-12-2024T09:11:25 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+07-12-2024T09:11:25 - [TEST_STEP][PASSED] - clickProductByIndex(6): null
+
+07-12-2024T09:11:25 - [TEST_STEP][PASSED] - dynamicProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+07-12-2024T09:11:25 - [TEST_STEP][PASSED] - xpath = "(//a[contains(text(),'Product Details')])[" + index + "]": null
+
+07-12-2024T09:11:25 - [TEST_STEP][PASSED] - dynamicProduct.addProperty("xpath", EQUALS, xpath): null
+
+07-12-2024T09:11:25 - [TEST_STEP][PASSED] - click(dynamicProduct): Object: '' is clicked on
+
+07-12-2024T09:11:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+07-12-2024T09:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Add to cart")): Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:11:40 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Home")): Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Cart")): Object: 'Object Repository/Payment/a_Cart' is clicked on
+
+07-12-2024T09:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Cart' is clicked on
+
+07-12-2024T09:11:52 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Proceed to Checkout")): Object: 'Object Repository/Payment/a_Proceed to Checkout' is clicked on
+
+07-12-2024T09:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Proceed to Checkout' is clicked on
+
+07-12-2024T09:11:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Payment/a_Please login as customer to checkout"), 1): Object 'Object Repository/Payment/a_Please login as customer to checkout' is present
+
+07-12-2024T09:11:58 - [MESSAGE][PASSED] - Object 'Object Repository/Payment/a_Please login as customer to checkout' is present
+
+07-12-2024T09:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Please login as customer to checkout")): Object: 'Object Repository/Payment/a_Please login as customer to checkout' is clicked on
+
+07-12-2024T09:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Please login as customer to checkout' is clicked on
+
+07-12-2024T09:12:04 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'http://shopbachhoaweb.wuaze.com/login.php'
+
+07-12-2024T09:12:04 - [MESSAGE][PASSED] - Current window's url is: 'http://shopbachhoaweb.wuaze.com/login.php'
+
+07-12-2024T09:12:04 - [TEST_STEP][PASSED] - expectedUrl = "http://shopbachhoaweb.wuaze.com/login.php": null
+
+07-12-2024T09:12:04 - [TEST_STEP][PASSED] - verifyMatch(currentUrl, expectedUrl, false): Actual text 'http://shopbachhoaweb.wuaze.com/login.php' and expected text 'http://shopbachhoaweb.wuaze.com/login.php' are matched 
+
+07-12-2024T09:12:04 - [MESSAGE][PASSED] - Actual text 'http://shopbachhoaweb.wuaze.com/login.php' and expected text 'http://shopbachhoaweb.wuaze.com/login.php' are matched 
+
+07-12-2024T09:12:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+07-12-2024T09:12:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+07-12-2024T09:12:06 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+07-12-2024T09:12:06 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+07-12-2024T09:12:06 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payment/PM_Confirm after user login, redirect back to payment page" time="76.783" classname="Test Cases/Payment/PM_Confirm after user login, redirect back to payment page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Payment/PM_Confirm after user login, redirect back to payment page FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Actual text 'http://shopbachhoaweb.wuaze.com/index.php' and expected text 'http://shopbachhoaweb.wuaze.com/checkout.php' are not matched&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at PM_Confirm after user login, redirect back to payment page.run(PM_Confirm after user login, redirect back to payment page:65)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1733537460972.run(TempTestSuite1733537460972.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[07-12-2024T09:12:06 - [TEST_CASE][FAILED] - Test Cases/Payment/PM_Confirm after user login, redirect back to payment page: Test Cases/Payment/PM_Confirm after user login, redirect back to payment page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'http://shopbachhoaweb.wuaze.com/index.php' and expected text 'http://shopbachhoaweb.wuaze.com/checkout.php' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at PM_Confirm after user login, redirect back to payment page.run(PM_Confirm after user login, redirect back to payment page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1733537460972.run(TempTestSuite1733537460972.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+07-12-2024T09:12:07 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+07-12-2024T09:12:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+07-12-2024T09:12:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-12-2024T09:12:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-12-2024T09:12:25 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+07-12-2024T09:12:25 - [TEST_STEP][PASSED] - clickProductByIndex(6): null
+
+07-12-2024T09:12:25 - [TEST_STEP][PASSED] - dynamicProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+07-12-2024T09:12:25 - [TEST_STEP][PASSED] - xpath = "(//a[contains(text(),'Product Details')])[" + index + "]": null
+
+07-12-2024T09:12:25 - [TEST_STEP][PASSED] - dynamicProduct.addProperty("xpath", EQUALS, xpath): null
+
+07-12-2024T09:12:25 - [TEST_STEP][PASSED] - click(dynamicProduct): Object: '' is clicked on
+
+07-12-2024T09:12:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+07-12-2024T09:12:31 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Add to cart")): Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:12:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:12:39 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Home")): Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:12:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:12:45 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Cart")): Object: 'Object Repository/Payment/a_Cart' is clicked on
+
+07-12-2024T09:12:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Cart' is clicked on
+
+07-12-2024T09:12:52 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Proceed to Checkout")): Object: 'Object Repository/Payment/a_Proceed to Checkout' is clicked on
+
+07-12-2024T09:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Proceed to Checkout' is clicked on
+
+07-12-2024T09:12:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Payment/a_Please login as customer to checkout"), 1): Object 'Object Repository/Payment/a_Please login as customer to checkout' is present
+
+07-12-2024T09:12:59 - [MESSAGE][PASSED] - Object 'Object Repository/Payment/a_Please login as customer to checkout' is present
+
+07-12-2024T09:12:59 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Please login as customer to checkout")): Object: 'Object Repository/Payment/a_Please login as customer to checkout' is clicked on
+
+07-12-2024T09:13:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Please login as customer to checkout' is clicked on
+
+07-12-2024T09:13:08 - [TEST_STEP][PASSED] - setText(findTestObject("Payment/input_Email Address"), email_address): Text 'hoangtran@gmail.com' is set on object 'Object Repository/Payment/input_Email Address'
+
+07-12-2024T09:13:10 - [MESSAGE][PASSED] - Text 'hoangtran@gmail.com' is set on object 'Object Repository/Payment/input_Email Address'
+
+07-12-2024T09:13:10 - [TEST_STEP][PASSED] - setText(findTestObject("Payment/input_Password"), password): Text 'Hoang@123' is set on object 'Object Repository/Payment/input_Password'
+
+07-12-2024T09:13:11 - [MESSAGE][PASSED] - Text 'Hoang@123' is set on object 'Object Repository/Payment/input_Password'
+
+07-12-2024T09:13:11 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Login")): Object: 'Object Repository/Payment/btn_Login' is clicked on
+
+07-12-2024T09:13:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Login' is clicked on
+
+07-12-2024T09:13:23 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'http://shopbachhoaweb.wuaze.com/index.php'
+
+07-12-2024T09:13:23 - [MESSAGE][PASSED] - Current window's url is: 'http://shopbachhoaweb.wuaze.com/index.php'
+
+07-12-2024T09:13:23 - [TEST_STEP][PASSED] - expectedUrl = "http://shopbachhoaweb.wuaze.com/checkout.php": null
+
+07-12-2024T09:13:23 - [TEST_STEP][FAILED] - verifyMatch(currentUrl, expectedUrl, false): Unable to verify match between actual text 'http://shopbachhoaweb.wuaze.com/index.php' and expected text 'http://shopbachhoaweb.wuaze.com/checkout.php' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'http://shopbachhoaweb.wuaze.com/index.php' and expected text 'http://shopbachhoaweb.wuaze.com/checkout.php' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at PM_Confirm after user login, redirect back to payment page.run(PM_Confirm after user login, redirect back to payment page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1733537460972.run(TempTestSuite1733537460972.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+07-12-2024T09:13:23 - [MESSAGE][FAILED] - Unable to verify match between actual text 'http://shopbachhoaweb.wuaze.com/index.php' and expected text 'http://shopbachhoaweb.wuaze.com/checkout.php' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'http://shopbachhoaweb.wuaze.com/index.php' and expected text 'http://shopbachhoaweb.wuaze.com/checkout.php' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at PM_Confirm after user login, redirect back to payment page.run(PM_Confirm after user login, redirect back to payment page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1733537460972.run(TempTestSuite1733537460972.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+07-12-2024T09:13:23 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+07-12-2024T09:13:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+07-12-2024T09:13:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[07-12-2024T09:12:06 - [TEST_CASE][FAILED] - Test Cases/Payment/PM_Confirm after user login, redirect back to payment page: Test Cases/Payment/PM_Confirm after user login, redirect back to payment page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'http://shopbachhoaweb.wuaze.com/index.php' and expected text 'http://shopbachhoaweb.wuaze.com/checkout.php' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at PM_Confirm after user login, redirect back to payment page.run(PM_Confirm after user login, redirect back to payment page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1733537460972.run(TempTestSuite1733537460972.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payment/PM_Check that the ordered product information is displayed correctly" time="125.89" classname="Test Cases/Payment/PM_Check that the ordered product information is displayed correctly" status="PASSED">
+         <system-out><![CDATA[07-12-2024T09:13:23 - [TEST_CASE][PASSED] - Test Cases/Payment/PM_Check that the ordered product information is displayed correctly: Test Cases/Payment/PM_Check that the ordered product information is displayed correctly
+
+07-12-2024T09:13:24 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+07-12-2024T09:13:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+07-12-2024T09:13:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-12-2024T09:13:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-12-2024T09:13:52 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+07-12-2024T09:13:52 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Login")): Object: 'Object Repository/Payment/a_Login' is clicked on
+
+07-12-2024T09:14:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Login' is clicked on
+
+07-12-2024T09:14:02 - [TEST_STEP][PASSED] - setText(findTestObject("Payment/input_Email Address"), email_address): Text 'hoangtran@gmail.com' is set on object 'Object Repository/Payment/input_Email Address'
+
+07-12-2024T09:14:03 - [MESSAGE][PASSED] - Text 'hoangtran@gmail.com' is set on object 'Object Repository/Payment/input_Email Address'
+
+07-12-2024T09:14:03 - [TEST_STEP][PASSED] - setText(findTestObject("Payment/input_Password"), password): Text 'Hoang@123' is set on object 'Object Repository/Payment/input_Password'
+
+07-12-2024T09:14:05 - [MESSAGE][PASSED] - Text 'Hoang@123' is set on object 'Object Repository/Payment/input_Password'
+
+07-12-2024T09:14:05 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Login")): Object: 'Object Repository/Payment/btn_Login' is clicked on
+
+07-12-2024T09:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Login' is clicked on
+
+07-12-2024T09:14:14 - [TEST_STEP][PASSED] - clickProductByIndex(7): null
+
+07-12-2024T09:14:14 - [TEST_STEP][PASSED] - dynamicProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+07-12-2024T09:14:14 - [TEST_STEP][PASSED] - xpath = "(//a[contains(text(),'Product Details')])[" + index + "]": null
+
+07-12-2024T09:14:14 - [TEST_STEP][PASSED] - dynamicProduct.addProperty("xpath", EQUALS, xpath): null
+
+07-12-2024T09:14:14 - [TEST_STEP][PASSED] - click(dynamicProduct): Object: '' is clicked on
+
+07-12-2024T09:14:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+07-12-2024T09:14:27 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Add to cart")): Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:14:36 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Home")): Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:14:45 - [TEST_STEP][PASSED] - clickProductByIndex(8): null
+
+07-12-2024T09:14:45 - [TEST_STEP][PASSED] - dynamicProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+07-12-2024T09:14:45 - [TEST_STEP][PASSED] - xpath = "(//a[contains(text(),'Product Details')])[" + index + "]": null
+
+07-12-2024T09:14:45 - [TEST_STEP][PASSED] - dynamicProduct.addProperty("xpath", EQUALS, xpath): null
+
+07-12-2024T09:14:45 - [TEST_STEP][PASSED] - click(dynamicProduct): Object: '' is clicked on
+
+07-12-2024T09:14:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+07-12-2024T09:14:51 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Add to cart")): Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:15:01 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Home")): Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:15:07 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Cart")): Object: 'Object Repository/Payment/a_Cart' is clicked on
+
+07-12-2024T09:15:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Cart' is clicked on
+
+07-12-2024T09:15:13 - [TEST_STEP][PASSED] - cartItems = []: null
+
+07-12-2024T09:15:13 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+07-12-2024T09:15:13 - [TEST_STEP][PASSED] - cartProductRows = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+07-12-2024T09:15:14 - [TEST_STEP][PASSED] - for ([i = 1, i < cartProductRows.size() - 1, (i++)]): null
+
+07-12-2024T09:15:14 - [TEST_STEP][PASSED] - cartProductRow = cartProductRows.get(i): null
+
+07-12-2024T09:15:14 - [TEST_STEP][PASSED] - cartProductInfo = new java.util.HashMap(): null
+
+07-12-2024T09:15:14 - [TEST_STEP][PASSED] - cartProductInfo.put("name", xpath("//td[3]")).getText()): null
+
+07-12-2024T09:15:14 - [TEST_STEP][PASSED] - cartProductInfo.put("price", xpath("//td[6]")).getText()): null
+
+07-12-2024T09:15:14 - [TEST_STEP][PASSED] - cartProductInfo.put("quantity", xpath("//td[7]/input[3]")).getAttribute("value")): null
+
+07-12-2024T09:15:15 - [TEST_STEP][PASSED] - println(cartProductInfo.get("quantity")): null
+
+07-12-2024T09:15:15 - [TEST_STEP][PASSED] - cartProductInfo.put("total", xpath("//td[8]")).getText()): null
+
+07-12-2024T09:15:15 - [TEST_STEP][PASSED] - cartItems.add(cartProductInfo): null
+
+07-12-2024T09:15:15 - [TEST_STEP][PASSED] - cartProductRow = cartProductRows.get(i): null
+
+07-12-2024T09:15:15 - [TEST_STEP][PASSED] - cartProductInfo = new java.util.HashMap(): null
+
+07-12-2024T09:15:15 - [TEST_STEP][PASSED] - cartProductInfo.put("name", xpath("//td[3]")).getText()): null
+
+07-12-2024T09:15:16 - [TEST_STEP][PASSED] - cartProductInfo.put("price", xpath("//td[6]")).getText()): null
+
+07-12-2024T09:15:17 - [TEST_STEP][PASSED] - cartProductInfo.put("quantity", xpath("//td[7]/input[3]")).getAttribute("value")): null
+
+07-12-2024T09:15:17 - [TEST_STEP][PASSED] - println(cartProductInfo.get("quantity")): null
+
+07-12-2024T09:15:17 - [TEST_STEP][PASSED] - cartProductInfo.put("total", xpath("//td[8]")).getText()): null
+
+07-12-2024T09:15:17 - [TEST_STEP][PASSED] - cartItems.add(cartProductInfo): null
+
+07-12-2024T09:15:17 - [TEST_STEP][PASSED] - println(cartItems.size()): null
+
+07-12-2024T09:15:17 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Proceed to Checkout")): Object: 'Object Repository/Payment/a_Proceed to Checkout' is clicked on
+
+07-12-2024T09:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Proceed to Checkout' is clicked on
+
+07-12-2024T09:15:24 - [TEST_STEP][PASSED] - checkoutItems = []: null
+
+07-12-2024T09:15:24 - [TEST_STEP][PASSED] - checkoutProductRows = driver.findElements(By.xpath("(//table)[1]/tbody/tr")): null
+
+07-12-2024T09:15:24 - [TEST_STEP][PASSED] - println(checkoutProductRows.size()): null
+
+07-12-2024T09:15:24 - [TEST_STEP][PASSED] - for ([i = 1, i < checkoutProductRows.size() - 2, (i++)]): null
+
+07-12-2024T09:15:24 - [TEST_STEP][PASSED] - checkoutProductRow = checkoutProductRows.get(i): null
+
+07-12-2024T09:15:24 - [TEST_STEP][PASSED] - checkoutProductInfo = new java.util.HashMap(): null
+
+07-12-2024T09:15:24 - [TEST_STEP][PASSED] - checkoutProductInfo.put("name", xpath("//td[3]")).getText()): null
+
+07-12-2024T09:15:24 - [TEST_STEP][PASSED] - checkoutProductInfo.put("price", xpath("//td[6]")).getText()): null
+
+07-12-2024T09:15:25 - [TEST_STEP][PASSED] - checkoutProductInfo.put("quantity", xpath("//td[7]")).getText()): null
+
+07-12-2024T09:15:25 - [TEST_STEP][PASSED] - checkoutProductInfo.put("total", xpath("//td[8]")).getText()): null
+
+07-12-2024T09:15:25 - [TEST_STEP][PASSED] - checkoutItems.add(checkoutProductInfo): null
+
+07-12-2024T09:15:25 - [TEST_STEP][PASSED] - checkoutProductRow = checkoutProductRows.get(i): null
+
+07-12-2024T09:15:25 - [TEST_STEP][PASSED] - checkoutProductInfo = new java.util.HashMap(): null
+
+07-12-2024T09:15:25 - [TEST_STEP][PASSED] - checkoutProductInfo.put("name", xpath("//td[3]")).getText()): null
+
+07-12-2024T09:15:27 - [TEST_STEP][PASSED] - checkoutProductInfo.put("price", xpath("//td[6]")).getText()): null
+
+07-12-2024T09:15:27 - [TEST_STEP][PASSED] - checkoutProductInfo.put("quantity", xpath("//td[7]")).getText()): null
+
+07-12-2024T09:15:27 - [TEST_STEP][PASSED] - checkoutProductInfo.put("total", xpath("//td[8]")).getText()): null
+
+07-12-2024T09:15:27 - [TEST_STEP][PASSED] - checkoutItems.add(checkoutProductInfo): null
+
+07-12-2024T09:15:27 - [TEST_STEP][PASSED] - checkoutProductRow = checkoutProductRows.get(i): null
+
+07-12-2024T09:15:27 - [TEST_STEP][PASSED] - checkoutProductInfo = new java.util.HashMap(): null
+
+07-12-2024T09:15:27 - [TEST_STEP][PASSED] - checkoutProductInfo.put("name", xpath("//td[3]")).getText()): null
+
+07-12-2024T09:15:28 - [TEST_STEP][PASSED] - checkoutProductInfo.put("price", xpath("//td[6]")).getText()): null
+
+07-12-2024T09:15:28 - [TEST_STEP][PASSED] - checkoutProductInfo.put("quantity", xpath("//td[7]")).getText()): null
+
+07-12-2024T09:15:28 - [TEST_STEP][PASSED] - checkoutProductInfo.put("total", xpath("//td[8]")).getText()): null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - checkoutItems.add(checkoutProductInfo): null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - println(checkoutItems.size()): null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - assert cartItems.size() != checkoutItems.size() : "Tổng số dòng sản phẩm không khớp!": null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - for ([i = 0, i < cartItems.size(), (i++)]): null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - cartProduct = cartItems.get(i): null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - checkoutProduct = checkoutItems.get(i): null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - assert get("name").equals(checkoutProduct.get("name")) : "Tên sản phẩm không khớp!": null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - assert get("price").equals(checkoutProduct.get("price")) : "Giá sản phẩm không khớp!": null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - assert get("quantity").equals(checkoutProduct.get("quantity")) : "Số lượng sản phẩm không khớp!": null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - assert get("total").equals(checkoutProduct.get("total")) : "Thành tiền sản phẩm không khớp!": null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - cartProduct = cartItems.get(i): null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - checkoutProduct = checkoutItems.get(i): null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - assert get("name").equals(checkoutProduct.get("name")) : "Tên sản phẩm không khớp!": null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - assert get("price").equals(checkoutProduct.get("price")) : "Giá sản phẩm không khớp!": null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - assert get("quantity").equals(checkoutProduct.get("quantity")) : "Số lượng sản phẩm không khớp!": null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - assert get("total").equals(checkoutProduct.get("total")) : "Thành tiền sản phẩm không khớp!": null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+07-12-2024T09:15:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payment/PM_Check final order value calculation" time="117.117" classname="Test Cases/Payment/PM_Check final order value calculation" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Payment/PM_Check final order value calculation FAILED.&#xa;Reason:&#xa;java.lang.AssertionError: Shipping charges are incorrect!. Expression: (java.lang.Math.abs((shippingCost - shipping)) &lt; EPSILON). Values: EPSILON = 1.0E-4&#xa;	at PM_Check final order value calculation.run(PM_Check final order value calculation:120)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1733537460972.run(TempTestSuite1733537460972.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[07-12-2024T09:15:29 - [TEST_CASE][FAILED] - Test Cases/Payment/PM_Check final order value calculation: Test Cases/Payment/PM_Check final order value calculation FAILED.
+Reason:
+java.lang.AssertionError: Shipping charges are incorrect!. Expression: (java.lang.Math.abs((shippingCost - shipping)) < EPSILON). Values: EPSILON = 1.0E-4
+	at PM_Check final order value calculation.run(PM_Check final order value calculation:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1733537460972.run(TempTestSuite1733537460972.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+07-12-2024T09:15:30 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+07-12-2024T09:15:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+07-12-2024T09:15:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-12-2024T09:15:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-12-2024T09:16:12 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+07-12-2024T09:16:12 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Login")): Object: 'Object Repository/Payment/a_Login' is clicked on
+
+07-12-2024T09:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Login' is clicked on
+
+07-12-2024T09:16:19 - [TEST_STEP][PASSED] - setText(findTestObject("Payment/input_Email Address"), email_address): Text 'hoangtran@gmail.com' is set on object 'Object Repository/Payment/input_Email Address'
+
+07-12-2024T09:16:21 - [MESSAGE][PASSED] - Text 'hoangtran@gmail.com' is set on object 'Object Repository/Payment/input_Email Address'
+
+07-12-2024T09:16:21 - [TEST_STEP][PASSED] - setText(findTestObject("Payment/input_Password"), password): Text 'Hoang@123' is set on object 'Object Repository/Payment/input_Password'
+
+07-12-2024T09:16:22 - [MESSAGE][PASSED] - Text 'Hoang@123' is set on object 'Object Repository/Payment/input_Password'
+
+07-12-2024T09:16:22 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Login")): Object: 'Object Repository/Payment/btn_Login' is clicked on
+
+07-12-2024T09:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Login' is clicked on
+
+07-12-2024T09:16:31 - [TEST_STEP][PASSED] - clickProductByIndex(7): null
+
+07-12-2024T09:16:31 - [TEST_STEP][PASSED] - dynamicProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+07-12-2024T09:16:31 - [TEST_STEP][PASSED] - xpath = "(//a[contains(text(),'Product Details')])[" + index + "]": null
+
+07-12-2024T09:16:31 - [TEST_STEP][PASSED] - dynamicProduct.addProperty("xpath", EQUALS, xpath): null
+
+07-12-2024T09:16:31 - [TEST_STEP][PASSED] - click(dynamicProduct): Object: '' is clicked on
+
+07-12-2024T09:16:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+07-12-2024T09:16:37 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Add to cart")): Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:16:45 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Home")): Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:16:51 - [TEST_STEP][PASSED] - clickProductByIndex(8): null
+
+07-12-2024T09:16:51 - [TEST_STEP][PASSED] - dynamicProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+07-12-2024T09:16:51 - [TEST_STEP][PASSED] - xpath = "(//a[contains(text(),'Product Details')])[" + index + "]": null
+
+07-12-2024T09:16:51 - [TEST_STEP][PASSED] - dynamicProduct.addProperty("xpath", EQUALS, xpath): null
+
+07-12-2024T09:16:51 - [TEST_STEP][PASSED] - click(dynamicProduct): Object: '' is clicked on
+
+07-12-2024T09:16:57 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+07-12-2024T09:16:57 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Add to cart")): Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:17:03 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Home")): Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:17:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:17:09 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Cart")): Object: 'Object Repository/Payment/a_Cart' is clicked on
+
+07-12-2024T09:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Cart' is clicked on
+
+07-12-2024T09:17:15 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Proceed to Checkout")): Object: 'Object Repository/Payment/a_Proceed to Checkout' is clicked on
+
+07-12-2024T09:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Proceed to Checkout' is clicked on
+
+07-12-2024T09:17:21 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+07-12-2024T09:17:21 - [TEST_STEP][PASSED] - products = driver.findElements(By.xpath("(//table)[1]/tbody/tr")): null
+
+07-12-2024T09:17:22 - [TEST_STEP][PASSED] - totalPrice = 0.0: null
+
+07-12-2024T09:17:22 - [TEST_STEP][PASSED] - for ([i = 1, i < products.size() - 3, (i++)]): null
+
+07-12-2024T09:17:22 - [TEST_STEP][PASSED] - product = products.get(i): null
+
+07-12-2024T09:17:22 - [TEST_STEP][PASSED] - productName = xpath("td[3]")).getText(): null
+
+07-12-2024T09:17:22 - [TEST_STEP][PASSED] - price = xpath("td[6]")).getText(): null
+
+07-12-2024T09:17:22 - [TEST_STEP][PASSED] - quantity = xpath("td[7]")).getText(): null
+
+07-12-2024T09:17:23 - [TEST_STEP][PASSED] - total = xpath("td[8]")).getText(): null
+
+07-12-2024T09:17:23 - [TEST_STEP][PASSED] - println("Product Row: " + i): null
+
+07-12-2024T09:17:23 - [TEST_STEP][PASSED] - println("Name: " + productName): null
+
+07-12-2024T09:17:23 - [TEST_STEP][PASSED] - println("Price: " + price): null
+
+07-12-2024T09:17:23 - [TEST_STEP][PASSED] - println("Quantity: " + quantity): null
+
+07-12-2024T09:17:23 - [TEST_STEP][PASSED] - println("Total: " + total): null
+
+07-12-2024T09:17:23 - [TEST_STEP][PASSED] - totalPrice += Double.parseDouble(split(" ")[0].replace(",", "")): null
+
+07-12-2024T09:17:23 - [TEST_STEP][PASSED] - product = products.get(i): null
+
+07-12-2024T09:17:23 - [TEST_STEP][PASSED] - productName = xpath("td[3]")).getText(): null
+
+07-12-2024T09:17:24 - [TEST_STEP][PASSED] - price = xpath("td[6]")).getText(): null
+
+07-12-2024T09:17:24 - [TEST_STEP][PASSED] - quantity = xpath("td[7]")).getText(): null
+
+07-12-2024T09:17:24 - [TEST_STEP][PASSED] - total = xpath("td[8]")).getText(): null
+
+07-12-2024T09:17:25 - [TEST_STEP][PASSED] - println("Product Row: " + i): null
+
+07-12-2024T09:17:25 - [TEST_STEP][PASSED] - println("Name: " + productName): null
+
+07-12-2024T09:17:25 - [TEST_STEP][PASSED] - println("Price: " + price): null
+
+07-12-2024T09:17:25 - [TEST_STEP][PASSED] - println("Quantity: " + quantity): null
+
+07-12-2024T09:17:25 - [TEST_STEP][PASSED] - println("Total: " + total): null
+
+07-12-2024T09:17:25 - [TEST_STEP][PASSED] - totalPrice += Double.parseDouble(split(" ")[0].replace(",", "")): null
+
+07-12-2024T09:17:25 - [TEST_STEP][PASSED] - println("Total Price of products: " + totalPrice): null
+
+07-12-2024T09:17:25 - [TEST_STEP][PASSED] - sSubTotal = getText(findTestObject("Payment/th_Sub Total")).split(" ")[0]: Text of object 'Object Repository/Payment/th_Sub Total' is: '530,900 VND'
+
+07-12-2024T09:17:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Payment/th_Sub Total' is: '530,900 VND'
+
+07-12-2024T09:17:25 - [TEST_STEP][PASSED] - subTotal = Double.parseDouble(sSubTotal.replace(",", "")): null
+
+07-12-2024T09:17:25 - [TEST_STEP][PASSED] - println(subTotal): null
+
+07-12-2024T09:17:25 - [TEST_STEP][PASSED] - sShippingCost = getText(findTestObject("Payment/td_Shipping Cost")).split(" ")[0]: Text of object 'Object Repository/Payment/td_Shipping Cost' is: '100 VND'
+
+07-12-2024T09:17:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Payment/td_Shipping Cost' is: '100 VND'
+
+07-12-2024T09:17:25 - [TEST_STEP][PASSED] - shippingCost = Double.parseDouble(sShippingCost.replace(",", "")): null
+
+07-12-2024T09:17:25 - [TEST_STEP][PASSED] - println(shippingCost): null
+
+07-12-2024T09:17:25 - [TEST_STEP][PASSED] - sTotalOrder = getText(findTestObject("Payment/th_Total")).split(" ")[0]: Text of object 'Object Repository/Payment/th_Total' is: '531,000 VND'
+
+07-12-2024T09:17:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Payment/th_Total' is: '531,000 VND'
+
+07-12-2024T09:17:26 - [TEST_STEP][PASSED] - totalOrder = Double.parseDouble(sTotalOrder.replace(",", "")): null
+
+07-12-2024T09:17:26 - [TEST_STEP][PASSED] - println(totalOrder): null
+
+07-12-2024T09:17:26 - [TEST_STEP][PASSED] - EPSILON = 0.0001: null
+
+07-12-2024T09:17:26 - [TEST_STEP][PASSED] - assert Math.abs(totalPrice - subTotal) < EPSILON : "Total amount does not match!": null
+
+07-12-2024T09:17:26 - [TEST_STEP][PASSED] - shipping = 0.00: null
+
+07-12-2024T09:17:26 - [TEST_STEP][PASSED] - if (subTotal < 300000 - EPSILON): null
+
+07-12-2024T09:17:26 - [TEST_STEP][PASSED] - else: null
+
+07-12-2024T09:17:26 - [TEST_STEP][PASSED] - shipping = 10000: null
+
+07-12-2024T09:17:26 - [TEST_STEP][FAILED] - assert Math.abs(shippingCost - shipping) < EPSILON : "Shipping charges are incorrect!": Test Cases/Payment/PM_Check final order value calculation FAILED.
+Reason:
+java.lang.AssertionError: Shipping charges are incorrect!. Expression: (java.lang.Math.abs((shippingCost - shipping)) < EPSILON). Values: EPSILON = 1.0E-4
+	at PM_Check final order value calculation.run(PM_Check final order value calculation:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1733537460972.run(TempTestSuite1733537460972.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+07-12-2024T09:17:26 - [MESSAGE][FAILED] - Test Cases/Payment/PM_Check final order value calculation FAILED.
+Reason:
+java.lang.AssertionError: Shipping charges are incorrect!. Expression: (java.lang.Math.abs((shippingCost - shipping)) < EPSILON). Values: EPSILON = 1.0E-4
+	at PM_Check final order value calculation.run(PM_Check final order value calculation:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1733537460972.run(TempTestSuite1733537460972.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+07-12-2024T09:17:26 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+07-12-2024T09:17:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+07-12-2024T09:17:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[07-12-2024T09:15:29 - [TEST_CASE][FAILED] - Test Cases/Payment/PM_Check final order value calculation: Test Cases/Payment/PM_Check final order value calculation FAILED.
+Reason:
+java.lang.AssertionError: Shipping charges are incorrect!. Expression: (java.lang.Math.abs((shippingCost - shipping)) < EPSILON). Values: EPSILON = 1.0E-4
+	at PM_Check final order value calculation.run(PM_Check final order value calculation:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1733537460972.run(TempTestSuite1733537460972.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payment/PM_Check Billing Address and Shipping Address" time="115.591" classname="Test Cases/Payment/PM_Check Billing Address and Shipping Address" status="PASSED">
+         <system-out><![CDATA[07-12-2024T09:17:26 - [TEST_CASE][PASSED] - Test Cases/Payment/PM_Check Billing Address and Shipping Address: Test Cases/Payment/PM_Check Billing Address and Shipping Address
+
+07-12-2024T09:17:27 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+07-12-2024T09:17:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+07-12-2024T09:17:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-12-2024T09:17:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-12-2024T09:17:57 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+07-12-2024T09:17:57 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Login")): Object: 'Object Repository/Payment/a_Login' is clicked on
+
+07-12-2024T09:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Login' is clicked on
+
+07-12-2024T09:18:04 - [TEST_STEP][PASSED] - setText(findTestObject("Payment/input_Email Address"), email_address): Text 'khanhhm@gmail.com' is set on object 'Object Repository/Payment/input_Email Address'
+
+07-12-2024T09:18:05 - [MESSAGE][PASSED] - Text 'khanhhm@gmail.com' is set on object 'Object Repository/Payment/input_Email Address'
+
+07-12-2024T09:18:05 - [TEST_STEP][PASSED] - setText(findTestObject("Payment/input_Password"), password): Text 'Khanh@123' is set on object 'Object Repository/Payment/input_Password'
+
+07-12-2024T09:18:06 - [MESSAGE][PASSED] - Text 'Khanh@123' is set on object 'Object Repository/Payment/input_Password'
+
+07-12-2024T09:18:06 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Login")): Object: 'Object Repository/Payment/btn_Login' is clicked on
+
+07-12-2024T09:18:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Login' is clicked on
+
+07-12-2024T09:18:15 - [TEST_STEP][PASSED] - clickProductByIndex(7): null
+
+07-12-2024T09:18:15 - [TEST_STEP][PASSED] - dynamicProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+07-12-2024T09:18:15 - [TEST_STEP][PASSED] - xpath = "(//a[contains(text(),'Product Details')])[" + index + "]": null
+
+07-12-2024T09:18:15 - [TEST_STEP][PASSED] - dynamicProduct.addProperty("xpath", EQUALS, xpath): null
+
+07-12-2024T09:18:15 - [TEST_STEP][PASSED] - click(dynamicProduct): Object: '' is clicked on
+
+07-12-2024T09:18:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+07-12-2024T09:18:20 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Add to cart")): Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:18:29 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Home")): Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:18:39 - [TEST_STEP][PASSED] - clickProductByIndex(8): null
+
+07-12-2024T09:18:39 - [TEST_STEP][PASSED] - dynamicProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+07-12-2024T09:18:39 - [TEST_STEP][PASSED] - xpath = "(//a[contains(text(),'Product Details')])[" + index + "]": null
+
+07-12-2024T09:18:39 - [TEST_STEP][PASSED] - dynamicProduct.addProperty("xpath", EQUALS, xpath): null
+
+07-12-2024T09:18:39 - [TEST_STEP][PASSED] - click(dynamicProduct): Object: '' is clicked on
+
+07-12-2024T09:18:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+07-12-2024T09:18:49 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Add to cart")): Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:18:55 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Home")): Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:19:02 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Cart")): Object: 'Object Repository/Payment/a_Cart' is clicked on
+
+07-12-2024T09:19:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Cart' is clicked on
+
+07-12-2024T09:19:08 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Proceed to Checkout")): Object: 'Object Repository/Payment/a_Proceed to Checkout' is clicked on
+
+07-12-2024T09:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Proceed to Checkout' is clicked on
+
+07-12-2024T09:19:14 - [TEST_STEP][PASSED] - billingCells = ["Payment/td_BA_Full Name", "Payment/td_BA_Company Name", "Payment/td_BA_Phone Number", "Payment/td_BA_Country", "Payment/td_BA_Address", "Payment/td_BA_City", "Payment/td_BA_State", "Payment/td_BA_Zip Code"]: null
+
+07-12-2024T09:19:14 - [TEST_STEP][PASSED] - shippingCells = ["Payment/td_SA_Full Name", "Payment/td_SA_Company Name", "Payment/td_SA_Phone Number", "Payment/td_SA_Country", "Payment/td_SA_Address", "Payment/td_SA_City", "Payment/td_SA_State", "Payment/td_SA_Zip Code"]: null
+
+07-12-2024T09:19:14 - [TEST_STEP][PASSED] - isBillingMissing = checkEmptyFields(billingCells, "Billing Address"): null
+
+07-12-2024T09:19:14 - [TEST_STEP][PASSED] - isEmpty = false: null
+
+07-12-2024T09:19:14 - [TEST_STEP][PASSED] - for (String cellPath : cellPaths): null
+
+07-12-2024T09:19:14 - [TEST_STEP][PASSED] - value = getText(findTestObject(cellPath)).trim(): Text of object 'Object Repository/Payment/td_BA_Full Name' is: 'Hoang Minh Khanh'
+
+07-12-2024T09:19:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Payment/td_BA_Full Name' is: 'Hoang Minh Khanh'
+
+07-12-2024T09:19:14 - [TEST_STEP][PASSED] - if (value == ""): null
+
+07-12-2024T09:19:14 - [TEST_STEP][PASSED] - value = getText(findTestObject(cellPath)).trim(): Text of object 'Object Repository/Payment/td_BA_Company Name' is: ''
+
+07-12-2024T09:19:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Payment/td_BA_Company Name' is: ''
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - if (value == ""): null
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - println(Missing value in $sectionName, field: $cellPath): null
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - isEmpty = true: null
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - break: null
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - return isEmpty: null
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - isShippingMissing = checkEmptyFields(shippingCells, "Shipping Address"): null
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - isEmpty = false: null
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - for (String cellPath : cellPaths): null
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - value = getText(findTestObject(cellPath)).trim(): Text of object 'Object Repository/Payment/td_SA_Full Name' is: 'Hoang Khanh An'
+
+07-12-2024T09:19:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Payment/td_SA_Full Name' is: 'Hoang Khanh An'
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - if (value == ""): null
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - value = getText(findTestObject(cellPath)).trim(): Text of object 'Object Repository/Payment/td_SA_Company Name' is: ''
+
+07-12-2024T09:19:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Payment/td_SA_Company Name' is: ''
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - if (value == ""): null
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - println(Missing value in $sectionName, field: $cellPath): null
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - isEmpty = true: null
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - break: null
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - return isEmpty: null
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - if (isBillingMissing || isShippingMissing): Actual text 'http://shopbachhoaweb.wuaze.com/customer-billing-shipping-update.php' and expected text 'http://shopbachhoaweb.wuaze.com/customer-billing-shipping-update.php' are matched 
+
+07-12-2024T09:19:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Payment/div_Message"), 1): Object 'Object Repository/Payment/div_Message' is present
+
+07-12-2024T09:19:16 - [MESSAGE][PASSED] - Object 'Object Repository/Payment/div_Message' is present
+
+07-12-2024T09:19:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Payment/div_Message"), "You must have to fill up all the billing and shipping information from your dashboard panel in order to checkout the order. Please fill up the information going to this link."): Actual text and expected text of test object 'Object Repository/Payment/div_Message' are matched.
+
+07-12-2024T09:19:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Payment/div_Message' are matched.
+
+07-12-2024T09:19:16 - [TEST_STEP][PASSED] - comment("<span style='color:red;'>You must fill up all the billing and shipping information. <a href='update-info-link'>Click here</a> to update.</span>"): <span style='color:red;'>You must fill up all the billing and shipping information. <a href='update-info-link'>Click here</a> to update.</span>
+
+07-12-2024T09:19:16 - [MESSAGE][INFO] - <span style='color:red;'>You must fill up all the billing and shipping information. <a href='update-info-link'>Click here</a> to update.</span>
+
+07-12-2024T09:19:16 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_this link")): Object: 'Object Repository/Payment/a_this link' is clicked on
+
+07-12-2024T09:19:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_this link' is clicked on
+
+07-12-2024T09:19:21 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'http://shopbachhoaweb.wuaze.com/customer-billing-shipping-update.php'
+
+07-12-2024T09:19:22 - [MESSAGE][PASSED] - Current window's url is: 'http://shopbachhoaweb.wuaze.com/customer-billing-shipping-update.php'
+
+07-12-2024T09:19:22 - [TEST_STEP][PASSED] - expectedUrl = "http://shopbachhoaweb.wuaze.com/customer-billing-shipping-update.php": null
+
+07-12-2024T09:19:22 - [TEST_STEP][PASSED] - verifyMatch(currentUrl, expectedUrl, false): Actual text 'http://shopbachhoaweb.wuaze.com/customer-billing-shipping-update.php' and expected text 'http://shopbachhoaweb.wuaze.com/customer-billing-shipping-update.php' are matched 
+
+07-12-2024T09:19:22 - [MESSAGE][PASSED] - Actual text 'http://shopbachhoaweb.wuaze.com/customer-billing-shipping-update.php' and expected text 'http://shopbachhoaweb.wuaze.com/customer-billing-shipping-update.php' are matched 
+
+07-12-2024T09:19:22 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+07-12-2024T09:19:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+07-12-2024T09:19:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payment/PM_Check that the Back to Cart button is working" time="92.411" classname="Test Cases/Payment/PM_Check that the Back to Cart button is working" status="PASSED">
+         <system-out><![CDATA[07-12-2024T09:19:22 - [TEST_CASE][PASSED] - Test Cases/Payment/PM_Check that the Back to Cart button is working: Test Cases/Payment/PM_Check that the Back to Cart button is working
+
+07-12-2024T09:19:22 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+07-12-2024T09:19:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+07-12-2024T09:19:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-12-2024T09:19:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-12-2024T09:19:42 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+07-12-2024T09:19:42 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Login")): Object: 'Object Repository/Payment/a_Login' is clicked on
+
+07-12-2024T09:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Login' is clicked on
+
+07-12-2024T09:19:48 - [TEST_STEP][PASSED] - setText(findTestObject("Payment/input_Email Address"), email_address): Text 'hoangtran@gmail.com' is set on object 'Object Repository/Payment/input_Email Address'
+
+07-12-2024T09:19:49 - [MESSAGE][PASSED] - Text 'hoangtran@gmail.com' is set on object 'Object Repository/Payment/input_Email Address'
+
+07-12-2024T09:19:49 - [TEST_STEP][PASSED] - setText(findTestObject("Payment/input_Password"), password): Text 'Hoang@123' is set on object 'Object Repository/Payment/input_Password'
+
+07-12-2024T09:19:50 - [MESSAGE][PASSED] - Text 'Hoang@123' is set on object 'Object Repository/Payment/input_Password'
+
+07-12-2024T09:19:50 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Login")): Object: 'Object Repository/Payment/btn_Login' is clicked on
+
+07-12-2024T09:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Login' is clicked on
+
+07-12-2024T09:19:59 - [TEST_STEP][PASSED] - clickProductByIndex(7): null
+
+07-12-2024T09:19:59 - [TEST_STEP][PASSED] - dynamicProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+07-12-2024T09:19:59 - [TEST_STEP][PASSED] - xpath = "(//a[contains(text(),'Product Details')])[" + index + "]": null
+
+07-12-2024T09:19:59 - [TEST_STEP][PASSED] - dynamicProduct.addProperty("xpath", EQUALS, xpath): null
+
+07-12-2024T09:19:59 - [TEST_STEP][PASSED] - click(dynamicProduct): Object: '' is clicked on
+
+07-12-2024T09:20:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+07-12-2024T09:20:05 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Add to cart")): Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:20:13 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Home")): Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:20:19 - [TEST_STEP][PASSED] - clickProductByIndex(8): null
+
+07-12-2024T09:20:19 - [TEST_STEP][PASSED] - dynamicProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+07-12-2024T09:20:19 - [TEST_STEP][PASSED] - xpath = "(//a[contains(text(),'Product Details')])[" + index + "]": null
+
+07-12-2024T09:20:19 - [TEST_STEP][PASSED] - dynamicProduct.addProperty("xpath", EQUALS, xpath): null
+
+07-12-2024T09:20:19 - [TEST_STEP][PASSED] - click(dynamicProduct): Object: '' is clicked on
+
+07-12-2024T09:20:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+07-12-2024T09:20:25 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Add to cart")): Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:20:31 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Home")): Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:20:36 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Cart")): Object: 'Object Repository/Payment/a_Cart' is clicked on
+
+07-12-2024T09:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Cart' is clicked on
+
+07-12-2024T09:20:42 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Proceed to Checkout")): Object: 'Object Repository/Payment/a_Proceed to Checkout' is clicked on
+
+07-12-2024T09:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Proceed to Checkout' is clicked on
+
+07-12-2024T09:20:48 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Back to Cart")): Object: 'Object Repository/Payment/a_Back to Cart' is clicked on
+
+07-12-2024T09:20:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Back to Cart' is clicked on
+
+07-12-2024T09:20:54 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'http://shopbachhoaweb.wuaze.com/cart.php'
+
+07-12-2024T09:20:54 - [MESSAGE][PASSED] - Current window's url is: 'http://shopbachhoaweb.wuaze.com/cart.php'
+
+07-12-2024T09:20:54 - [TEST_STEP][PASSED] - expectedUrl = "http://shopbachhoaweb.wuaze.com/cart.php": null
+
+07-12-2024T09:20:54 - [TEST_STEP][PASSED] - verifyMatch(currentUrl, expectedUrl, false): Actual text 'http://shopbachhoaweb.wuaze.com/cart.php' and expected text 'http://shopbachhoaweb.wuaze.com/cart.php' are matched 
+
+07-12-2024T09:20:54 - [MESSAGE][PASSED] - Actual text 'http://shopbachhoaweb.wuaze.com/cart.php' and expected text 'http://shopbachhoaweb.wuaze.com/cart.php' are matched 
+
+07-12-2024T09:20:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+07-12-2024T09:20:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+07-12-2024T09:20:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payment/PM_Check that the Paypal Checkout button is working" time="74.817" classname="Test Cases/Payment/PM_Check that the Paypal Checkout button is working" status="PASSED">
+         <system-out><![CDATA[07-12-2024T09:20:54 - [TEST_CASE][PASSED] - Test Cases/Payment/PM_Check that the Paypal Checkout button is working: Test Cases/Payment/PM_Check that the Paypal Checkout button is working
+
+07-12-2024T09:20:54 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+07-12-2024T09:20:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+07-12-2024T09:20:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-12-2024T09:20:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-12-2024T09:21:13 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+07-12-2024T09:21:13 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Login")): Object: 'Object Repository/Payment/a_Login' is clicked on
+
+07-12-2024T09:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Login' is clicked on
+
+07-12-2024T09:21:19 - [TEST_STEP][PASSED] - setText(findTestObject("Payment/input_Email Address"), email_address): Text 'hoangtran@gmail.com' is set on object 'Object Repository/Payment/input_Email Address'
+
+07-12-2024T09:21:20 - [MESSAGE][PASSED] - Text 'hoangtran@gmail.com' is set on object 'Object Repository/Payment/input_Email Address'
+
+07-12-2024T09:21:20 - [TEST_STEP][PASSED] - setText(findTestObject("Payment/input_Password"), password): Text 'Hoang@123' is set on object 'Object Repository/Payment/input_Password'
+
+07-12-2024T09:21:21 - [MESSAGE][PASSED] - Text 'Hoang@123' is set on object 'Object Repository/Payment/input_Password'
+
+07-12-2024T09:21:21 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Login")): Object: 'Object Repository/Payment/btn_Login' is clicked on
+
+07-12-2024T09:21:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Login' is clicked on
+
+07-12-2024T09:21:29 - [TEST_STEP][PASSED] - clickProductByIndex(8): null
+
+07-12-2024T09:21:29 - [TEST_STEP][PASSED] - dynamicProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+07-12-2024T09:21:29 - [TEST_STEP][PASSED] - xpath = "(//a[contains(text(),'Product Details')])[" + index + "]": null
+
+07-12-2024T09:21:29 - [TEST_STEP][PASSED] - dynamicProduct.addProperty("xpath", EQUALS, xpath): null
+
+07-12-2024T09:21:29 - [TEST_STEP][PASSED] - click(dynamicProduct): Object: '' is clicked on
+
+07-12-2024T09:21:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+07-12-2024T09:21:35 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Add to cart")): Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:21:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:21:42 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Home")): Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:21:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:21:49 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Cart")): Object: 'Object Repository/Payment/a_Cart' is clicked on
+
+07-12-2024T09:21:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Cart' is clicked on
+
+07-12-2024T09:21:54 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Proceed to Checkout")): Object: 'Object Repository/Payment/a_Proceed to Checkout' is clicked on
+
+07-12-2024T09:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Proceed to Checkout' is clicked on
+
+07-12-2024T09:22:01 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Payment Section_Paypal")): Object: 'Object Repository/Payment/btn_Payment Section_Paypal' is clicked on
+
+07-12-2024T09:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Payment Section_Paypal' is clicked on
+
+07-12-2024T09:22:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+07-12-2024T09:22:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+07-12-2024T09:22:06 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+07-12-2024T09:22:06 - [TEST_STEP][PASSED] - windowHandles = driver.getWindowHandles(): null
+
+07-12-2024T09:22:06 - [TEST_STEP][PASSED] - switchTo().window(windowHandles.toArray()[1]): null
+
+07-12-2024T09:22:06 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'https://sandbox.paypal.com/us/home?business=sb-s52qe32074312%40business.example.com&item_name=Product+Item%28s%29&amount=7.5652173913&item_number=1733538122&cmd=_xclick&no_note=1&lc=UK&currency_code=USD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&final_total=174000&form1=Paypal+Payment&return=payment_success.php&cancel_return=payment.php&notify_url=payment%2Fpaypal%2Fverify_process.php'
+
+07-12-2024T09:22:09 - [MESSAGE][PASSED] - Current window's url is: 'https://sandbox.paypal.com/us/home?business=sb-s52qe32074312%40business.example.com&item_name=Product+Item%28s%29&amount=7.5652173913&item_number=1733538122&cmd=_xclick&no_note=1&lc=UK&currency_code=USD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&final_total=174000&form1=Paypal+Payment&return=payment_success.php&cancel_return=payment.php&notify_url=payment%2Fpaypal%2Fverify_process.php'
+
+07-12-2024T09:22:09 - [TEST_STEP][PASSED] - println("URL của PayPal: " + currentUrl): null
+
+07-12-2024T09:22:09 - [TEST_STEP][PASSED] - verifyMatch(currentUrl, ".*sandbox.paypal.com.*", true): Actual text 'https://sandbox.paypal.com/us/home?business=sb-s52qe32074312%40business.example.com&item_name=Product+Item%28s%29&amount=7.5652173913&item_number=1733538122&cmd=_xclick&no_note=1&lc=UK&currency_code=USD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&final_total=174000&form1=Paypal+Payment&return=payment_success.php&cancel_return=payment.php&notify_url=payment%2Fpaypal%2Fverify_process.php' and expected text '.*sandbox.paypal.com.*' are matched  using regular expression
+
+07-12-2024T09:22:09 - [MESSAGE][PASSED] - Actual text 'https://sandbox.paypal.com/us/home?business=sb-s52qe32074312%40business.example.com&item_name=Product+Item%28s%29&amount=7.5652173913&item_number=1733538122&cmd=_xclick&no_note=1&lc=UK&currency_code=USD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&final_total=174000&form1=Paypal+Payment&return=payment_success.php&cancel_return=payment.php&notify_url=payment%2Fpaypal%2Fverify_process.php' and expected text '.*sandbox.paypal.com.*' are matched  using regular expression
+
+07-12-2024T09:22:09 - [TEST_STEP][PASSED] - verifyMatch(currentUrl, ".*return=payment_success.php.*", true): Actual text 'https://sandbox.paypal.com/us/home?business=sb-s52qe32074312%40business.example.com&item_name=Product+Item%28s%29&amount=7.5652173913&item_number=1733538122&cmd=_xclick&no_note=1&lc=UK&currency_code=USD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&final_total=174000&form1=Paypal+Payment&return=payment_success.php&cancel_return=payment.php&notify_url=payment%2Fpaypal%2Fverify_process.php' and expected text '.*return=payment_success.php.*' are matched  using regular expression
+
+07-12-2024T09:22:09 - [MESSAGE][PASSED] - Actual text 'https://sandbox.paypal.com/us/home?business=sb-s52qe32074312%40business.example.com&item_name=Product+Item%28s%29&amount=7.5652173913&item_number=1733538122&cmd=_xclick&no_note=1&lc=UK&currency_code=USD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&final_total=174000&form1=Paypal+Payment&return=payment_success.php&cancel_return=payment.php&notify_url=payment%2Fpaypal%2Fverify_process.php' and expected text '.*return=payment_success.php.*' are matched  using regular expression
+
+07-12-2024T09:22:09 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+07-12-2024T09:22:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+07-12-2024T09:22:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payment/PM_Check the operation of the QR MoMo Payment button" time="86.912" classname="Test Cases/Payment/PM_Check the operation of the QR MoMo Payment button" status="PASSED">
+         <system-out><![CDATA[07-12-2024T09:22:09 - [TEST_CASE][PASSED] - Test Cases/Payment/PM_Check the operation of the QR MoMo Payment button: Test Cases/Payment/PM_Check the operation of the QR MoMo Payment button
+
+07-12-2024T09:22:09 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+07-12-2024T09:22:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+07-12-2024T09:22:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-12-2024T09:22:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-12-2024T09:22:40 - [MESSAGE][PASSED] - Browser is opened with url: 'http://shopbachhoaweb.wuaze.com/'
+
+07-12-2024T09:22:40 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Login")): Object: 'Object Repository/Payment/a_Login' is clicked on
+
+07-12-2024T09:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Login' is clicked on
+
+07-12-2024T09:22:47 - [TEST_STEP][PASSED] - setText(findTestObject("Payment/input_Email Address"), email_address): Text 'hoangtran@gmail.com' is set on object 'Object Repository/Payment/input_Email Address'
+
+07-12-2024T09:22:48 - [MESSAGE][PASSED] - Text 'hoangtran@gmail.com' is set on object 'Object Repository/Payment/input_Email Address'
+
+07-12-2024T09:22:48 - [TEST_STEP][PASSED] - setText(findTestObject("Payment/input_Password"), password): Text 'Hoang@123' is set on object 'Object Repository/Payment/input_Password'
+
+07-12-2024T09:22:49 - [MESSAGE][PASSED] - Text 'Hoang@123' is set on object 'Object Repository/Payment/input_Password'
+
+07-12-2024T09:22:49 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Login")): Object: 'Object Repository/Payment/btn_Login' is clicked on
+
+07-12-2024T09:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Login' is clicked on
+
+07-12-2024T09:22:57 - [TEST_STEP][PASSED] - clickProductByIndex(7): null
+
+07-12-2024T09:22:57 - [TEST_STEP][PASSED] - dynamicProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+07-12-2024T09:22:57 - [TEST_STEP][PASSED] - xpath = "(//a[contains(text(),'Product Details')])[" + index + "]": null
+
+07-12-2024T09:22:57 - [TEST_STEP][PASSED] - dynamicProduct.addProperty("xpath", EQUALS, xpath): null
+
+07-12-2024T09:22:57 - [TEST_STEP][PASSED] - click(dynamicProduct): Object: '' is clicked on
+
+07-12-2024T09:23:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+07-12-2024T09:23:02 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Add to cart")): Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:23:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Add to cart' is clicked on
+
+07-12-2024T09:23:10 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Home")): Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:23:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Home' is clicked on
+
+07-12-2024T09:23:17 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Cart")): Object: 'Object Repository/Payment/a_Cart' is clicked on
+
+07-12-2024T09:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Cart' is clicked on
+
+07-12-2024T09:23:23 - [TEST_STEP][PASSED] - click(findTestObject("Payment/a_Proceed to Checkout")): Object: 'Object Repository/Payment/a_Proceed to Checkout' is clicked on
+
+07-12-2024T09:23:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/a_Proceed to Checkout' is clicked on
+
+07-12-2024T09:23:29 - [TEST_STEP][PASSED] - click(findTestObject("Payment/btn_Payment Section_MoMo")): Object: 'Object Repository/Payment/btn_Payment Section_MoMo' is clicked on
+
+07-12-2024T09:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment/btn_Payment Section_MoMo' is clicked on
+
+07-12-2024T09:23:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+07-12-2024T09:23:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+07-12-2024T09:23:35 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+07-12-2024T09:23:35 - [TEST_STEP][PASSED] - windowHandles = driver.getWindowHandles(): null
+
+07-12-2024T09:23:35 - [TEST_STEP][PASSED] - switchTo().window(windowHandles.toArray()[1]): null
+
+07-12-2024T09:23:35 - [TEST_STEP][PASSED] - currentUrl = getUrl(): Current window's url is: 'https://test-payment.momo.vn/v2/gateway/pay?s=f398546be17346a10fd3008880874853f1f4145ef897a8f1f464362ab1577e4f&t=TU9NT0JLVU4yMDE4MDUyOXwxNzMzNTM4MjEwNjkwMQ'
+
+07-12-2024T09:23:36 - [MESSAGE][PASSED] - Current window's url is: 'https://test-payment.momo.vn/v2/gateway/pay?s=f398546be17346a10fd3008880874853f1f4145ef897a8f1f464362ab1577e4f&t=TU9NT0JLVU4yMDE4MDUyOXwxNzMzNTM4MjEwNjkwMQ'
+
+07-12-2024T09:23:36 - [TEST_STEP][PASSED] - println("URL của PayPal: " + currentUrl): null
+
+07-12-2024T09:23:36 - [TEST_STEP][PASSED] - currentUrl.contains("test-payment.momo.vn"): null
+
+07-12-2024T09:23:36 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+07-12-2024T09:23:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+07-12-2024T09:23:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-12-2024T09:11:05 - [TEST_SUITE][FAILED] - TS_Payment: Test Cases/Payment/PM_Confirm after user login, redirect back to payment page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'http://shopbachhoaweb.wuaze.com/index.php' and expected text 'http://shopbachhoaweb.wuaze.com/checkout.php' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at PM_Confirm after user login, redirect back to payment page.run(PM_Confirm after user login, redirect back to payment page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1733537460972.run(TempTestSuite1733537460972.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[07-12-2024T09:11:05 - [TEST_SUITE][FAILED] - TS_Payment: Test Cases/Payment/PM_Confirm after user login, redirect back to payment page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'http://shopbachhoaweb.wuaze.com/index.php' and expected text 'http://shopbachhoaweb.wuaze.com/checkout.php' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at PM_Confirm after user login, redirect back to payment page.run(PM_Confirm after user login, redirect back to payment page:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1733537460972.run(TempTestSuite1733537460972.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

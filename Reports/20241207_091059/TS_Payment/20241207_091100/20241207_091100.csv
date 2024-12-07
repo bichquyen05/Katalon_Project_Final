@@ -1,0 +1,236 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Payment,Chrome 131.0.0.0,,,07-12-2024 09:11:05,07-12-2024 09:23:36,12m - 30.597s,FAILED
+,,,,,,,
+Test Cases/Payment/PM_Verify login account before payment,Chrome 131.0.0.0,Displays a login request and redirects to the login page if the user is not logged into the account.,,07-12-2024 09:11:05,07-12-2024 09:12:06,1m - 0.815s,PASSED
+"openBrowser(""http://shopbachhoaweb.wuaze.com/"")",Chrome 131.0.0.0,,,07-12-2024 09:11:06,07-12-2024 09:11:25,19.665s,PASSED
+clickProductByIndex(6),Chrome 131.0.0.0,,,07-12-2024 09:11:25,07-12-2024 09:11:25,0.027s,PASSED
+dynamicProduct = new com.kms.katalon.core.testobject.TestObject(),Chrome 131.0.0.0,,,07-12-2024 09:11:25,07-12-2024 09:11:25,0.039s,PASSED
+"xpath = ""(//a[contains(text(),'Product Details')])["" + index + ""]""",Chrome 131.0.0.0,,,07-12-2024 09:11:25,07-12-2024 09:11:25,0.011s,PASSED
+"dynamicProduct.addProperty(""xpath"", EQUALS, xpath)",Chrome 131.0.0.0,,,07-12-2024 09:11:25,07-12-2024 09:11:25,0.048s,PASSED
+click(dynamicProduct),Chrome 131.0.0.0,,,07-12-2024 09:11:25,07-12-2024 09:11:32,6.178s,PASSED
+"click(findTestObject(""Payment/btn_Add to cart""))",Chrome 131.0.0.0,,,07-12-2024 09:11:32,07-12-2024 09:11:40,8.300s,PASSED
+"click(findTestObject(""Payment/a_Home""))",Chrome 131.0.0.0,,,07-12-2024 09:11:40,07-12-2024 09:11:46,6.306s,PASSED
+"click(findTestObject(""Payment/a_Cart""))",Chrome 131.0.0.0,,,07-12-2024 09:11:46,07-12-2024 09:11:52,5.560s,PASSED
+"click(findTestObject(""Payment/a_Proceed to Checkout""))",Chrome 131.0.0.0,,,07-12-2024 09:11:52,07-12-2024 09:11:58,5.897s,PASSED
+"verifyElementPresent(findTestObject(""Payment/a_Please login as customer to checkout""), 1)",Chrome 131.0.0.0,,,07-12-2024 09:11:58,07-12-2024 09:11:58,0.478s,PASSED
+"click(findTestObject(""Payment/a_Please login as customer to checkout""))",Chrome 131.0.0.0,,,07-12-2024 09:11:58,07-12-2024 09:12:04,5.668s,PASSED
+currentUrl = getUrl(),Chrome 131.0.0.0,,,07-12-2024 09:12:04,07-12-2024 09:12:04,0.085s,PASSED
+"expectedUrl = ""http://shopbachhoaweb.wuaze.com/login.php""",Chrome 131.0.0.0,,,07-12-2024 09:12:04,07-12-2024 09:12:04,0.006s,PASSED
+"verifyMatch(currentUrl, expectedUrl, false)",Chrome 131.0.0.0,,,07-12-2024 09:12:04,07-12-2024 09:12:04,0.127s,PASSED
+delay(2),Chrome 131.0.0.0,,,07-12-2024 09:12:04,07-12-2024 09:12:06,2.052s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,07-12-2024 09:12:06,07-12-2024 09:12:06,0.052s,PASSED
+,,,,,,,
+"Test Cases/Payment/PM_Confirm after user login, redirect back to payment page",Chrome 131.0.0.0,"On the checkout page, redirect the user to the login page if they are not logged in. Then redirect them back to the checkout page to continue payment.",,07-12-2024 09:12:06,07-12-2024 09:13:23,1m - 16.783s,FAILED
+openBrowser(url),Chrome 131.0.0.0,,,07-12-2024 09:12:07,07-12-2024 09:12:25,18.012s,PASSED
+clickProductByIndex(6),Chrome 131.0.0.0,,,07-12-2024 09:12:25,07-12-2024 09:12:25,0.008s,PASSED
+dynamicProduct = new com.kms.katalon.core.testobject.TestObject(),Chrome 131.0.0.0,,,07-12-2024 09:12:25,07-12-2024 09:12:25,0.008s,PASSED
+"xpath = ""(//a[contains(text(),'Product Details')])["" + index + ""]""",Chrome 131.0.0.0,,,07-12-2024 09:12:25,07-12-2024 09:12:25,0.008s,PASSED
+"dynamicProduct.addProperty(""xpath"", EQUALS, xpath)",Chrome 131.0.0.0,,,07-12-2024 09:12:25,07-12-2024 09:12:25,0.007s,PASSED
+click(dynamicProduct),Chrome 131.0.0.0,,,07-12-2024 09:12:25,07-12-2024 09:12:31,5.734s,PASSED
+"click(findTestObject(""Payment/btn_Add to cart""))",Chrome 131.0.0.0,,,07-12-2024 09:12:31,07-12-2024 09:12:39,8.395s,PASSED
+"click(findTestObject(""Payment/a_Home""))",Chrome 131.0.0.0,,,07-12-2024 09:12:39,07-12-2024 09:12:45,6.564s,PASSED
+"click(findTestObject(""Payment/a_Cart""))",Chrome 131.0.0.0,,,07-12-2024 09:12:45,07-12-2024 09:12:52,6.498s,PASSED
+"click(findTestObject(""Payment/a_Proceed to Checkout""))",Chrome 131.0.0.0,,,07-12-2024 09:12:52,07-12-2024 09:12:58,6.465s,PASSED
+"verifyElementPresent(findTestObject(""Payment/a_Please login as customer to checkout""), 1)",Chrome 131.0.0.0,,,07-12-2024 09:12:58,07-12-2024 09:12:59,0.515s,PASSED
+"click(findTestObject(""Payment/a_Please login as customer to checkout""))",Chrome 131.0.0.0,,,07-12-2024 09:12:59,07-12-2024 09:13:08,8.841s,PASSED
+"setText(findTestObject(""Payment/input_Email Address""), email_address)",Chrome 131.0.0.0,,,07-12-2024 09:13:08,07-12-2024 09:13:10,2.287s,PASSED
+"setText(findTestObject(""Payment/input_Password""), password)",Chrome 131.0.0.0,,,07-12-2024 09:13:10,07-12-2024 09:13:11,0.982s,PASSED
+"click(findTestObject(""Payment/btn_Login""))",Chrome 131.0.0.0,,,07-12-2024 09:13:11,07-12-2024 09:13:23,11.584s,PASSED
+currentUrl = getUrl(),Chrome 131.0.0.0,,,07-12-2024 09:13:23,07-12-2024 09:13:23,0.180s,PASSED
+"expectedUrl = ""http://shopbachhoaweb.wuaze.com/checkout.php""",Chrome 131.0.0.0,,,07-12-2024 09:13:23,07-12-2024 09:13:23,0.004s,PASSED
+"verifyMatch(currentUrl, expectedUrl, false)",Chrome 131.0.0.0,,,07-12-2024 09:13:23,07-12-2024 09:13:23,0.086s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,07-12-2024 09:13:23,07-12-2024 09:13:23,0.006s,PASSED
+,,,,,,,
+Test Cases/Payment/PM_Check that the ordered product information is displayed correctly,Chrome 131.0.0.0,Check the accuracy of product information.,,07-12-2024 09:13:23,07-12-2024 09:15:29,2m - 5.890s,PASSED
+openBrowser(url),Chrome 131.0.0.0,,,07-12-2024 09:13:24,07-12-2024 09:13:52,28.446s,PASSED
+"click(findTestObject(""Payment/a_Login""))",Chrome 131.0.0.0,,,07-12-2024 09:13:52,07-12-2024 09:14:02,9.947s,PASSED
+"setText(findTestObject(""Payment/input_Email Address""), email_address)",Chrome 131.0.0.0,,,07-12-2024 09:14:02,07-12-2024 09:14:03,0.920s,PASSED
+"setText(findTestObject(""Payment/input_Password""), password)",Chrome 131.0.0.0,,,07-12-2024 09:14:03,07-12-2024 09:14:05,1.364s,PASSED
+"click(findTestObject(""Payment/btn_Login""))",Chrome 131.0.0.0,,,07-12-2024 09:14:05,07-12-2024 09:14:14,9.691s,PASSED
+clickProductByIndex(7),Chrome 131.0.0.0,,,07-12-2024 09:14:14,07-12-2024 09:14:14,0.009s,PASSED
+dynamicProduct = new com.kms.katalon.core.testobject.TestObject(),Chrome 131.0.0.0,,,07-12-2024 09:14:14,07-12-2024 09:14:14,0.006s,PASSED
+"xpath = ""(//a[contains(text(),'Product Details')])["" + index + ""]""",Chrome 131.0.0.0,,,07-12-2024 09:14:14,07-12-2024 09:14:14,0.005s,PASSED
+"dynamicProduct.addProperty(""xpath"", EQUALS, xpath)",Chrome 131.0.0.0,,,07-12-2024 09:14:14,07-12-2024 09:14:14,0.006s,PASSED
+click(dynamicProduct),Chrome 131.0.0.0,,,07-12-2024 09:14:14,07-12-2024 09:14:27,12.687s,PASSED
+"click(findTestObject(""Payment/btn_Add to cart""))",Chrome 131.0.0.0,,,07-12-2024 09:14:27,07-12-2024 09:14:36,9.332s,PASSED
+"click(findTestObject(""Payment/a_Home""))",Chrome 131.0.0.0,,,07-12-2024 09:14:36,07-12-2024 09:14:45,9.094s,PASSED
+clickProductByIndex(8),Chrome 131.0.0.0,,,07-12-2024 09:14:45,07-12-2024 09:14:45,0.005s,PASSED
+dynamicProduct = new com.kms.katalon.core.testobject.TestObject(),Chrome 131.0.0.0,,,07-12-2024 09:14:45,07-12-2024 09:14:45,0.002s,PASSED
+"xpath = ""(//a[contains(text(),'Product Details')])["" + index + ""]""",Chrome 131.0.0.0,,,07-12-2024 09:14:45,07-12-2024 09:14:45,0.002s,PASSED
+"dynamicProduct.addProperty(""xpath"", EQUALS, xpath)",Chrome 131.0.0.0,,,07-12-2024 09:14:45,07-12-2024 09:14:45,0.002s,PASSED
+click(dynamicProduct),Chrome 131.0.0.0,,,07-12-2024 09:14:45,07-12-2024 09:14:51,5.817s,PASSED
+"click(findTestObject(""Payment/btn_Add to cart""))",Chrome 131.0.0.0,,,07-12-2024 09:14:51,07-12-2024 09:15:01,9.557s,PASSED
+"click(findTestObject(""Payment/a_Home""))",Chrome 131.0.0.0,,,07-12-2024 09:15:01,07-12-2024 09:15:07,6.225s,PASSED
+"click(findTestObject(""Payment/a_Cart""))",Chrome 131.0.0.0,,,07-12-2024 09:15:07,07-12-2024 09:15:13,6.387s,PASSED
+cartItems = [],Chrome 131.0.0.0,,,07-12-2024 09:15:13,07-12-2024 09:15:13,0.004s,PASSED
+driver = getWebDriver(),Chrome 131.0.0.0,,,07-12-2024 09:15:13,07-12-2024 09:15:13,0.061s,PASSED
+"cartProductRows = driver.findElements(By.xpath(""//table/tbody/tr""))",Chrome 131.0.0.0,,,07-12-2024 09:15:13,07-12-2024 09:15:14,0.331s,PASSED
+"for ([i = 1, i < cartProductRows.size() - 1, (i++)])",Chrome 131.0.0.0,,,07-12-2024 09:15:14,07-12-2024 09:15:17,3.662s,PASSED
+println(cartItems.size()),Chrome 131.0.0.0,,,07-12-2024 09:15:17,07-12-2024 09:15:17,0.005s,PASSED
+"click(findTestObject(""Payment/a_Proceed to Checkout""))",Chrome 131.0.0.0,,,07-12-2024 09:15:17,07-12-2024 09:15:24,6.225s,PASSED
+checkoutItems = [],Chrome 131.0.0.0,,,07-12-2024 09:15:24,07-12-2024 09:15:24,0.004s,PASSED
+"checkoutProductRows = driver.findElements(By.xpath(""(//table)[1]/tbody/tr""))",Chrome 131.0.0.0,,,07-12-2024 09:15:24,07-12-2024 09:15:24,0.433s,PASSED
+println(checkoutProductRows.size()),Chrome 131.0.0.0,,,07-12-2024 09:15:24,07-12-2024 09:15:24,0.002s,PASSED
+"for ([i = 1, i < checkoutProductRows.size() - 2, (i++)])",Chrome 131.0.0.0,,,07-12-2024 09:15:24,07-12-2024 09:15:29,4.646s,PASSED
+println(checkoutItems.size()),Chrome 131.0.0.0,,,07-12-2024 09:15:29,07-12-2024 09:15:29,0.000s,PASSED
+"assert cartItems.size() != checkoutItems.size() : ""Tổng số dòng sản phẩm không khớp!""",Chrome 131.0.0.0,,,07-12-2024 09:15:29,07-12-2024 09:15:29,0.009s,PASSED
+"for ([i = 0, i < cartItems.size(), (i++)])",Chrome 131.0.0.0,,,07-12-2024 09:15:29,07-12-2024 09:15:29,0.075s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,07-12-2024 09:15:29,07-12-2024 09:15:29,0.004s,PASSED
+,,,,,,,
+Test Cases/Payment/PM_Check final order value calculation,Chrome 131.0.0.0,"Calculate the value of the order including subtotal, shipping fee and total order amount.",,07-12-2024 09:15:29,07-12-2024 09:17:26,1m - 57.117s,FAILED
+openBrowser(url),Chrome 131.0.0.0,,,07-12-2024 09:15:30,07-12-2024 09:16:12,42.523s,PASSED
+"click(findTestObject(""Payment/a_Login""))",Chrome 131.0.0.0,,,07-12-2024 09:16:12,07-12-2024 09:16:19,7.243s,PASSED
+"setText(findTestObject(""Payment/input_Email Address""), email_address)",Chrome 131.0.0.0,,,07-12-2024 09:16:19,07-12-2024 09:16:21,1.211s,PASSED
+"setText(findTestObject(""Payment/input_Password""), password)",Chrome 131.0.0.0,,,07-12-2024 09:16:21,07-12-2024 09:16:22,1.794s,PASSED
+"click(findTestObject(""Payment/btn_Login""))",Chrome 131.0.0.0,,,07-12-2024 09:16:22,07-12-2024 09:16:31,8.574s,PASSED
+clickProductByIndex(7),Chrome 131.0.0.0,,,07-12-2024 09:16:31,07-12-2024 09:16:31,0.005s,PASSED
+dynamicProduct = new com.kms.katalon.core.testobject.TestObject(),Chrome 131.0.0.0,,,07-12-2024 09:16:31,07-12-2024 09:16:31,0.005s,PASSED
+"xpath = ""(//a[contains(text(),'Product Details')])["" + index + ""]""",Chrome 131.0.0.0,,,07-12-2024 09:16:31,07-12-2024 09:16:31,0.003s,PASSED
+"dynamicProduct.addProperty(""xpath"", EQUALS, xpath)",Chrome 131.0.0.0,,,07-12-2024 09:16:31,07-12-2024 09:16:31,0.008s,PASSED
+click(dynamicProduct),Chrome 131.0.0.0,,,07-12-2024 09:16:31,07-12-2024 09:16:37,5.804s,PASSED
+"click(findTestObject(""Payment/btn_Add to cart""))",Chrome 131.0.0.0,,,07-12-2024 09:16:37,07-12-2024 09:16:45,8.056s,PASSED
+"click(findTestObject(""Payment/a_Home""))",Chrome 131.0.0.0,,,07-12-2024 09:16:45,07-12-2024 09:16:51,5.829s,PASSED
+clickProductByIndex(8),Chrome 131.0.0.0,,,07-12-2024 09:16:51,07-12-2024 09:16:51,0.002s,PASSED
+dynamicProduct = new com.kms.katalon.core.testobject.TestObject(),Chrome 131.0.0.0,,,07-12-2024 09:16:51,07-12-2024 09:16:51,0.001s,PASSED
+"xpath = ""(//a[contains(text(),'Product Details')])["" + index + ""]""",Chrome 131.0.0.0,,,07-12-2024 09:16:51,07-12-2024 09:16:51,0.004s,PASSED
+"dynamicProduct.addProperty(""xpath"", EQUALS, xpath)",Chrome 131.0.0.0,,,07-12-2024 09:16:51,07-12-2024 09:16:51,0.003s,PASSED
+click(dynamicProduct),Chrome 131.0.0.0,,,07-12-2024 09:16:51,07-12-2024 09:16:57,6.094s,PASSED
+"click(findTestObject(""Payment/btn_Add to cart""))",Chrome 131.0.0.0,,,07-12-2024 09:16:57,07-12-2024 09:17:03,5.888s,PASSED
+"click(findTestObject(""Payment/a_Home""))",Chrome 131.0.0.0,,,07-12-2024 09:17:03,07-12-2024 09:17:09,6.504s,PASSED
+"click(findTestObject(""Payment/a_Cart""))",Chrome 131.0.0.0,,,07-12-2024 09:17:09,07-12-2024 09:17:15,5.609s,PASSED
+"click(findTestObject(""Payment/a_Proceed to Checkout""))",Chrome 131.0.0.0,,,07-12-2024 09:17:15,07-12-2024 09:17:21,6.529s,PASSED
+driver = getWebDriver(),Chrome 131.0.0.0,,,07-12-2024 09:17:21,07-12-2024 09:17:21,0.005s,PASSED
+"products = driver.findElements(By.xpath(""(//table)[1]/tbody/tr""))",Chrome 131.0.0.0,,,07-12-2024 09:17:21,07-12-2024 09:17:22,0.393s,PASSED
+totalPrice = 0.0,Chrome 131.0.0.0,,,07-12-2024 09:17:22,07-12-2024 09:17:22,0.000s,PASSED
+"for ([i = 1, i < products.size() - 3, (i++)])",Chrome 131.0.0.0,,,07-12-2024 09:17:22,07-12-2024 09:17:25,2.906s,PASSED
+"println(""Total Price of products: "" + totalPrice)",Chrome 131.0.0.0,,,07-12-2024 09:17:25,07-12-2024 09:17:25,0.015s,PASSED
+"sSubTotal = getText(findTestObject(""Payment/th_Sub Total"")).split("" "")[0]",Chrome 131.0.0.0,,,07-12-2024 09:17:25,07-12-2024 09:17:25,0.403s,PASSED
+"subTotal = Double.parseDouble(sSubTotal.replace("","", """"))",Chrome 131.0.0.0,,,07-12-2024 09:17:25,07-12-2024 09:17:25,0.007s,PASSED
+println(subTotal),Chrome 131.0.0.0,,,07-12-2024 09:17:25,07-12-2024 09:17:25,0.000s,PASSED
+"sShippingCost = getText(findTestObject(""Payment/td_Shipping Cost"")).split("" "")[0]",Chrome 131.0.0.0,,,07-12-2024 09:17:25,07-12-2024 09:17:25,0.377s,PASSED
+"shippingCost = Double.parseDouble(sShippingCost.replace("","", """"))",Chrome 131.0.0.0,,,07-12-2024 09:17:25,07-12-2024 09:17:25,0.003s,PASSED
+println(shippingCost),Chrome 131.0.0.0,,,07-12-2024 09:17:25,07-12-2024 09:17:25,0.003s,PASSED
+"sTotalOrder = getText(findTestObject(""Payment/th_Total"")).split("" "")[0]",Chrome 131.0.0.0,,,07-12-2024 09:17:25,07-12-2024 09:17:26,0.408s,PASSED
+"totalOrder = Double.parseDouble(sTotalOrder.replace("","", """"))",Chrome 131.0.0.0,,,07-12-2024 09:17:26,07-12-2024 09:17:26,0.000s,PASSED
+println(totalOrder),Chrome 131.0.0.0,,,07-12-2024 09:17:26,07-12-2024 09:17:26,0.006s,PASSED
+EPSILON = 0.0001,Chrome 131.0.0.0,,,07-12-2024 09:17:26,07-12-2024 09:17:26,0.005s,PASSED
+"assert Math.abs(totalPrice - subTotal) < EPSILON : ""Total amount does not match!""",Chrome 131.0.0.0,,,07-12-2024 09:17:26,07-12-2024 09:17:26,0.025s,PASSED
+shipping = 0.00,Chrome 131.0.0.0,,,07-12-2024 09:17:26,07-12-2024 09:17:26,0.002s,PASSED
+if (subTotal < 300000 - EPSILON),Chrome 131.0.0.0,,,07-12-2024 09:17:26,07-12-2024 09:17:26,0.044s,PASSED
+else,Chrome 131.0.0.0,,,07-12-2024 09:17:26,07-12-2024 09:17:26,0.013s,PASSED
+"assert Math.abs(shippingCost - shipping) < EPSILON : ""Shipping charges are incorrect!""",Chrome 131.0.0.0,,,07-12-2024 09:17:26,07-12-2024 09:17:26,0.007s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,07-12-2024 09:17:26,07-12-2024 09:17:26,0.000s,PASSED
+,,,,,,,
+Test Cases/Payment/PM_Check Billing Address and Shipping Address,Chrome 131.0.0.0,"Check that the “Billing Address” and “Shipping Address” fields are not blank. If they are blank, a red message will appear with a link to the page to update your billing and shipping addresses.",,07-12-2024 09:17:26,07-12-2024 09:19:22,1m - 55.591s,PASSED
+openBrowser(url),Chrome 131.0.0.0,,,07-12-2024 09:17:27,07-12-2024 09:17:57,30.366s,PASSED
+"click(findTestObject(""Payment/a_Login""))",Chrome 131.0.0.0,,,07-12-2024 09:17:57,07-12-2024 09:18:04,6.755s,PASSED
+"setText(findTestObject(""Payment/input_Email Address""), email_address)",Chrome 131.0.0.0,,,07-12-2024 09:18:04,07-12-2024 09:18:05,0.935s,PASSED
+"setText(findTestObject(""Payment/input_Password""), password)",Chrome 131.0.0.0,,,07-12-2024 09:18:05,07-12-2024 09:18:06,1.177s,PASSED
+"click(findTestObject(""Payment/btn_Login""))",Chrome 131.0.0.0,,,07-12-2024 09:18:06,07-12-2024 09:18:15,9.074s,PASSED
+clickProductByIndex(7),Chrome 131.0.0.0,,,07-12-2024 09:18:15,07-12-2024 09:18:15,0.003s,PASSED
+dynamicProduct = new com.kms.katalon.core.testobject.TestObject(),Chrome 131.0.0.0,,,07-12-2024 09:18:15,07-12-2024 09:18:15,0.002s,PASSED
+"xpath = ""(//a[contains(text(),'Product Details')])["" + index + ""]""",Chrome 131.0.0.0,,,07-12-2024 09:18:15,07-12-2024 09:18:15,0.002s,PASSED
+"dynamicProduct.addProperty(""xpath"", EQUALS, xpath)",Chrome 131.0.0.0,,,07-12-2024 09:18:15,07-12-2024 09:18:15,0.003s,PASSED
+click(dynamicProduct),Chrome 131.0.0.0,,,07-12-2024 09:18:15,07-12-2024 09:18:20,5.512s,PASSED
+"click(findTestObject(""Payment/btn_Add to cart""))",Chrome 131.0.0.0,,,07-12-2024 09:18:20,07-12-2024 09:18:29,8.445s,PASSED
+"click(findTestObject(""Payment/a_Home""))",Chrome 131.0.0.0,,,07-12-2024 09:18:29,07-12-2024 09:18:39,10.029s,PASSED
+clickProductByIndex(8),Chrome 131.0.0.0,,,07-12-2024 09:18:39,07-12-2024 09:18:39,0.002s,PASSED
+dynamicProduct = new com.kms.katalon.core.testobject.TestObject(),Chrome 131.0.0.0,,,07-12-2024 09:18:39,07-12-2024 09:18:39,0.000s,PASSED
+"xpath = ""(//a[contains(text(),'Product Details')])["" + index + ""]""",Chrome 131.0.0.0,,,07-12-2024 09:18:39,07-12-2024 09:18:39,0.002s,PASSED
+"dynamicProduct.addProperty(""xpath"", EQUALS, xpath)",Chrome 131.0.0.0,,,07-12-2024 09:18:39,07-12-2024 09:18:39,0.001s,PASSED
+click(dynamicProduct),Chrome 131.0.0.0,,,07-12-2024 09:18:39,07-12-2024 09:18:49,9.657s,PASSED
+"click(findTestObject(""Payment/btn_Add to cart""))",Chrome 131.0.0.0,,,07-12-2024 09:18:49,07-12-2024 09:18:55,6.740s,PASSED
+"click(findTestObject(""Payment/a_Home""))",Chrome 131.0.0.0,,,07-12-2024 09:18:55,07-12-2024 09:19:02,6.522s,PASSED
+"click(findTestObject(""Payment/a_Cart""))",Chrome 131.0.0.0,,,07-12-2024 09:19:02,07-12-2024 09:19:08,6.250s,PASSED
+"click(findTestObject(""Payment/a_Proceed to Checkout""))",Chrome 131.0.0.0,,,07-12-2024 09:19:08,07-12-2024 09:19:14,5.877s,PASSED
+"billingCells = [""Payment/td_BA_Full Name"", ""Payment/td_BA_Company Name"", ""Payment/td_BA_Phone Number"", ""Payment/td_BA_Country"", ""Payment/td_BA_Address"", ""Payment/td_BA_City"", ""Payment/td_BA_State"", ""Payment/td_BA_Zip Code""]",Chrome 131.0.0.0,,,07-12-2024 09:19:14,07-12-2024 09:19:14,0.002s,PASSED
+"shippingCells = [""Payment/td_SA_Full Name"", ""Payment/td_SA_Company Name"", ""Payment/td_SA_Phone Number"", ""Payment/td_SA_Country"", ""Payment/td_SA_Address"", ""Payment/td_SA_City"", ""Payment/td_SA_State"", ""Payment/td_SA_Zip Code""]",Chrome 131.0.0.0,,,07-12-2024 09:19:14,07-12-2024 09:19:14,0.002s,PASSED
+"isBillingMissing = checkEmptyFields(billingCells, ""Billing Address"")",Chrome 131.0.0.0,,,07-12-2024 09:19:14,07-12-2024 09:19:14,0.006s,PASSED
+isEmpty = false,Chrome 131.0.0.0,,,07-12-2024 09:19:14,07-12-2024 09:19:14,0.001s,PASSED
+for (String cellPath : cellPaths),Chrome 131.0.0.0,,,07-12-2024 09:19:14,07-12-2024 09:19:15,0.850s,PASSED
+return isEmpty,Chrome 131.0.0.0,,,07-12-2024 09:19:15,07-12-2024 09:19:15,0.001s,PASSED
+"isShippingMissing = checkEmptyFields(shippingCells, ""Shipping Address"")",Chrome 131.0.0.0,,,07-12-2024 09:19:15,07-12-2024 09:19:15,0.001s,PASSED
+isEmpty = false,Chrome 131.0.0.0,,,07-12-2024 09:19:15,07-12-2024 09:19:15,0.000s,PASSED
+for (String cellPath : cellPaths),Chrome 131.0.0.0,,,07-12-2024 09:19:15,07-12-2024 09:19:15,0.648s,PASSED
+return isEmpty,Chrome 131.0.0.0,,,07-12-2024 09:19:15,07-12-2024 09:19:15,0.003s,PASSED
+if (isBillingMissing || isShippingMissing),Chrome 131.0.0.0,,,07-12-2024 09:19:15,07-12-2024 09:19:22,6.100s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,07-12-2024 09:19:22,07-12-2024 09:19:22,0.003s,PASSED
+,,,,,,,
+Test Cases/Payment/PM_Check that the Back to Cart button is working,Chrome 131.0.0.0,"The ""Back to Cart"" button works correctly, redirecting the user to the cart page",,07-12-2024 09:19:22,07-12-2024 09:20:54,1m - 32.411s,PASSED
+openBrowser(url),Chrome 131.0.0.0,,,07-12-2024 09:19:22,07-12-2024 09:19:42,20.575s,PASSED
+"click(findTestObject(""Payment/a_Login""))",Chrome 131.0.0.0,,,07-12-2024 09:19:42,07-12-2024 09:19:48,6.074s,PASSED
+"setText(findTestObject(""Payment/input_Email Address""), email_address)",Chrome 131.0.0.0,,,07-12-2024 09:19:48,07-12-2024 09:19:49,0.872s,PASSED
+"setText(findTestObject(""Payment/input_Password""), password)",Chrome 131.0.0.0,,,07-12-2024 09:19:49,07-12-2024 09:19:50,0.811s,PASSED
+"click(findTestObject(""Payment/btn_Login""))",Chrome 131.0.0.0,,,07-12-2024 09:19:50,07-12-2024 09:19:59,9.107s,PASSED
+clickProductByIndex(7),Chrome 131.0.0.0,,,07-12-2024 09:19:59,07-12-2024 09:19:59,0.003s,PASSED
+dynamicProduct = new com.kms.katalon.core.testobject.TestObject(),Chrome 131.0.0.0,,,07-12-2024 09:19:59,07-12-2024 09:19:59,0.004s,PASSED
+"xpath = ""(//a[contains(text(),'Product Details')])["" + index + ""]""",Chrome 131.0.0.0,,,07-12-2024 09:19:59,07-12-2024 09:19:59,0.002s,PASSED
+"dynamicProduct.addProperty(""xpath"", EQUALS, xpath)",Chrome 131.0.0.0,,,07-12-2024 09:19:59,07-12-2024 09:19:59,0.004s,PASSED
+click(dynamicProduct),Chrome 131.0.0.0,,,07-12-2024 09:19:59,07-12-2024 09:20:05,6.123s,PASSED
+"click(findTestObject(""Payment/btn_Add to cart""))",Chrome 131.0.0.0,,,07-12-2024 09:20:05,07-12-2024 09:20:13,8.105s,PASSED
+"click(findTestObject(""Payment/a_Home""))",Chrome 131.0.0.0,,,07-12-2024 09:20:13,07-12-2024 09:20:19,5.687s,PASSED
+clickProductByIndex(8),Chrome 131.0.0.0,,,07-12-2024 09:20:19,07-12-2024 09:20:19,0.001s,PASSED
+dynamicProduct = new com.kms.katalon.core.testobject.TestObject(),Chrome 131.0.0.0,,,07-12-2024 09:20:19,07-12-2024 09:20:19,0.001s,PASSED
+"xpath = ""(//a[contains(text(),'Product Details')])["" + index + ""]""",Chrome 131.0.0.0,,,07-12-2024 09:20:19,07-12-2024 09:20:19,0.002s,PASSED
+"dynamicProduct.addProperty(""xpath"", EQUALS, xpath)",Chrome 131.0.0.0,,,07-12-2024 09:20:19,07-12-2024 09:20:19,0.001s,PASSED
+click(dynamicProduct),Chrome 131.0.0.0,,,07-12-2024 09:20:19,07-12-2024 09:20:25,5.668s,PASSED
+"click(findTestObject(""Payment/btn_Add to cart""))",Chrome 131.0.0.0,,,07-12-2024 09:20:25,07-12-2024 09:20:31,5.736s,PASSED
+"click(findTestObject(""Payment/a_Home""))",Chrome 131.0.0.0,,,07-12-2024 09:20:31,07-12-2024 09:20:36,5.865s,PASSED
+"click(findTestObject(""Payment/a_Cart""))",Chrome 131.0.0.0,,,07-12-2024 09:20:36,07-12-2024 09:20:42,5.522s,PASSED
+"click(findTestObject(""Payment/a_Proceed to Checkout""))",Chrome 131.0.0.0,,,07-12-2024 09:20:42,07-12-2024 09:20:48,6.289s,PASSED
+"click(findTestObject(""Payment/a_Back to Cart""))",Chrome 131.0.0.0,,,07-12-2024 09:20:48,07-12-2024 09:20:54,5.721s,PASSED
+currentUrl = getUrl(),Chrome 131.0.0.0,,,07-12-2024 09:20:54,07-12-2024 09:20:54,0.089s,PASSED
+"expectedUrl = ""http://shopbachhoaweb.wuaze.com/cart.php""",Chrome 131.0.0.0,,,07-12-2024 09:20:54,07-12-2024 09:20:54,0.000s,PASSED
+"verifyMatch(currentUrl, expectedUrl, false)",Chrome 131.0.0.0,,,07-12-2024 09:20:54,07-12-2024 09:20:54,0.004s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,07-12-2024 09:20:54,07-12-2024 09:20:54,0.001s,PASSED
+,,,,,,,
+Test Cases/Payment/PM_Check that the Paypal Checkout button is working,Chrome 131.0.0.0,Check the “Paypal Checkout” button to redirect users to Paypal’s payment page,,07-12-2024 09:20:54,07-12-2024 09:22:09,1m - 14.817s,PASSED
+openBrowser(url),Chrome 131.0.0.0,,,07-12-2024 09:20:54,07-12-2024 09:21:13,19.157s,PASSED
+"click(findTestObject(""Payment/a_Login""))",Chrome 131.0.0.0,,,07-12-2024 09:21:13,07-12-2024 09:21:19,5.682s,PASSED
+"setText(findTestObject(""Payment/input_Email Address""), email_address)",Chrome 131.0.0.0,,,07-12-2024 09:21:19,07-12-2024 09:21:20,1.105s,PASSED
+"setText(findTestObject(""Payment/input_Password""), password)",Chrome 131.0.0.0,,,07-12-2024 09:21:20,07-12-2024 09:21:21,0.747s,PASSED
+"click(findTestObject(""Payment/btn_Login""))",Chrome 131.0.0.0,,,07-12-2024 09:21:21,07-12-2024 09:21:29,8.175s,PASSED
+clickProductByIndex(8),Chrome 131.0.0.0,,,07-12-2024 09:21:29,07-12-2024 09:21:29,0.001s,PASSED
+dynamicProduct = new com.kms.katalon.core.testobject.TestObject(),Chrome 131.0.0.0,,,07-12-2024 09:21:29,07-12-2024 09:21:29,0.000s,PASSED
+"xpath = ""(//a[contains(text(),'Product Details')])["" + index + ""]""",Chrome 131.0.0.0,,,07-12-2024 09:21:29,07-12-2024 09:21:29,0.001s,PASSED
+"dynamicProduct.addProperty(""xpath"", EQUALS, xpath)",Chrome 131.0.0.0,,,07-12-2024 09:21:29,07-12-2024 09:21:29,0.001s,PASSED
+click(dynamicProduct),Chrome 131.0.0.0,,,07-12-2024 09:21:29,07-12-2024 09:21:35,5.471s,PASSED
+"click(findTestObject(""Payment/btn_Add to cart""))",Chrome 131.0.0.0,,,07-12-2024 09:21:35,07-12-2024 09:21:42,7.981s,PASSED
+"click(findTestObject(""Payment/a_Home""))",Chrome 131.0.0.0,,,07-12-2024 09:21:42,07-12-2024 09:21:49,6.373s,PASSED
+"click(findTestObject(""Payment/a_Cart""))",Chrome 131.0.0.0,,,07-12-2024 09:21:49,07-12-2024 09:21:54,5.474s,PASSED
+"click(findTestObject(""Payment/a_Proceed to Checkout""))",Chrome 131.0.0.0,,,07-12-2024 09:21:54,07-12-2024 09:22:01,6.259s,PASSED
+"click(findTestObject(""Payment/btn_Payment Section_Paypal""))",Chrome 131.0.0.0,,,07-12-2024 09:22:01,07-12-2024 09:22:01,0.742s,PASSED
+delay(5),Chrome 131.0.0.0,,,07-12-2024 09:22:01,07-12-2024 09:22:06,5.015s,PASSED
+driver = getWebDriver(),Chrome 131.0.0.0,,,07-12-2024 09:22:06,07-12-2024 09:22:06,0.002s,PASSED
+windowHandles = driver.getWindowHandles(),Chrome 131.0.0.0,,,07-12-2024 09:22:06,07-12-2024 09:22:06,0.022s,PASSED
+switchTo().window(windowHandles.toArray()[1]),Chrome 131.0.0.0,,,07-12-2024 09:22:06,07-12-2024 09:22:06,0.063s,PASSED
+currentUrl = getUrl(),Chrome 131.0.0.0,,,07-12-2024 09:22:06,07-12-2024 09:22:09,2.377s,PASSED
+"println(""URL của PayPal: "" + currentUrl)",Chrome 131.0.0.0,,,07-12-2024 09:22:09,07-12-2024 09:22:09,0.003s,PASSED
+"verifyMatch(currentUrl, "".*sandbox.paypal.com.*"", true)",Chrome 131.0.0.0,,,07-12-2024 09:22:09,07-12-2024 09:22:09,0.004s,PASSED
+"verifyMatch(currentUrl, "".*return=payment_success.php.*"", true)",Chrome 131.0.0.0,,,07-12-2024 09:22:09,07-12-2024 09:22:09,0.003s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,07-12-2024 09:22:09,07-12-2024 09:22:09,0.002s,PASSED
+,,,,,,,
+Test Cases/Payment/PM_Check the operation of the QR MoMo Payment button,Chrome 131.0.0.0,Check the “MoMo QR Payment” button redirects to the MoMo QR code payment page,,07-12-2024 09:22:09,07-12-2024 09:23:36,1m - 26.912s,PASSED
+openBrowser(url),Chrome 131.0.0.0,,,07-12-2024 09:22:09,07-12-2024 09:22:40,30.770s,PASSED
+"click(findTestObject(""Payment/a_Login""))",Chrome 131.0.0.0,,,07-12-2024 09:22:40,07-12-2024 09:22:47,6.878s,PASSED
+"setText(findTestObject(""Payment/input_Email Address""), email_address)",Chrome 131.0.0.0,,,07-12-2024 09:22:47,07-12-2024 09:22:48,1.100s,PASSED
+"setText(findTestObject(""Payment/input_Password""), password)",Chrome 131.0.0.0,,,07-12-2024 09:22:48,07-12-2024 09:22:49,0.839s,PASSED
+"click(findTestObject(""Payment/btn_Login""))",Chrome 131.0.0.0,,,07-12-2024 09:22:49,07-12-2024 09:22:57,8.005s,PASSED
+clickProductByIndex(7),Chrome 131.0.0.0,,,07-12-2024 09:22:57,07-12-2024 09:22:57,0.000s,PASSED
+dynamicProduct = new com.kms.katalon.core.testobject.TestObject(),Chrome 131.0.0.0,,,07-12-2024 09:22:57,07-12-2024 09:22:57,0.008s,PASSED
+"xpath = ""(//a[contains(text(),'Product Details')])["" + index + ""]""",Chrome 131.0.0.0,,,07-12-2024 09:22:57,07-12-2024 09:22:57,0.001s,PASSED
+"dynamicProduct.addProperty(""xpath"", EQUALS, xpath)",Chrome 131.0.0.0,,,07-12-2024 09:22:57,07-12-2024 09:22:57,0.000s,PASSED
+click(dynamicProduct),Chrome 131.0.0.0,,,07-12-2024 09:22:57,07-12-2024 09:23:02,5.742s,PASSED
+"click(findTestObject(""Payment/btn_Add to cart""))",Chrome 131.0.0.0,,,07-12-2024 09:23:02,07-12-2024 09:23:10,7.886s,PASSED
+"click(findTestObject(""Payment/a_Home""))",Chrome 131.0.0.0,,,07-12-2024 09:23:10,07-12-2024 09:23:17,6.884s,PASSED
+"click(findTestObject(""Payment/a_Cart""))",Chrome 131.0.0.0,,,07-12-2024 09:23:17,07-12-2024 09:23:23,5.581s,PASSED
+"click(findTestObject(""Payment/a_Proceed to Checkout""))",Chrome 131.0.0.0,,,07-12-2024 09:23:23,07-12-2024 09:23:29,6.121s,PASSED
+"click(findTestObject(""Payment/btn_Payment Section_MoMo""))",Chrome 131.0.0.0,,,07-12-2024 09:23:29,07-12-2024 09:23:30,0.839s,PASSED
+delay(5),Chrome 131.0.0.0,,,07-12-2024 09:23:30,07-12-2024 09:23:35,5.012s,PASSED
+driver = getWebDriver(),Chrome 131.0.0.0,,,07-12-2024 09:23:35,07-12-2024 09:23:35,0.003s,PASSED
+windowHandles = driver.getWindowHandles(),Chrome 131.0.0.0,,,07-12-2024 09:23:35,07-12-2024 09:23:35,0.019s,PASSED
+switchTo().window(windowHandles.toArray()[1]),Chrome 131.0.0.0,,,07-12-2024 09:23:35,07-12-2024 09:23:35,0.007s,PASSED
+currentUrl = getUrl(),Chrome 131.0.0.0,,,07-12-2024 09:23:35,07-12-2024 09:23:36,1.063s,PASSED
+"println(""URL của PayPal: "" + currentUrl)",Chrome 131.0.0.0,,,07-12-2024 09:23:36,07-12-2024 09:23:36,0.001s,PASSED
+"currentUrl.contains(""test-payment.momo.vn"")",Chrome 131.0.0.0,,,07-12-2024 09:23:36,07-12-2024 09:23:36,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 131.0.0.0,,,07-12-2024 09:23:36,07-12-2024 09:23:36,0.003s,PASSED

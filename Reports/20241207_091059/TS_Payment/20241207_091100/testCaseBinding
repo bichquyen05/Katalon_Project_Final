@@ -1,0 +1,8 @@
+{"testCaseName":"Test Cases/Payment/PM_Verify login account before payment","testCaseId":"Test Cases/Payment/PM_Verify login account before payment","iterationVariableName":""}
+{"testCaseName":"Test Cases/Payment/PM_Confirm after user login, redirect back to payment page","testCaseId":"Test Cases/Payment/PM_Confirm after user login, redirect back to payment page","iterationVariableName":""}
+{"testCaseName":"Test Cases/Payment/PM_Check that the ordered product information is displayed correctly","testCaseId":"Test Cases/Payment/PM_Check that the ordered product information is displayed correctly","iterationVariableName":""}
+{"testCaseName":"Test Cases/Payment/PM_Check final order value calculation","testCaseId":"Test Cases/Payment/PM_Check final order value calculation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Payment/PM_Check Billing Address and Shipping Address","testCaseId":"Test Cases/Payment/PM_Check Billing Address and Shipping Address","iterationVariableName":""}
+{"testCaseName":"Test Cases/Payment/PM_Check that the Back to Cart button is working","testCaseId":"Test Cases/Payment/PM_Check that the Back to Cart button is working","iterationVariableName":""}
+{"testCaseName":"Test Cases/Payment/PM_Check that the Paypal Checkout button is working","testCaseId":"Test Cases/Payment/PM_Check that the Paypal Checkout button is working","iterationVariableName":""}
+{"testCaseName":"Test Cases/Payment/PM_Check the operation of the QR MoMo Payment button","testCaseId":"Test Cases/Payment/PM_Check the operation of the QR MoMo Payment button","iterationVariableName":""}
