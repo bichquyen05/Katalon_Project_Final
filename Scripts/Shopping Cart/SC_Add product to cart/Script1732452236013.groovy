@@ -73,8 +73,3 @@ double bexpectedTotal = bPrice * iQuantity
 assert Math.abs(bTotal -  bexpectedTotal) < 0.01 : "Total product price does not match! Expected: ${ bexpectedTotal}, Actual: ${bTotal}"
 
  
- //String productName = lastRow.findElement(By.xpath('/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[3]')).getText() // Tên sản phẩm
- //String productPrice = lastRow.findElement(By.xpath('/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[6]')).getText().split(' ')[0] // Giá sản phẩm
- //String productQuantity = lastRow.findElement(By.xpath('/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[7]/input[3]')).getAttribute('value') // Số lượng
- //String productTotal = lastRow.findElement(By.xpath('/html/body/div[8]/div/div/div/form/div[1]/table/tbody/tr[2]/td[8]')).getText() // Tổng giá sản phẩm
- 

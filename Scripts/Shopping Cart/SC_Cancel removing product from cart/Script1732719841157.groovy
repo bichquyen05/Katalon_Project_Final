@@ -24,7 +24,6 @@ import org.openqa.selenium.interactions.Actions
 import org.openqa.selenium.JavascriptExecutor
 
 WebUI.openBrowser('http://shopbachhoaweb.wuaze.com/')
-//WebUI.maximizeWindow()
 
 WebDriver driver = DriverFactory.getWebDriver()
 

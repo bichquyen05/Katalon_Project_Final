@@ -69,4 +69,3 @@ assert quantityAfter == quantity : "Quantity not updated yet!"
 assert totalAfter == totalExpected : "Total update incorrect!"
 
 assert totalOrderAfter == totalExpected : "Order total updated incorrect!"
-
